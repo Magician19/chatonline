@@ -1,0 +1,85 @@
+2018-09-10 13:34:35 -Starting ChatonlineApplication on pc with PID 9096 (C:\Users\Kevin\Desktop\chatonline\target\classes started by Kevin in C:\Users\Kevin\Desktop\chatonline)
+2018-09-10 13:34:35 -No active profile set, falling back to default profiles: default
+2018-09-10 13:34:46 -Started ChatonlineApplication in 12.72 seconds (JVM running for 15.823)
+2018-09-10 13:38:11 -Starting ChatonlineApplication on pc with PID 1372 (C:\Users\Kevin\Desktop\chatonline\target\classes started by Kevin in C:\Users\Kevin\Desktop\chatonline)
+2018-09-10 13:38:11 -No active profile set, falling back to default profiles: default
+2018-09-10 13:38:22 -Started ChatonlineApplication in 12.728 seconds (JVM running for 15.749)
+2018-09-10 13:41:56 -Starting ChatonlineApplication on pc with PID 6176 (C:\Users\Kevin\Desktop\chatonline\target\classes started by Kevin in C:\Users\Kevin\Desktop\chatonline)
+2018-09-10 13:41:56 -No active profile set, falling back to default profiles: default
+2018-09-10 13:42:07 -Started ChatonlineApplication in 12.43 seconds (JVM running for 15.385)
+2018-09-10 14:05:32 -Starting ChatonlineApplication on pc with PID 16880 (C:\Users\Kevin\Desktop\chatonline\target\classes started by Kevin in C:\Users\Kevin\Desktop\chatonline)
+2018-09-10 14:05:32 -No active profile set, falling back to default profiles: default
+2018-09-10 14:05:47 -Started ChatonlineApplication in 17.096 seconds (JVM running for 20.417)
+2018-09-10 14:05:57 -AOP begin ,请求开始方法  :class com.njust.chatonline.controller.BaseController.Index()
+2018-09-10 14:05:57 -请求url = http://localhost:8080/
+2018-09-10 14:05:57 -请求方法requestMethod = GET
+2018-09-10 14:05:57 -请求资源uri = /
+2018-09-10 14:05:57 -所有的请求参数 key：value = []
+2018-09-10 14:05:57 -aop的after()方法
+2018-09-10 14:05:57 -AOP afterReturn,返回值result = login
+2018-09-10 14:05:57 -调用controller花费时间time = 0.157s
+2018-09-10 14:06:34 -AOP begin ,请求开始方法  :class com.njust.chatonline.controller.BaseController.Login()
+2018-09-10 14:06:34 -请求url = http://localhost:8080/login
+2018-09-10 14:06:34 -请求方法requestMethod = POST
+2018-09-10 14:06:34 -请求资源uri = /login
+2018-09-10 14:06:34 -所有的请求参数 key：value = [{"username":"magic"},{"password":"123456"}]
+2018-09-10 14:06:35 -aop的after()方法
+2018-09-10 14:06:35 -AOP afterReturn,返回值result = index
+2018-09-10 14:06:35 -调用controller花费时间time = 1.416s
+2018-09-10 14:08:47 -Starting ChatonlineApplication on pc with PID 11980 (C:\Users\Kevin\Desktop\chatonline\target\classes started by Kevin in C:\Users\Kevin\Desktop\chatonline)
+2018-09-10 14:08:47 -No active profile set, falling back to default profiles: default
+2018-09-10 14:08:59 -Started ChatonlineApplication in 14.57 seconds (JVM running for 17.487)
+2018-09-10 14:09:07 -AOP begin ,请求开始方法  :class com.njust.chatonline.controller.BaseController.Index()
+2018-09-10 14:09:07 -请求url = http://localhost:8080/
+2018-09-10 14:09:07 -请求方法requestMethod = GET
+2018-09-10 14:09:07 -请求资源uri = /
+2018-09-10 14:09:07 -所有的请求参数 key：value = []
+2018-09-10 14:09:07 -aop的after()方法
+2018-09-10 14:09:07 -AOP afterReturn,返回值result = login
+2018-09-10 14:09:43 -Starting ChatonlineApplication on pc with PID 3324 (C:\Users\Kevin\Desktop\chatonline\target\classes started by Kevin in C:\Users\Kevin\Desktop\chatonline)
+2018-09-10 14:09:43 -No active profile set, falling back to default profiles: default
+2018-09-10 14:10:26 -Starting ChatonlineApplication on pc with PID 13008 (C:\Users\Kevin\Desktop\chatonline\target\classes started by Kevin in C:\Users\Kevin\Desktop\chatonline)
+2018-09-10 14:10:26 -No active profile set, falling back to default profiles: default
+2018-09-10 14:10:48 -Starting ChatonlineApplication on pc with PID 4220 (C:\Users\Kevin\Desktop\chatonline\target\classes started by Kevin in C:\Users\Kevin\Desktop\chatonline)
+2018-09-10 14:10:48 -No active profile set, falling back to default profiles: default
+2018-09-10 14:11:12 -Starting ChatonlineApplication on pc with PID 9024 (C:\Users\Kevin\Desktop\chatonline\target\classes started by Kevin in C:\Users\Kevin\Desktop\chatonline)
+2018-09-10 14:11:12 -No active profile set, falling back to default profiles: default
+2018-09-10 14:12:11 -Starting ChatonlineApplication on pc with PID 5372 (C:\Users\Kevin\Desktop\chatonline\target\classes started by Kevin in C:\Users\Kevin\Desktop\chatonline)
+2018-09-10 14:12:11 -No active profile set, falling back to default profiles: default
+2018-09-10 14:12:26 -Started ChatonlineApplication in 17.35 seconds (JVM running for 20.167)
+2018-09-10 14:12:36 -AOP begin ,请求开始方法  :class com.njust.chatonline.controller.BaseController.Index()
+2018-09-10 14:12:36 -请求url = http://localhost:8080/
+2018-09-10 14:12:36 -请求方法requestMethod = GET
+2018-09-10 14:12:36 -请求资源uri = /
+2018-09-10 14:12:36 -所有的请求参数 key：value = []
+2018-09-10 14:12:36 -aop的after()方法
+2018-09-10 14:12:36 -AOP afterReturn,返回值result = login
+2018-09-10 14:14:46 -AOP begin ,请求开始方法  :class com.njust.chatonline.controller.BaseController.Index()
+2018-09-10 14:14:46 -请求url = http://localhost:8080/
+2018-09-10 14:14:46 -请求方法requestMethod = GET
+2018-09-10 14:14:46 -请求资源uri = /
+2018-09-10 14:14:46 -所有的请求参数 key：value = []
+2018-09-10 14:14:46 -aop的after()方法
+2018-09-10 14:14:46 -AOP afterReturn,返回值result = login
+2018-09-10 14:16:23 -Starting ChatonlineApplication on pc with PID 13808 (C:\Users\Kevin\Desktop\chatonline\target\classes started by Kevin in C:\Users\Kevin\Desktop\chatonline)
+2018-09-10 14:16:23 -No active profile set, falling back to default profiles: default
+2018-09-10 14:16:37 -Started ChatonlineApplication in 15.485 seconds (JVM running for 18.751)
+2018-09-10 14:18:30 -AOP begin ,请求开始方法  :class com.njust.chatonline.controller.BaseController.Index()
+2018-09-10 14:18:31 -请求url = http://localhost:8080/
+2018-09-10 14:18:31 -请求方法requestMethod = GET
+2018-09-10 14:18:31 -请求资源uri = /
+2018-09-10 14:18:31 -所有的请求参数 key：value = []
+2018-09-10 14:18:31 -aop的after()方法
+2018-09-10 14:18:31 -AOP afterReturn,返回值result = login
+2018-09-10 14:20:59 -Starting ChatonlineApplication on pc with PID 7564 (C:\Users\Kevin\Desktop\chatonline\target\classes started by Kevin in C:\Users\Kevin\Desktop\chatonline)
+2018-09-10 14:20:59 -No active profile set, falling back to default profiles: default
+2018-09-10 14:21:12 -Started ChatonlineApplication in 14.869 seconds (JVM running for 17.757)
+2018-09-10 14:23:13 -Starting ChatonlineApplication on pc with PID 6372 (C:\Users\Kevin\Desktop\chatonline\target\classes started by Kevin in C:\Users\Kevin\Desktop\chatonline)
+2018-09-10 14:23:13 -No active profile set, falling back to default profiles: default
+2018-09-10 14:23:25 -Started ChatonlineApplication in 13.456 seconds (JVM running for 15.977)
+2018-09-10 14:23:37 -请求url = http://localhost:8080/
+2018-09-10 14:23:37 -所有的请求参数 key：value = []
+2018-09-10 14:23:37 -AOP afterReturn,返回值result = login
+2018-09-10 14:24:36 -请求url = http://localhost:8080/login
+2018-09-10 14:24:36 -所有的请求参数 key：value = [{"username":"magic"},{"password":"123456"}]
+2018-09-10 14:24:37 -AOP afterReturn,返回值result = index
