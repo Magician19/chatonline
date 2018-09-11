@@ -1,11 +1,134 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8"/>
-    <title>Title</title>
+    <title>在线聊天室--注册</title>
+    <!-- Meta tag Keywords -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <script src="./js/jquery-3.3.1.js"></script>
+    <script>
+
+        var userName;
+        var userNameOK = false;
+        var pwdOk = false;
+
+        addEventListener("load", function () {
+            setTimeout(hideURLbar, 0);
+        }, false);
+
+        function hideURLbar() {
+            window.scrollTo(0, 1);
+        }
+
+        // 验证两次密码是否一致
+        function validate() {
+            var password = $("#password").val();
+            var confirm = $("#confirm").val();
+            <!-- 对比两次输入的密码 -->
+            if(password == confirm)
+            {
+                $("#confirm-border").css("background-color","green");
+                pwdOk = true;
+            }
+            else {
+
+                $("#confirm-border").css("background-color","red")
+                pwdOk = false;
+            }
+
+            registerButton();
+
+
+        }
+
+        // 判断账号是否存在
+        function isExist() {
+
+            userName = document.getElementById("username").value;
+
+            if (userName == "") {
+                $("#username-input").css("background-color","red");
+            }
+            else {
+                $.ajax({
+                    type: "GET",
+                    url: "http://localhost:8080/isExist",
+                    data: {userName:userName},
+                    success: function (data) {
+                        if (!data) {
+                            $("#username-input").css("background-color","green");
+                            userNameOK = true;
+                        }
+                        else {
+                            $("#username-input").css("background-color","red");
+                            userNameOK = false;
+                        }
+                    }
+                });
+            }
+            registerButton();
+        }
+
+        // 设置注册按钮
+        function registerButton() {
+            if (userNameOK == true) {
+                if (pwdOk == true) {
+                    $("#register-button").css("background-color","#f53e71");
+                    $("#register-button").attr("disabled", false);
+                }
+                else {
+                    $("#register-button").css("background-color","darkgrey");
+                    $("#register-button").attr("disabled", true);
+                }
+            }
+            else {
+                $("#register-button").css("background-color","darkgrey");
+                $("#register-button").attr("disabled", true);
+            }
+        }
+
+    </script>
+    <link rel="stylesheet" href="./css/register.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="./css/font-awesome.css" />
+    <link href="//fonts.googleapis.com/css?family=Play:400,700" rel="stylesheet" />
+    <link href="//fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet" />
 </head>
 <body>
-register
+<!--header-->
+<div class="header-w3l">
+    <h1>
+        穷极无<span>聊</span> <span>天</span>涯比邻
+
+    </h1>
+</div>
+<!--//header-->
+<div class="main-content-agile">
+    <div class="sub-main-w3">
+        <h2>注册</h2>
+        <form  id="register" method="post" action="/registerFinish">
+            <label>账号</label>
+            <div id="username-input" class="pom-agile">
+                <span class="fa fa-user-o" aria-hidden="true"></span>
+                <input id="username" name="username" class="user" type="text" required="" onkeyup="isExist()"/>
+            </div>
+            <label>密码</label>
+            <div class="pom-agile">
+                <span class="fa fa-key" aria-hidden="true"></span>
+                <input id="password" name="password" class="pass" type="password" required="" onkeyup="validate()" />
+            </div>
+            <label>确认密码</label>
+            <div id="confirm-border" class="pom-agile">
+                <span class="fa fa-key" aria-hidden="true"></span>
+                <input id="confirm" name="confirm" class="pass" type="password" required="" onkeyup="validate()" />
+            </div>
+            <span id="isright"></span>
+            <div  class="right-w3l"  >
+                <input id="register-button" type="submit" value="注册" style="background-color:darkgrey" disabled="disabled" />
+            </div>
+        </form>
+    </div>
+</div>
 
 </body>
 </html>
+

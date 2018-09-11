@@ -1,0 +1,1274 @@
+2018-09-11 00:03:05 -Starting ChatonlineApplication on yihui-computer with PID 21857 (/home/yihui/file/chatonline/chatonline/target/classes started by yihui in /home/yihui/file/chatonline/chatonline)
+2018-09-11 00:03:05 -No active profile set, falling back to default profiles: default
+2018-09-11 00:03:08 -Started ChatonlineApplication in 2.991 seconds (JVM running for 3.409)
+2018-09-11 00:03:29 -请求url = http://localhost:8080/
+2018-09-11 00:03:29 -所有的请求参数 key：value = []
+2018-09-11 00:03:29 -AOP afterReturn,返回值result = login
+2018-09-11 00:03:34 -请求url = http://localhost:8080/login
+2018-09-11 00:03:34 -所有的请求参数 key：value = [{"username":"007"},{"password":"123456"}]
+2018-09-11 00:03:35 -AOP afterReturn,返回值result = index
+2018-09-11 00:08:53 -Starting ChatonlineApplication on yihui-computer with PID 22769 (/home/yihui/file/chatonline/chatonline/target/classes started by yihui in /home/yihui/file/chatonline/chatonline)
+2018-09-11 00:08:54 -No active profile set, falling back to default profiles: default
+2018-09-11 00:08:56 -Started ChatonlineApplication in 2.865 seconds (JVM running for 3.322)
+2018-09-11 00:09:06 -请求url = http://localhost:8080/
+2018-09-11 00:09:06 -所有的请求参数 key：value = []
+2018-09-11 00:09:06 -AOP afterReturn,返回值result = login
+2018-09-11 00:09:09 -请求url = http://localhost:8080/login
+2018-09-11 00:09:09 -所有的请求参数 key：value = [{"username":"007"},{"password":"123456"}]
+2018-09-11 00:09:09 -AOP afterReturn,返回值result = index
+2018-09-11 00:10:24 -Starting ChatonlineApplication on yihui-computer with PID 22936 (/home/yihui/file/chatonline/chatonline/target/classes started by yihui in /home/yihui/file/chatonline/chatonline)
+2018-09-11 00:10:24 -No active profile set, falling back to default profiles: default
+2018-09-11 00:10:27 -Started ChatonlineApplication in 3.341 seconds (JVM running for 3.761)
+2018-09-11 00:10:38 -请求url = http://localhost:8080/
+2018-09-11 00:10:38 -所有的请求参数 key：value = []
+2018-09-11 00:10:38 -AOP afterReturn,返回值result = login
+2018-09-11 00:10:43 -请求url = http://localhost:8080/login
+2018-09-11 00:10:43 -所有的请求参数 key：value = [{"username":"007"},{"password":"123456"}]
+2018-09-11 00:10:43 -AOP afterReturn,返回值result = index
+2018-09-11 00:19:09 -Starting ChatonlineApplication on yihui-computer with PID 23322 (/home/yihui/file/chatonline/chatonline/target/classes started by yihui in /home/yihui/file/chatonline/chatonline)
+2018-09-11 00:19:09 -No active profile set, falling back to default profiles: default
+2018-09-11 00:19:11 -Started ChatonlineApplication in 3.097 seconds (JVM running for 3.584)
+2018-09-11 00:19:23 -请求url = http://localhost:8080/login
+2018-09-11 00:19:23 -所有的请求参数 key：value = [{"username":"007"},{"password":"123456"}]
+2018-09-11 00:19:34 -请求url = http://localhost:8080/login
+2018-09-11 00:19:34 -所有的请求参数 key：value = [{"username":" magic"},{"password":"123456"}]
+2018-09-11 00:19:35 -AOP afterReturn,返回值result = register
+2018-09-11 00:19:46 -请求url = http://localhost:8080/login
+2018-09-11 00:19:46 -所有的请求参数 key：value = [{"username":"magic"},{"password":"123456"}]
+2018-09-11 00:20:04 -Starting ChatonlineApplication on yihui-computer with PID 23495 (/home/yihui/file/chatonline/chatonline/target/classes started by yihui in /home/yihui/file/chatonline/chatonline)
+2018-09-11 00:20:04 -No active profile set, falling back to default profiles: default
+2018-09-11 00:20:07 -Started ChatonlineApplication in 3.4 seconds (JVM running for 4.088)
+2018-09-11 00:20:09 -请求url = http://localhost:8080/login
+2018-09-11 00:20:09 -所有的请求参数 key：value = [{"username":"magic"},{"password":"123456"}]
+2018-09-11 00:20:52 -Starting ChatonlineApplication on yihui-computer with PID 23623 (/home/yihui/file/chatonline/chatonline/target/classes started by yihui in /home/yihui/file/chatonline/chatonline)
+2018-09-11 00:20:52 -No active profile set, falling back to default profiles: default
+2018-09-11 00:20:55 -Started ChatonlineApplication in 2.907 seconds (JVM running for 3.379)
+2018-09-11 00:21:06 -请求url = http://localhost:8080/login
+2018-09-11 00:21:06 -所有的请求参数 key：value = [{"username":"magic"},{"password":"123456"}]
+2018-09-11 00:22:37 -Starting ChatonlineApplication on yihui-computer with PID 23775 (/home/yihui/file/chatonline/chatonline/target/classes started by yihui in /home/yihui/file/chatonline/chatonline)
+2018-09-11 00:22:37 -No active profile set, falling back to default profiles: default
+2018-09-11 00:22:40 -Started ChatonlineApplication in 3.043 seconds (JVM running for 3.559)
+2018-09-11 00:22:46 -请求url = http://localhost:8080/login
+2018-09-11 00:22:46 -所有的请求参数 key：value = [{"username":"magic"},{"password":"123456"}]
+2018-09-11 00:23:51 -Starting ChatonlineApplication on yihui-computer with PID 23914 (/home/yihui/file/chatonline/chatonline/target/classes started by yihui in /home/yihui/file/chatonline/chatonline)
+2018-09-11 00:23:51 -No active profile set, falling back to default profiles: default
+2018-09-11 00:23:54 -Started ChatonlineApplication in 3.003 seconds (JVM running for 3.438)
+2018-09-11 00:24:20 -请求url = http://localhost:8080/login
+2018-09-11 00:24:20 -所有的请求参数 key：value = [{"username":"magic"},{"password":"123456"}]
+2018-09-11 00:26:52 -Starting ChatonlineApplication on yihui-computer with PID 24135 (/home/yihui/file/chatonline/chatonline/target/classes started by yihui in /home/yihui/file/chatonline/chatonline)
+2018-09-11 00:26:52 -No active profile set, falling back to default profiles: default
+2018-09-11 00:26:55 -Started ChatonlineApplication in 2.865 seconds (JVM running for 3.343)
+2018-09-11 00:27:07 -请求url = http://localhost:8080/login
+2018-09-11 00:27:07 -所有的请求参数 key：value = [{"username":"magic"},{"password":"123456"}]
+2018-09-11 00:27:08 -AOP afterReturn,返回值result = index
+2018-09-11 00:30:25 -Starting ChatonlineApplication on yihui-computer with PID 24307 (/home/yihui/file/chatonline/chatonline/target/classes started by yihui in /home/yihui/file/chatonline/chatonline)
+2018-09-11 00:30:25 -No active profile set, falling back to default profiles: default
+2018-09-11 00:30:28 -Started ChatonlineApplication in 3.184 seconds (JVM running for 3.654)
+2018-09-11 00:30:32 -请求url = http://localhost:8080/
+2018-09-11 00:30:32 -所有的请求参数 key：value = []
+2018-09-11 00:30:32 -AOP afterReturn,返回值result = login
+2018-09-11 00:30:37 -请求url = http://localhost:8080/login
+2018-09-11 00:30:37 -所有的请求参数 key：value = [{"username":"magic"},{"password":"123456"}]
+2018-09-11 00:30:37 -AOP afterReturn,返回值result = index
+2018-09-11 00:30:54 -Starting ChatonlineApplication on yihui-computer with PID 24453 (/home/yihui/file/chatonline/chatonline/target/classes started by yihui in /home/yihui/file/chatonline/chatonline)
+2018-09-11 00:30:54 -No active profile set, falling back to default profiles: default
+2018-09-11 00:30:57 -Started ChatonlineApplication in 3.341 seconds (JVM running for 3.811)
+2018-09-11 00:31:01 -请求url = http://localhost:8080/login
+2018-09-11 00:31:01 -所有的请求参数 key：value = [{"username":"magic"},{"password":"123456"}]
+2018-09-11 00:31:02 -AOP afterReturn,返回值result = index
+2018-09-11 00:32:38 -Starting ChatonlineApplication on yihui-computer with PID 24604 (/home/yihui/file/chatonline/chatonline/target/classes started by yihui in /home/yihui/file/chatonline/chatonline)
+2018-09-11 00:32:38 -No active profile set, falling back to default profiles: default
+2018-09-11 00:32:41 -Started ChatonlineApplication in 3.141 seconds (JVM running for 3.618)
+2018-09-11 00:32:46 -请求url = http://localhost:8080/login
+2018-09-11 00:32:46 -所有的请求参数 key：value = [{"username":"magic"},{"password":"123456"}]
+2018-09-11 00:32:47 -AOP afterReturn,返回值result = index
+2018-09-11 00:44:05 -Starting ChatonlineApplication on yihui-computer with PID 25022 (/home/yihui/file/chatonline/chatonline/target/classes started by yihui in /home/yihui/file/chatonline/chatonline)
+2018-09-11 00:44:05 -No active profile set, falling back to default profiles: default
+2018-09-11 00:44:08 -Started ChatonlineApplication in 3.226 seconds (JVM running for 3.662)
+2018-09-11 00:44:14 -请求url = http://localhost:8080/login
+2018-09-11 00:44:14 -所有的请求参数 key：value = [{"username":"magic"},{"password":"123456"}]
+2018-09-11 00:44:14 -AOP afterReturn,返回值result = index
+2018-09-11 00:48:00 -Starting ChatonlineApplication on yihui-computer with PID 25373 (/home/yihui/file/chatonline/chatonline/target/classes started by yihui in /home/yihui/file/chatonline/chatonline)
+2018-09-11 00:48:00 -No active profile set, falling back to default profiles: default
+2018-09-11 00:48:02 -Started ChatonlineApplication in 2.977 seconds (JVM running for 3.428)
+2018-09-11 00:48:08 -请求url = http://localhost:8080/login
+2018-09-11 00:48:08 -所有的请求参数 key：value = [{"username":"magic"},{"password":"123456"}]
+2018-09-11 00:48:08 -AOP afterReturn,返回值result = index
+2018-09-11 00:48:08 -请求url = http://localhost:8080/ajax
+2018-09-11 00:48:08 -所有的请求参数 key：value = [{"str":"hello"}]
+2018-09-11 00:48:08 -AOP afterReturn,返回值result = hello
+2018-09-11 00:48:36 -Starting ChatonlineApplication on yihui-computer with PID 25515 (/home/yihui/file/chatonline/chatonline/target/classes started by yihui in /home/yihui/file/chatonline/chatonline)
+2018-09-11 00:48:36 -No active profile set, falling back to default profiles: default
+2018-09-11 00:48:40 -Started ChatonlineApplication in 3.742 seconds (JVM running for 4.185)
+2018-09-11 00:48:42 -请求url = http://localhost:8080/
+2018-09-11 00:48:42 -所有的请求参数 key：value = []
+2018-09-11 00:48:42 -AOP afterReturn,返回值result = login
+2018-09-11 00:48:46 -请求url = http://localhost:8080/login
+2018-09-11 00:48:46 -所有的请求参数 key：value = [{"username":"magic"},{"password":"123456"}]
+2018-09-11 00:48:47 -AOP afterReturn,返回值result = index
+2018-09-11 00:48:47 -请求url = http://localhost:8080/ajax
+2018-09-11 00:48:47 -所有的请求参数 key：value = [{"str":"hello"}]
+2018-09-11 00:48:47 -AOP afterReturn,返回值result = hello
+2018-09-11 11:07:45 -Starting ChatonlineApplication on yihui-computer with PID 13921 (/home/yihui/file/chatonline/chatonline/target/classes started by yihui in /home/yihui/file/chatonline/chatonline)
+2018-09-11 11:07:45 -No active profile set, falling back to default profiles: default
+2018-09-11 11:07:48 -Started ChatonlineApplication in 3.623 seconds (JVM running for 4.498)
+2018-09-11 11:08:06 -请求url = http://localhost:8080/
+2018-09-11 11:08:06 -所有的请求参数 key：value = []
+2018-09-11 11:08:06 -AOP afterReturn,返回值result = login
+2018-09-11 11:08:38 -请求url = http://localhost:8080/
+2018-09-11 11:08:38 -所有的请求参数 key：value = []
+2018-09-11 11:08:38 -AOP afterReturn,返回值result = login
+2018-09-11 11:09:31 -Starting ChatonlineApplication on yihui-computer with PID 14130 (/home/yihui/file/chatonline/chatonline/target/classes started by yihui in /home/yihui/file/chatonline/chatonline)
+2018-09-11 11:09:31 -No active profile set, falling back to default profiles: default
+2018-09-11 11:09:34 -Started ChatonlineApplication in 3.025 seconds (JVM running for 3.602)
+2018-09-11 11:09:37 -请求url = http://localhost:8080/
+2018-09-11 11:09:37 -所有的请求参数 key：value = []
+2018-09-11 11:09:37 -AOP afterReturn,返回值result = login
+2018-09-11 11:11:21 -请求url = http://localhost:8080/
+2018-09-11 11:11:21 -所有的请求参数 key：value = []
+2018-09-11 11:11:21 -AOP afterReturn,返回值result = login
+2018-09-11 11:11:28 -Starting ChatonlineApplication on yihui-computer with PID 14290 (/home/yihui/file/chatonline/chatonline/target/classes started by yihui in /home/yihui/file/chatonline/chatonline)
+2018-09-11 11:11:28 -No active profile set, falling back to default profiles: default
+2018-09-11 11:11:31 -Started ChatonlineApplication in 3.185 seconds (JVM running for 3.638)
+2018-09-11 11:11:34 -请求url = http://localhost:8080/
+2018-09-11 11:11:34 -所有的请求参数 key：value = []
+2018-09-11 11:11:34 -AOP afterReturn,返回值result = login
+2018-09-11 11:12:16 -Starting ChatonlineApplication on yihui-computer with PID 14414 (/home/yihui/file/chatonline/chatonline/target/classes started by yihui in /home/yihui/file/chatonline/chatonline)
+2018-09-11 11:12:16 -No active profile set, falling back to default profiles: default
+2018-09-11 11:12:19 -Started ChatonlineApplication in 2.982 seconds (JVM running for 3.408)
+2018-09-11 11:12:23 -请求url = http://localhost:8080/
+2018-09-11 11:12:23 -所有的请求参数 key：value = []
+2018-09-11 11:12:23 -AOP afterReturn,返回值result = login
+2018-09-11 11:12:24 -请求url = http://localhost:8080/
+2018-09-11 11:12:24 -所有的请求参数 key：value = []
+2018-09-11 11:12:24 -AOP afterReturn,返回值result = login
+2018-09-11 11:12:25 -请求url = http://localhost:8080/
+2018-09-11 11:12:25 -所有的请求参数 key：value = []
+2018-09-11 11:12:25 -AOP afterReturn,返回值result = login
+2018-09-11 11:12:25 -请求url = http://localhost:8080/
+2018-09-11 11:12:25 -所有的请求参数 key：value = []
+2018-09-11 11:12:25 -AOP afterReturn,返回值result = login
+2018-09-11 11:12:25 -请求url = http://localhost:8080/
+2018-09-11 11:12:25 -所有的请求参数 key：value = []
+2018-09-11 11:12:25 -AOP afterReturn,返回值result = login
+2018-09-11 11:13:26 -Starting ChatonlineApplication on yihui-computer with PID 14553 (/home/yihui/file/chatonline/chatonline/target/classes started by yihui in /home/yihui/file/chatonline/chatonline)
+2018-09-11 11:13:26 -No active profile set, falling back to default profiles: default
+2018-09-11 11:13:28 -Started ChatonlineApplication in 2.886 seconds (JVM running for 3.367)
+2018-09-11 11:13:33 -请求url = http://localhost:8080/
+2018-09-11 11:13:33 -所有的请求参数 key：value = []
+2018-09-11 11:13:33 -AOP afterReturn,返回值result = login
+2018-09-11 11:13:57 -Starting ChatonlineApplication on yihui-computer with PID 14673 (/home/yihui/file/chatonline/chatonline/target/classes started by yihui in /home/yihui/file/chatonline/chatonline)
+2018-09-11 11:13:57 -No active profile set, falling back to default profiles: default
+2018-09-11 11:14:00 -Started ChatonlineApplication in 2.964 seconds (JVM running for 3.468)
+2018-09-11 11:14:08 -请求url = http://localhost:8080/
+2018-09-11 11:14:08 -所有的请求参数 key：value = []
+2018-09-11 11:14:08 -AOP afterReturn,返回值result = login
+2018-09-11 11:14:09 -请求url = http://localhost:8080/
+2018-09-11 11:14:09 -所有的请求参数 key：value = []
+2018-09-11 11:14:09 -AOP afterReturn,返回值result = login
+2018-09-11 11:14:09 -请求url = http://localhost:8080/
+2018-09-11 11:14:09 -所有的请求参数 key：value = []
+2018-09-11 11:14:09 -AOP afterReturn,返回值result = login
+2018-09-11 11:14:09 -请求url = http://localhost:8080/
+2018-09-11 11:14:09 -所有的请求参数 key：value = []
+2018-09-11 11:14:09 -AOP afterReturn,返回值result = login
+2018-09-11 11:14:10 -请求url = http://localhost:8080/
+2018-09-11 11:14:10 -所有的请求参数 key：value = []
+2018-09-11 11:14:10 -AOP afterReturn,返回值result = login
+2018-09-11 11:14:10 -请求url = http://localhost:8080/
+2018-09-11 11:14:10 -所有的请求参数 key：value = []
+2018-09-11 11:14:10 -AOP afterReturn,返回值result = login
+2018-09-11 11:14:38 -Starting ChatonlineApplication on yihui-computer with PID 14803 (/home/yihui/file/chatonline/chatonline/target/classes started by yihui in /home/yihui/file/chatonline/chatonline)
+2018-09-11 11:14:38 -No active profile set, falling back to default profiles: default
+2018-09-11 11:14:41 -Started ChatonlineApplication in 3.002 seconds (JVM running for 3.464)
+2018-09-11 11:14:44 -请求url = http://localhost:8080/
+2018-09-11 11:14:44 -所有的请求参数 key：value = []
+2018-09-11 11:14:44 -AOP afterReturn,返回值result = login
+2018-09-11 11:15:51 -Starting ChatonlineApplication on yihui-computer with PID 14934 (/home/yihui/file/chatonline/chatonline/target/classes started by yihui in /home/yihui/file/chatonline/chatonline)
+2018-09-11 11:15:51 -No active profile set, falling back to default profiles: default
+2018-09-11 11:15:54 -Started ChatonlineApplication in 2.935 seconds (JVM running for 3.522)
+2018-09-11 11:15:57 -请求url = http://localhost:8080/
+2018-09-11 11:15:57 -所有的请求参数 key：value = []
+2018-09-11 11:15:57 -AOP afterReturn,返回值result = login
+2018-09-11 11:18:17 -Starting ChatonlineApplication on yihui-computer with PID 15119 (/home/yihui/file/chatonline/chatonline/target/classes started by yihui in /home/yihui/file/chatonline/chatonline)
+2018-09-11 11:18:17 -No active profile set, falling back to default profiles: default
+2018-09-11 11:18:20 -Started ChatonlineApplication in 2.862 seconds (JVM running for 3.337)
+2018-09-11 11:18:32 -请求url = http://localhost:8080/
+2018-09-11 11:18:32 -所有的请求参数 key：value = []
+2018-09-11 11:18:32 -AOP afterReturn,返回值result = login
+2018-09-11 11:18:53 -Starting ChatonlineApplication on yihui-computer with PID 15252 (/home/yihui/file/chatonline/chatonline/target/classes started by yihui in /home/yihui/file/chatonline/chatonline)
+2018-09-11 11:18:53 -No active profile set, falling back to default profiles: default
+2018-09-11 11:18:56 -Started ChatonlineApplication in 3.117 seconds (JVM running for 3.626)
+2018-09-11 11:19:06 -请求url = http://localhost:8080/
+2018-09-11 11:19:06 -所有的请求参数 key：value = []
+2018-09-11 11:19:06 -AOP afterReturn,返回值result = login
+2018-09-11 11:19:07 -请求url = http://localhost:8080/
+2018-09-11 11:19:07 -所有的请求参数 key：value = []
+2018-09-11 11:19:07 -AOP afterReturn,返回值result = login
+2018-09-11 11:19:40 -Starting ChatonlineApplication on yihui-computer with PID 15380 (/home/yihui/file/chatonline/chatonline/target/classes started by yihui in /home/yihui/file/chatonline/chatonline)
+2018-09-11 11:19:40 -No active profile set, falling back to default profiles: default
+2018-09-11 11:19:43 -Started ChatonlineApplication in 2.794 seconds (JVM running for 3.352)
+2018-09-11 11:19:46 -请求url = http://localhost:8080/
+2018-09-11 11:19:46 -所有的请求参数 key：value = []
+2018-09-11 11:19:46 -AOP afterReturn,返回值result = login
+2018-09-11 11:22:11 -Starting ChatonlineApplication on yihui-computer with PID 15543 (/home/yihui/file/chatonline/chatonline/target/classes started by yihui in /home/yihui/file/chatonline/chatonline)
+2018-09-11 11:22:11 -No active profile set, falling back to default profiles: default
+2018-09-11 11:22:14 -Started ChatonlineApplication in 2.919 seconds (JVM running for 3.407)
+2018-09-11 11:22:16 -请求url = http://localhost:8080/
+2018-09-11 11:22:16 -所有的请求参数 key：value = []
+2018-09-11 11:22:16 -AOP afterReturn,返回值result = login
+2018-09-11 11:22:36 -请求url = http://localhost:8080/login
+2018-09-11 11:22:36 -所有的请求参数 key：value = [{"username":"magic"},{"password":"123456"}]
+2018-09-11 11:22:37 -AOP afterReturn,返回值result = index
+2018-09-11 11:22:46 -请求url = http://localhost:8080/login
+2018-09-11 11:22:46 -所有的请求参数 key：value = [{"username":"magic"},{"password":"123456"}]
+2018-09-11 11:22:46 -AOP afterReturn,返回值result = index
+2018-09-11 11:22:52 -请求url = http://localhost:8080/login
+2018-09-11 11:22:52 -所有的请求参数 key：value = [{"username":"magic"},{"password":"123456"}]
+2018-09-11 11:22:52 -AOP afterReturn,返回值result = index
+2018-09-11 11:24:48 -Starting ChatonlineApplication on yihui-computer with PID 15795 (/home/yihui/file/chatonline/chatonline/target/classes started by yihui in /home/yihui/file/chatonline/chatonline)
+2018-09-11 11:24:48 -No active profile set, falling back to default profiles: default
+2018-09-11 11:24:51 -Started ChatonlineApplication in 2.924 seconds (JVM running for 3.595)
+2018-09-11 11:24:58 -请求url = http://localhost:8080/
+2018-09-11 11:24:58 -所有的请求参数 key：value = []
+2018-09-11 11:24:58 -AOP afterReturn,返回值result = login
+2018-09-11 11:26:07 -Starting ChatonlineApplication on yihui-computer with PID 15930 (/home/yihui/file/chatonline/chatonline/target/classes started by yihui in /home/yihui/file/chatonline/chatonline)
+2018-09-11 11:26:07 -No active profile set, falling back to default profiles: default
+2018-09-11 11:26:10 -Started ChatonlineApplication in 3.727 seconds (JVM running for 4.166)
+2018-09-11 11:26:13 -请求url = http://localhost:8080/
+2018-09-11 11:26:13 -所有的请求参数 key：value = []
+2018-09-11 11:26:13 -AOP afterReturn,返回值result = login
+2018-09-11 11:27:40 -Starting ChatonlineApplication on yihui-computer with PID 16085 (/home/yihui/file/chatonline/chatonline/target/classes started by yihui in /home/yihui/file/chatonline/chatonline)
+2018-09-11 11:27:40 -No active profile set, falling back to default profiles: default
+2018-09-11 11:27:43 -Started ChatonlineApplication in 2.937 seconds (JVM running for 3.338)
+2018-09-11 11:27:49 -请求url = http://localhost:8080/
+2018-09-11 11:27:49 -所有的请求参数 key：value = []
+2018-09-11 11:27:49 -AOP afterReturn,返回值result = login
+2018-09-11 11:27:51 -请求url = http://localhost:8080/register
+2018-09-11 11:27:51 -所有的请求参数 key：value = []
+2018-09-11 11:27:51 -AOP afterReturn,返回值result = register
+2018-09-11 11:28:02 -Starting ChatonlineApplication on yihui-computer with PID 16207 (/home/yihui/file/chatonline/chatonline/target/classes started by yihui in /home/yihui/file/chatonline/chatonline)
+2018-09-11 11:28:02 -No active profile set, falling back to default profiles: default
+2018-09-11 11:28:05 -Started ChatonlineApplication in 2.99 seconds (JVM running for 3.588)
+2018-09-11 11:28:10 -请求url = http://localhost:8080/register
+2018-09-11 11:28:10 -所有的请求参数 key：value = []
+2018-09-11 11:28:10 -AOP afterReturn,返回值result = register
+2018-09-11 11:28:13 -请求url = http://localhost:8080/
+2018-09-11 11:28:13 -所有的请求参数 key：value = []
+2018-09-11 11:28:13 -AOP afterReturn,返回值result = login
+2018-09-11 11:28:15 -请求url = http://localhost:8080/
+2018-09-11 11:28:15 -所有的请求参数 key：value = []
+2018-09-11 11:28:15 -AOP afterReturn,返回值result = login
+2018-09-11 11:28:18 -请求url = http://localhost:8080/register
+2018-09-11 11:28:18 -所有的请求参数 key：value = []
+2018-09-11 11:28:18 -AOP afterReturn,返回值result = register
+2018-09-11 11:29:11 -Starting ChatonlineApplication on yihui-computer with PID 16406 (/home/yihui/file/chatonline/chatonline/target/classes started by yihui in /home/yihui/file/chatonline/chatonline)
+2018-09-11 11:29:11 -No active profile set, falling back to default profiles: default
+2018-09-11 11:29:14 -Started ChatonlineApplication in 2.875 seconds (JVM running for 3.351)
+2018-09-11 11:29:24 -请求url = http://localhost:8080/
+2018-09-11 11:29:24 -所有的请求参数 key：value = []
+2018-09-11 11:29:24 -AOP afterReturn,返回值result = login
+2018-09-11 11:29:26 -请求url = http://localhost:8080/register
+2018-09-11 11:29:26 -所有的请求参数 key：value = []
+2018-09-11 11:29:26 -AOP afterReturn,返回值result = register
+2018-09-11 11:30:56 -Starting ChatonlineApplication on yihui-computer with PID 16724 (/home/yihui/file/chatonline/chatonline/target/classes started by yihui in /home/yihui/file/chatonline/chatonline)
+2018-09-11 11:30:56 -No active profile set, falling back to default profiles: default
+2018-09-11 11:30:59 -Started ChatonlineApplication in 3.133 seconds (JVM running for 3.835)
+2018-09-11 11:31:08 -请求url = http://localhost:8080/register
+2018-09-11 11:31:08 -所有的请求参数 key：value = []
+2018-09-11 11:31:08 -AOP afterReturn,返回值result = register
+2018-09-11 11:35:25 -Starting ChatonlineApplication on yihui-computer with PID 17075 (/home/yihui/file/chatonline/chatonline/target/classes started by yihui in /home/yihui/file/chatonline/chatonline)
+2018-09-11 11:35:25 -No active profile set, falling back to default profiles: default
+2018-09-11 11:35:28 -Started ChatonlineApplication in 2.924 seconds (JVM running for 3.648)
+2018-09-11 11:35:34 -请求url = http://localhost:8080/register
+2018-09-11 11:35:34 -所有的请求参数 key：value = []
+2018-09-11 11:35:34 -AOP afterReturn,返回值result = register
+2018-09-11 11:35:40 -请求url = http://localhost:8080/
+2018-09-11 11:35:40 -所有的请求参数 key：value = []
+2018-09-11 11:35:40 -AOP afterReturn,返回值result = login
+2018-09-11 11:37:52 -Starting ChatonlineApplication on yihui-computer with PID 17291 (/home/yihui/file/chatonline/chatonline/target/classes started by yihui in /home/yihui/file/chatonline/chatonline)
+2018-09-11 11:37:52 -No active profile set, falling back to default profiles: default
+2018-09-11 11:37:55 -Started ChatonlineApplication in 3.019 seconds (JVM running for 3.447)
+2018-09-11 11:37:58 -请求url = http://localhost:8080/
+2018-09-11 11:37:58 -所有的请求参数 key：value = []
+2018-09-11 11:37:58 -AOP afterReturn,返回值result = login
+2018-09-11 11:38:00 -请求url = http://localhost:8080/register
+2018-09-11 11:38:00 -所有的请求参数 key：value = []
+2018-09-11 11:38:00 -AOP afterReturn,返回值result = register
+2018-09-11 11:38:10 -请求url = http://localhost:8080/register
+2018-09-11 11:38:10 -所有的请求参数 key：value = []
+2018-09-11 11:38:10 -AOP afterReturn,返回值result = register
+2018-09-11 11:38:14 -请求url = http://localhost:8080/register
+2018-09-11 11:38:14 -所有的请求参数 key：value = []
+2018-09-11 11:38:14 -AOP afterReturn,返回值result = register
+2018-09-11 11:39:27 -请求url = http://localhost:8080/register
+2018-09-11 11:39:27 -所有的请求参数 key：value = []
+2018-09-11 11:39:27 -AOP afterReturn,返回值result = register
+2018-09-11 11:40:45 -请求url = http://localhost:8080/login
+2018-09-11 11:40:45 -所有的请求参数 key：value = [{"username":"q"},{"password":"a"}]
+2018-09-11 11:40:45 -AOP afterReturn,返回值result = register
+2018-09-11 11:48:47 -Starting ChatonlineApplication on yihui-computer with PID 18056 (/home/yihui/file/chatonline/chatonline/target/classes started by yihui in /home/yihui/file/chatonline/chatonline)
+2018-09-11 11:48:47 -No active profile set, falling back to default profiles: default
+2018-09-11 11:48:50 -Started ChatonlineApplication in 2.92 seconds (JVM running for 3.456)
+2018-09-11 11:48:58 -请求url = http://localhost:8080/login
+2018-09-11 11:48:58 -所有的请求参数 key：value = [{"username":"q"},{"password":"a"}]
+2018-09-11 11:48:59 -AOP afterReturn,返回值result = register
+2018-09-11 11:49:53 -请求url = http://localhost:8080/login
+2018-09-11 11:49:53 -所有的请求参数 key：value = [{"username":"q"},{"password":"a"}]
+2018-09-11 11:49:53 -AOP afterReturn,返回值result = register
+2018-09-11 11:50:13 -Starting ChatonlineApplication on yihui-computer with PID 18289 (/home/yihui/file/chatonline/chatonline/target/classes started by yihui in /home/yihui/file/chatonline/chatonline)
+2018-09-11 11:50:13 -No active profile set, falling back to default profiles: default
+2018-09-11 11:50:16 -Started ChatonlineApplication in 3.572 seconds (JVM running for 4.137)
+2018-09-11 11:50:53 -请求url = http://localhost:8080/login
+2018-09-11 11:50:53 -所有的请求参数 key：value = [{"username":"q"},{"password":"a"}]
+2018-09-11 11:50:54 -AOP afterReturn,返回值result = register
+2018-09-11 11:53:15 -Starting ChatonlineApplication on yihui-computer with PID 18500 (/home/yihui/file/chatonline/chatonline/target/classes started by yihui in /home/yihui/file/chatonline/chatonline)
+2018-09-11 11:53:15 -No active profile set, falling back to default profiles: default
+2018-09-11 11:53:19 -Started ChatonlineApplication in 3.871 seconds (JVM running for 4.649)
+2018-09-11 11:53:27 -请求url = http://localhost:8080/login
+2018-09-11 11:53:27 -所有的请求参数 key：value = [{"username":"q"},{"password":"a"}]
+2018-09-11 11:53:27 -AOP afterReturn,返回值result = register
+2018-09-11 11:54:06 -Starting ChatonlineApplication on yihui-computer with PID 18649 (/home/yihui/file/chatonline/chatonline/target/classes started by yihui in /home/yihui/file/chatonline/chatonline)
+2018-09-11 11:54:06 -No active profile set, falling back to default profiles: default
+2018-09-11 11:54:10 -Started ChatonlineApplication in 3.985 seconds (JVM running for 4.582)
+2018-09-11 11:54:13 -请求url = http://localhost:8080/login
+2018-09-11 11:54:13 -所有的请求参数 key：value = [{"username":"q"},{"password":"a"}]
+2018-09-11 11:54:13 -AOP afterReturn,返回值result = register
+2018-09-11 11:54:59 -Starting ChatonlineApplication on yihui-computer with PID 18800 (/home/yihui/file/chatonline/chatonline/target/classes started by yihui in /home/yihui/file/chatonline/chatonline)
+2018-09-11 11:54:59 -No active profile set, falling back to default profiles: default
+2018-09-11 11:55:02 -Started ChatonlineApplication in 4.152 seconds (JVM running for 4.877)
+2018-09-11 11:55:05 -请求url = http://localhost:8080/login
+2018-09-11 11:55:05 -所有的请求参数 key：value = [{"username":"q"},{"password":"a"}]
+2018-09-11 11:55:06 -AOP afterReturn,返回值result = register
+2018-09-11 11:56:02 -请求url = http://localhost:8080/login
+2018-09-11 11:56:02 -所有的请求参数 key：value = [{"username":"q"},{"password":"a"}]
+2018-09-11 11:56:02 -AOP afterReturn,返回值result = register
+2018-09-11 11:58:44 -Starting ChatonlineApplication on yihui-computer with PID 19005 (/home/yihui/file/chatonline/chatonline/target/classes started by yihui in /home/yihui/file/chatonline/chatonline)
+2018-09-11 11:58:44 -No active profile set, falling back to default profiles: default
+2018-09-11 11:58:47 -Started ChatonlineApplication in 3.481 seconds (JVM running for 4.128)
+2018-09-11 11:58:55 -请求url = http://localhost:8080/login
+2018-09-11 11:58:55 -所有的请求参数 key：value = [{"username":"q"},{"password":"a"}]
+2018-09-11 11:58:55 -AOP afterReturn,返回值result = register
+2018-09-11 11:59:51 -Starting ChatonlineApplication on yihui-computer with PID 19155 (/home/yihui/file/chatonline/chatonline/target/classes started by yihui in /home/yihui/file/chatonline/chatonline)
+2018-09-11 11:59:51 -No active profile set, falling back to default profiles: default
+2018-09-11 11:59:55 -Started ChatonlineApplication in 4.588 seconds (JVM running for 5.327)
+2018-09-11 12:00:04 -请求url = http://localhost:8080/login
+2018-09-11 12:00:04 -所有的请求参数 key：value = [{"username":"q"},{"password":"a"}]
+2018-09-11 12:00:04 -AOP afterReturn,返回值result = register
+2018-09-11 12:00:22 -请求url = http://localhost:8080/login
+2018-09-11 12:00:22 -所有的请求参数 key：value = [{"username":"q"},{"password":"a"}]
+2018-09-11 12:00:22 -AOP afterReturn,返回值result = register
+2018-09-11 12:01:00 -Starting ChatonlineApplication on yihui-computer with PID 19303 (/home/yihui/file/chatonline/chatonline/target/classes started by yihui in /home/yihui/file/chatonline/chatonline)
+2018-09-11 12:01:00 -No active profile set, falling back to default profiles: default
+2018-09-11 12:01:03 -Started ChatonlineApplication in 4.158 seconds (JVM running for 4.784)
+2018-09-11 12:01:16 -请求url = http://localhost:8080/login
+2018-09-11 12:01:16 -所有的请求参数 key：value = [{"username":"q"},{"password":"a"}]
+2018-09-11 12:01:16 -AOP afterReturn,返回值result = register
+2018-09-11 12:01:31 -请求url = http://localhost:8080/login
+2018-09-11 12:01:31 -所有的请求参数 key：value = [{"username":"q"},{"password":"a"}]
+2018-09-11 12:01:31 -AOP afterReturn,返回值result = register
+2018-09-11 12:01:47 -Starting ChatonlineApplication on yihui-computer with PID 19449 (/home/yihui/file/chatonline/chatonline/target/classes started by yihui in /home/yihui/file/chatonline/chatonline)
+2018-09-11 12:01:47 -No active profile set, falling back to default profiles: default
+2018-09-11 12:01:50 -Started ChatonlineApplication in 4.062 seconds (JVM running for 4.633)
+2018-09-11 12:01:55 -请求url = http://localhost:8080/login
+2018-09-11 12:01:55 -所有的请求参数 key：value = [{"username":"q"},{"password":"a"}]
+2018-09-11 12:01:56 -AOP afterReturn,返回值result = register
+2018-09-11 12:02:34 -Starting ChatonlineApplication on yihui-computer with PID 19591 (/home/yihui/file/chatonline/chatonline/target/classes started by yihui in /home/yihui/file/chatonline/chatonline)
+2018-09-11 12:02:34 -No active profile set, falling back to default profiles: default
+2018-09-11 12:02:37 -Started ChatonlineApplication in 3.972 seconds (JVM running for 4.659)
+2018-09-11 12:02:42 -请求url = http://localhost:8080/login
+2018-09-11 12:02:42 -所有的请求参数 key：value = [{"username":"q"},{"password":"a"}]
+2018-09-11 12:02:42 -AOP afterReturn,返回值result = register
+2018-09-11 12:04:43 -请求url = http://localhost:8080/login
+2018-09-11 12:04:43 -所有的请求参数 key：value = [{"username":"q"},{"password":"a"}]
+2018-09-11 12:04:43 -AOP afterReturn,返回值result = register
+2018-09-11 12:04:46 -请求url = http://localhost:8080/
+2018-09-11 12:04:46 -所有的请求参数 key：value = []
+2018-09-11 12:04:46 -AOP afterReturn,返回值result = login
+2018-09-11 12:04:49 -请求url = http://localhost:8080/register
+2018-09-11 12:04:49 -所有的请求参数 key：value = []
+2018-09-11 12:04:49 -AOP afterReturn,返回值result = register
+2018-09-11 12:04:52 -请求url = http://localhost:8080/register
+2018-09-11 12:04:52 -所有的请求参数 key：value = []
+2018-09-11 12:04:52 -AOP afterReturn,返回值result = register
+2018-09-11 12:26:08 -Starting ChatonlineApplication on yihui-computer with PID 20891 (/home/yihui/file/chatonline/chatonline/target/classes started by yihui in /home/yihui/file/chatonline/chatonline)
+2018-09-11 12:26:08 -No active profile set, falling back to default profiles: default
+2018-09-11 12:26:11 -Started ChatonlineApplication in 2.976 seconds (JVM running for 3.436)
+2018-09-11 12:26:17 -请求url = http://localhost:8080/
+2018-09-11 12:26:17 -所有的请求参数 key：value = []
+2018-09-11 12:26:17 -AOP afterReturn,返回值result = login
+2018-09-11 12:26:19 -请求url = http://localhost:8080/register
+2018-09-11 12:26:19 -所有的请求参数 key：value = []
+2018-09-11 12:26:19 -AOP afterReturn,返回值result = register
+2018-09-11 12:26:51 -Starting ChatonlineApplication on yihui-computer with PID 21018 (/home/yihui/file/chatonline/chatonline/target/classes started by yihui in /home/yihui/file/chatonline/chatonline)
+2018-09-11 12:26:51 -No active profile set, falling back to default profiles: default
+2018-09-11 12:26:53 -Started ChatonlineApplication in 2.997 seconds (JVM running for 3.559)
+2018-09-11 12:27:01 -请求url = http://localhost:8080/register
+2018-09-11 12:27:01 -所有的请求参数 key：value = []
+2018-09-11 12:27:01 -AOP afterReturn,返回值result = register
+2018-09-11 12:27:16 -请求url = http://localhost:8080/register
+2018-09-11 12:27:16 -所有的请求参数 key：value = []
+2018-09-11 12:27:16 -AOP afterReturn,返回值result = register
+2018-09-11 12:28:19 -Starting ChatonlineApplication on yihui-computer with PID 21206 (/home/yihui/file/chatonline/chatonline/target/classes started by yihui in /home/yihui/file/chatonline/chatonline)
+2018-09-11 12:28:19 -No active profile set, falling back to default profiles: default
+2018-09-11 12:28:22 -Started ChatonlineApplication in 3.18 seconds (JVM running for 3.643)
+2018-09-11 12:28:37 -请求url = http://localhost:8080/register
+2018-09-11 12:28:37 -所有的请求参数 key：value = []
+2018-09-11 12:28:37 -AOP afterReturn,返回值result = register
+2018-09-11 12:31:38 -Starting ChatonlineApplication on yihui-computer with PID 21491 (/home/yihui/file/chatonline/chatonline/target/classes started by yihui in /home/yihui/file/chatonline/chatonline)
+2018-09-11 12:31:38 -No active profile set, falling back to default profiles: default
+2018-09-11 12:31:41 -Started ChatonlineApplication in 3.095 seconds (JVM running for 3.616)
+2018-09-11 12:31:47 -请求url = http://localhost:8080/register
+2018-09-11 12:31:47 -所有的请求参数 key：value = []
+2018-09-11 12:31:47 -AOP afterReturn,返回值result = register
+2018-09-11 12:31:50 -请求url = http://localhost:8080/isExist
+2018-09-11 12:31:50 -所有的请求参数 key：value = [{"userName":"a"}]
+2018-09-11 12:31:51 -AOP afterReturn,返回值result = false
+2018-09-11 12:33:02 -Starting ChatonlineApplication on yihui-computer with PID 21703 (/home/yihui/file/chatonline/chatonline/target/classes started by yihui in /home/yihui/file/chatonline/chatonline)
+2018-09-11 12:33:02 -No active profile set, falling back to default profiles: default
+2018-09-11 12:33:05 -Started ChatonlineApplication in 3.897 seconds (JVM running for 4.54)
+2018-09-11 12:33:11 -请求url = http://localhost:8080/register
+2018-09-11 12:33:11 -所有的请求参数 key：value = []
+2018-09-11 12:33:11 -AOP afterReturn,返回值result = register
+2018-09-11 12:33:14 -请求url = http://localhost:8080/isExist
+2018-09-11 12:33:14 -所有的请求参数 key：value = [{"userName":"a"}]
+2018-09-11 12:33:15 -AOP afterReturn,返回值result = false
+2018-09-11 12:34:36 -Starting ChatonlineApplication on yihui-computer with PID 21867 (/home/yihui/file/chatonline/chatonline/target/classes started by yihui in /home/yihui/file/chatonline/chatonline)
+2018-09-11 12:34:36 -No active profile set, falling back to default profiles: default
+2018-09-11 12:34:39 -Started ChatonlineApplication in 3.686 seconds (JVM running for 4.286)
+2018-09-11 12:34:51 -请求url = http://localhost:8080/isExist
+2018-09-11 12:34:51 -所有的请求参数 key：value = [{"userName":""}]
+2018-09-11 12:34:51 -AOP afterReturn,返回值result = false
+2018-09-11 12:34:53 -请求url = http://localhost:8080/register
+2018-09-11 12:34:53 -所有的请求参数 key：value = []
+2018-09-11 12:34:53 -AOP afterReturn,返回值result = register
+2018-09-11 12:34:57 -请求url = http://localhost:8080/isExist
+2018-09-11 12:34:57 -所有的请求参数 key：value = [{"userName":"a"}]
+2018-09-11 12:34:57 -AOP afterReturn,返回值result = false
+2018-09-11 12:35:24 -Starting ChatonlineApplication on yihui-computer with PID 22041 (/home/yihui/file/chatonline/chatonline/target/classes started by yihui in /home/yihui/file/chatonline/chatonline)
+2018-09-11 12:35:24 -No active profile set, falling back to default profiles: default
+2018-09-11 12:35:26 -Started ChatonlineApplication in 3.162 seconds (JVM running for 3.787)
+2018-09-11 12:35:34 -请求url = http://localhost:8080/register
+2018-09-11 12:35:34 -所有的请求参数 key：value = []
+2018-09-11 12:35:34 -AOP afterReturn,返回值result = register
+2018-09-11 12:35:36 -请求url = http://localhost:8080/isExist
+2018-09-11 12:35:36 -所有的请求参数 key：value = [{"userName":"a"}]
+2018-09-11 12:35:36 -AOP afterReturn,返回值result = false
+2018-09-11 12:35:36 -请求url = http://localhost:8080/isExist
+2018-09-11 12:35:36 -所有的请求参数 key：value = [{"userName":"aa"}]
+2018-09-11 12:35:36 -AOP afterReturn,返回值result = false
+2018-09-11 12:35:37 -请求url = http://localhost:8080/isExist
+2018-09-11 12:35:37 -所有的请求参数 key：value = [{"userName":"a"}]
+2018-09-11 12:35:37 -AOP afterReturn,返回值result = false
+2018-09-11 12:35:37 -请求url = http://localhost:8080/isExist
+2018-09-11 12:35:37 -所有的请求参数 key：value = [{"userName":""}]
+2018-09-11 12:35:37 -AOP afterReturn,返回值result = false
+2018-09-11 12:35:38 -请求url = http://localhost:8080/isExist
+2018-09-11 12:35:38 -所有的请求参数 key：value = [{"userName":""}]
+2018-09-11 12:35:38 -AOP afterReturn,返回值result = false
+2018-09-11 12:35:38 -请求url = http://localhost:8080/isExist
+2018-09-11 12:35:38 -所有的请求参数 key：value = [{"userName":"a"}]
+2018-09-11 12:35:38 -AOP afterReturn,返回值result = false
+2018-09-11 12:35:38 -请求url = http://localhost:8080/isExist
+2018-09-11 12:35:38 -所有的请求参数 key：value = [{"userName":"aa"}]
+2018-09-11 12:35:38 -AOP afterReturn,返回值result = false
+2018-09-11 12:35:39 -请求url = http://localhost:8080/isExist
+2018-09-11 12:35:39 -所有的请求参数 key：value = [{"userName":"aaa"}]
+2018-09-11 12:35:39 -AOP afterReturn,返回值result = false
+2018-09-11 12:35:39 -请求url = http://localhost:8080/isExist
+2018-09-11 12:35:39 -所有的请求参数 key：value = [{"userName":"aaaa"}]
+2018-09-11 12:35:39 -AOP afterReturn,返回值result = false
+2018-09-11 12:35:39 -请求url = http://localhost:8080/isExist
+2018-09-11 12:35:39 -所有的请求参数 key：value = [{"userName":"aaa"}]
+2018-09-11 12:35:39 -AOP afterReturn,返回值result = false
+2018-09-11 12:35:39 -请求url = http://localhost:8080/isExist
+2018-09-11 12:35:39 -所有的请求参数 key：value = [{"userName":"aa"}]
+2018-09-11 12:35:39 -AOP afterReturn,返回值result = false
+2018-09-11 12:35:39 -请求url = http://localhost:8080/isExist
+2018-09-11 12:35:39 -所有的请求参数 key：value = [{"userName":"a"}]
+2018-09-11 12:35:39 -AOP afterReturn,返回值result = false
+2018-09-11 12:35:39 -请求url = http://localhost:8080/isExist
+2018-09-11 12:35:39 -所有的请求参数 key：value = [{"userName":""}]
+2018-09-11 12:35:39 -AOP afterReturn,返回值result = false
+2018-09-11 12:35:40 -请求url = http://localhost:8080/isExist
+2018-09-11 12:35:40 -所有的请求参数 key：value = [{"userName":""}]
+2018-09-11 12:35:40 -AOP afterReturn,返回值result = false
+2018-09-11 12:35:40 -请求url = http://localhost:8080/isExist
+2018-09-11 12:35:40 -所有的请求参数 key：value = [{"userName":"m"}]
+2018-09-11 12:35:40 -AOP afterReturn,返回值result = false
+2018-09-11 12:35:42 -请求url = http://localhost:8080/isExist
+2018-09-11 12:35:42 -所有的请求参数 key：value = [{"userName":""}]
+2018-09-11 12:35:42 -AOP afterReturn,返回值result = false
+2018-09-11 12:35:44 -请求url = http://localhost:8080/isExist
+2018-09-11 12:35:44 -所有的请求参数 key：value = [{"userName":"magic"}]
+2018-09-11 12:35:44 -AOP afterReturn,返回值result = true
+2018-09-11 12:35:46 -请求url = http://localhost:8080/isExist
+2018-09-11 12:35:46 -所有的请求参数 key：value = [{"userName":"magi"}]
+2018-09-11 12:35:46 -AOP afterReturn,返回值result = false
+2018-09-11 12:35:48 -请求url = http://localhost:8080/isExist
+2018-09-11 12:35:48 -所有的请求参数 key：value = [{"userName":"magic"}]
+2018-09-11 12:35:48 -AOP afterReturn,返回值result = true
+2018-09-11 12:35:48 -请求url = http://localhost:8080/isExist
+2018-09-11 12:35:48 -所有的请求参数 key：value = [{"userName":"magi"}]
+2018-09-11 12:35:48 -AOP afterReturn,返回值result = false
+2018-09-11 12:35:49 -请求url = http://localhost:8080/isExist
+2018-09-11 12:35:49 -所有的请求参数 key：value = [{"userName":"mag"}]
+2018-09-11 12:35:49 -AOP afterReturn,返回值result = false
+2018-09-11 12:35:49 -请求url = http://localhost:8080/isExist
+2018-09-11 12:35:49 -所有的请求参数 key：value = [{"userName":"ma"}]
+2018-09-11 12:35:49 -AOP afterReturn,返回值result = false
+2018-09-11 12:35:49 -请求url = http://localhost:8080/isExist
+2018-09-11 12:35:49 -所有的请求参数 key：value = [{"userName":"m"}]
+2018-09-11 12:35:49 -AOP afterReturn,返回值result = false
+2018-09-11 12:35:49 -请求url = http://localhost:8080/isExist
+2018-09-11 12:35:49 -所有的请求参数 key：value = [{"userName":""}]
+2018-09-11 12:35:49 -AOP afterReturn,返回值result = false
+2018-09-11 12:35:50 -请求url = http://localhost:8080/isExist
+2018-09-11 12:35:50 -所有的请求参数 key：value = [{"userName":"m"}]
+2018-09-11 12:35:50 -AOP afterReturn,返回值result = false
+2018-09-11 12:35:50 -请求url = http://localhost:8080/isExist
+2018-09-11 12:35:50 -所有的请求参数 key：value = [{"userName":"ma"}]
+2018-09-11 12:35:50 -AOP afterReturn,返回值result = false
+2018-09-11 12:35:50 -请求url = http://localhost:8080/isExist
+2018-09-11 12:35:50 -所有的请求参数 key：value = [{"userName":"mag"}]
+2018-09-11 12:35:50 -AOP afterReturn,返回值result = false
+2018-09-11 12:35:50 -请求url = http://localhost:8080/isExist
+2018-09-11 12:35:50 -所有的请求参数 key：value = [{"userName":"magi"}]
+2018-09-11 12:35:50 -AOP afterReturn,返回值result = false
+2018-09-11 12:35:51 -请求url = http://localhost:8080/isExist
+2018-09-11 12:35:51 -所有的请求参数 key：value = [{"userName":"magic"}]
+2018-09-11 12:35:51 -AOP afterReturn,返回值result = true
+2018-09-11 12:35:52 -请求url = http://localhost:8080/isExist
+2018-09-11 12:35:52 -所有的请求参数 key：value = [{"userName":"magi"}]
+2018-09-11 12:35:52 -AOP afterReturn,返回值result = false
+2018-09-11 12:35:52 -请求url = http://localhost:8080/isExist
+2018-09-11 12:35:52 -所有的请求参数 key：value = [{"userName":"mag"}]
+2018-09-11 12:35:52 -AOP afterReturn,返回值result = false
+2018-09-11 12:35:52 -请求url = http://localhost:8080/isExist
+2018-09-11 12:35:52 -所有的请求参数 key：value = [{"userName":"ma"}]
+2018-09-11 12:35:52 -AOP afterReturn,返回值result = false
+2018-09-11 12:35:52 -请求url = http://localhost:8080/isExist
+2018-09-11 12:35:52 -所有的请求参数 key：value = [{"userName":"m"}]
+2018-09-11 12:35:52 -AOP afterReturn,返回值result = false
+2018-09-11 12:35:52 -请求url = http://localhost:8080/isExist
+2018-09-11 12:35:52 -所有的请求参数 key：value = [{"userName":""}]
+2018-09-11 12:35:52 -AOP afterReturn,返回值result = false
+2018-09-11 12:35:53 -请求url = http://localhost:8080/isExist
+2018-09-11 12:35:53 -所有的请求参数 key：value = [{"userName":""}]
+2018-09-11 12:35:53 -AOP afterReturn,返回值result = false
+2018-09-11 12:36:55 -Starting ChatonlineApplication on yihui-computer with PID 22263 (/home/yihui/file/chatonline/chatonline/target/classes started by yihui in /home/yihui/file/chatonline/chatonline)
+2018-09-11 12:36:55 -No active profile set, falling back to default profiles: default
+2018-09-11 12:36:58 -Started ChatonlineApplication in 3.61 seconds (JVM running for 4.264)
+2018-09-11 12:37:11 -请求url = http://localhost:8080/register
+2018-09-11 12:37:11 -所有的请求参数 key：value = []
+2018-09-11 12:37:11 -AOP afterReturn,返回值result = register
+2018-09-11 12:37:12 -请求url = http://localhost:8080/isExist
+2018-09-11 12:37:12 -所有的请求参数 key：value = [{"userName":"a"}]
+2018-09-11 12:37:13 -请求url = http://localhost:8080/isExist
+2018-09-11 12:37:13 -所有的请求参数 key：value = [{"userName":"aa"}]
+2018-09-11 12:37:13 -请求url = http://localhost:8080/isExist
+2018-09-11 12:37:13 -所有的请求参数 key：value = [{"userName":"aaa"}]
+2018-09-11 12:37:13 -AOP afterReturn,返回值result = false
+2018-09-11 12:37:13 -AOP afterReturn,返回值result = false
+2018-09-11 12:37:13 -AOP afterReturn,返回值result = false
+2018-09-11 12:37:13 -请求url = http://localhost:8080/isExist
+2018-09-11 12:37:13 -所有的请求参数 key：value = [{"userName":"aaaa"}]
+2018-09-11 12:37:13 -AOP afterReturn,返回值result = false
+2018-09-11 12:37:14 -请求url = http://localhost:8080/isExist
+2018-09-11 12:37:14 -所有的请求参数 key：value = [{"userName":"aaa"}]
+2018-09-11 12:37:14 -AOP afterReturn,返回值result = false
+2018-09-11 12:37:14 -请求url = http://localhost:8080/isExist
+2018-09-11 12:37:14 -所有的请求参数 key：value = [{"userName":"aa"}]
+2018-09-11 12:37:14 -AOP afterReturn,返回值result = false
+2018-09-11 12:37:14 -请求url = http://localhost:8080/isExist
+2018-09-11 12:37:14 -所有的请求参数 key：value = [{"userName":"a"}]
+2018-09-11 12:37:14 -AOP afterReturn,返回值result = false
+2018-09-11 12:37:16 -请求url = http://localhost:8080/isExist
+2018-09-11 12:37:16 -所有的请求参数 key：value = [{"userName":"a"}]
+2018-09-11 12:37:16 -AOP afterReturn,返回值result = false
+2018-09-11 12:37:17 -请求url = http://localhost:8080/isExist
+2018-09-11 12:37:17 -所有的请求参数 key：value = [{"userName":"aa"}]
+2018-09-11 12:37:17 -AOP afterReturn,返回值result = false
+2018-09-11 12:37:18 -请求url = http://localhost:8080/isExist
+2018-09-11 12:37:18 -所有的请求参数 key：value = [{"userName":"aaa"}]
+2018-09-11 12:37:18 -AOP afterReturn,返回值result = false
+2018-09-11 12:37:18 -请求url = http://localhost:8080/isExist
+2018-09-11 12:37:18 -所有的请求参数 key：value = [{"userName":"aa"}]
+2018-09-11 12:37:18 -AOP afterReturn,返回值result = false
+2018-09-11 12:37:18 -请求url = http://localhost:8080/isExist
+2018-09-11 12:37:18 -所有的请求参数 key：value = [{"userName":"a"}]
+2018-09-11 12:37:18 -AOP afterReturn,返回值result = false
+2018-09-11 12:37:19 -请求url = http://localhost:8080/isExist
+2018-09-11 12:37:19 -所有的请求参数 key：value = [{"userName":"a"}]
+2018-09-11 12:37:19 -AOP afterReturn,返回值result = false
+2018-09-11 12:37:20 -请求url = http://localhost:8080/isExist
+2018-09-11 12:37:20 -所有的请求参数 key：value = [{"userName":"aa"}]
+2018-09-11 12:37:20 -AOP afterReturn,返回值result = false
+2018-09-11 12:37:20 -请求url = http://localhost:8080/isExist
+2018-09-11 12:37:20 -所有的请求参数 key：value = [{"userName":"a"}]
+2018-09-11 12:37:20 -AOP afterReturn,返回值result = false
+2018-09-11 12:41:06 -Starting ChatonlineApplication on yihui-computer with PID 22529 (/home/yihui/file/chatonline/chatonline/target/classes started by yihui in /home/yihui/file/chatonline/chatonline)
+2018-09-11 12:41:06 -No active profile set, falling back to default profiles: default
+2018-09-11 12:41:10 -Started ChatonlineApplication in 3.766 seconds (JVM running for 4.297)
+2018-09-11 12:41:19 -请求url = http://localhost:8080/register
+2018-09-11 12:41:19 -所有的请求参数 key：value = []
+2018-09-11 12:41:19 -AOP afterReturn,返回值result = register
+2018-09-11 12:41:21 -请求url = http://localhost:8080/isExist
+2018-09-11 12:41:21 -所有的请求参数 key：value = [{"userName":"a"}]
+2018-09-11 12:41:21 -请求url = http://localhost:8080/isExist
+2018-09-11 12:41:21 -所有的请求参数 key：value = [{"userName":"aa"}]
+2018-09-11 12:41:22 -AOP afterReturn,返回值result = false
+2018-09-11 12:41:22 -AOP afterReturn,返回值result = false
+2018-09-11 12:42:21 -Starting ChatonlineApplication on yihui-computer with PID 22762 (/home/yihui/file/chatonline/chatonline/target/classes started by yihui in /home/yihui/file/chatonline/chatonline)
+2018-09-11 12:42:21 -No active profile set, falling back to default profiles: default
+2018-09-11 12:42:24 -Started ChatonlineApplication in 4.002 seconds (JVM running for 4.868)
+2018-09-11 12:42:29 -请求url = http://localhost:8080/register
+2018-09-11 12:42:29 -所有的请求参数 key：value = []
+2018-09-11 12:42:29 -AOP afterReturn,返回值result = register
+2018-09-11 12:42:34 -请求url = http://localhost:8080/register
+2018-09-11 12:42:34 -所有的请求参数 key：value = []
+2018-09-11 12:42:34 -AOP afterReturn,返回值result = register
+2018-09-11 12:50:06 -Starting ChatonlineApplication on yihui-computer with PID 23351 (/home/yihui/file/chatonline/chatonline/target/classes started by yihui in /home/yihui/file/chatonline/chatonline)
+2018-09-11 12:50:06 -No active profile set, falling back to default profiles: default
+2018-09-11 12:50:10 -Started ChatonlineApplication in 4.583 seconds (JVM running for 5.204)
+2018-09-11 12:50:11 -请求url = http://localhost:8080/register
+2018-09-11 12:50:11 -所有的请求参数 key：value = []
+2018-09-11 12:50:11 -AOP afterReturn,返回值result = register
+2018-09-11 12:50:17 -请求url = http://localhost:8080/isExist
+2018-09-11 12:50:17 -所有的请求参数 key：value = []
+2018-09-11 12:50:18 -AOP afterReturn,返回值result = false
+2018-09-11 12:50:18 -请求url = http://localhost:8080/isExist
+2018-09-11 12:50:18 -所有的请求参数 key：value = []
+2018-09-11 12:50:18 -AOP afterReturn,返回值result = false
+2018-09-11 12:50:19 -请求url = http://localhost:8080/isExist
+2018-09-11 12:50:19 -所有的请求参数 key：value = []
+2018-09-11 12:50:19 -AOP afterReturn,返回值result = false
+2018-09-11 12:50:51 -Starting ChatonlineApplication on yihui-computer with PID 23523 (/home/yihui/file/chatonline/chatonline/target/classes started by yihui in /home/yihui/file/chatonline/chatonline)
+2018-09-11 12:50:51 -No active profile set, falling back to default profiles: default
+2018-09-11 12:50:54 -Started ChatonlineApplication in 4.089 seconds (JVM running for 4.814)
+2018-09-11 12:50:59 -请求url = http://localhost:8080/register
+2018-09-11 12:50:59 -所有的请求参数 key：value = []
+2018-09-11 12:50:59 -AOP afterReturn,返回值result = register
+2018-09-11 12:51:05 -请求url = http://localhost:8080/isExist
+2018-09-11 12:51:05 -所有的请求参数 key：value = []
+2018-09-11 12:51:05 -AOP afterReturn,返回值result = false
+2018-09-11 12:51:06 -请求url = http://localhost:8080/isExist
+2018-09-11 12:51:06 -所有的请求参数 key：value = []
+2018-09-11 12:51:06 -AOP afterReturn,返回值result = false
+2018-09-11 12:51:08 -请求url = http://localhost:8080/isExist
+2018-09-11 12:51:08 -所有的请求参数 key：value = []
+2018-09-11 12:51:08 -AOP afterReturn,返回值result = false
+2018-09-11 12:51:08 -请求url = http://localhost:8080/isExist
+2018-09-11 12:51:08 -所有的请求参数 key：value = []
+2018-09-11 12:51:08 -AOP afterReturn,返回值result = false
+2018-09-11 12:51:09 -请求url = http://localhost:8080/isExist
+2018-09-11 12:51:09 -所有的请求参数 key：value = []
+2018-09-11 12:51:09 -AOP afterReturn,返回值result = false
+2018-09-11 12:51:47 -Starting ChatonlineApplication on yihui-computer with PID 23659 (/home/yihui/file/chatonline/chatonline/target/classes started by yihui in /home/yihui/file/chatonline/chatonline)
+2018-09-11 12:51:47 -No active profile set, falling back to default profiles: default
+2018-09-11 12:51:50 -Started ChatonlineApplication in 3.902 seconds (JVM running for 4.433)
+2018-09-11 12:51:53 -请求url = http://localhost:8080/isExist
+2018-09-11 12:51:53 -所有的请求参数 key：value = []
+2018-09-11 12:51:54 -AOP afterReturn,返回值result = false
+2018-09-11 12:51:55 -请求url = http://localhost:8080/register
+2018-09-11 12:51:55 -所有的请求参数 key：value = []
+2018-09-11 12:51:55 -AOP afterReturn,返回值result = register
+2018-09-11 12:51:57 -请求url = http://localhost:8080/isExist
+2018-09-11 12:51:57 -所有的请求参数 key：value = [{"userName":"a"}]
+2018-09-11 12:51:57 -AOP afterReturn,返回值result = false
+2018-09-11 12:51:57 -请求url = http://localhost:8080/isExist
+2018-09-11 12:51:57 -所有的请求参数 key：value = [{"userName":"aa"}]
+2018-09-11 12:51:57 -AOP afterReturn,返回值result = false
+2018-09-11 12:51:57 -请求url = http://localhost:8080/isExist
+2018-09-11 12:51:57 -所有的请求参数 key：value = [{"userName":"aaa"}]
+2018-09-11 12:51:57 -AOP afterReturn,返回值result = false
+2018-09-11 12:51:58 -请求url = http://localhost:8080/isExist
+2018-09-11 12:51:58 -所有的请求参数 key：value = [{"userName":"aa"}]
+2018-09-11 12:51:58 -AOP afterReturn,返回值result = false
+2018-09-11 12:51:58 -请求url = http://localhost:8080/isExist
+2018-09-11 12:51:58 -所有的请求参数 key：value = [{"userName":"a"}]
+2018-09-11 12:51:58 -AOP afterReturn,返回值result = false
+2018-09-11 12:52:00 -请求url = http://localhost:8080/isExist
+2018-09-11 12:52:00 -所有的请求参数 key：value = [{"userName":"a"}]
+2018-09-11 12:52:00 -AOP afterReturn,返回值result = false
+2018-09-11 12:52:00 -请求url = http://localhost:8080/isExist
+2018-09-11 12:52:00 -所有的请求参数 key：value = [{"userName":"aa"}]
+2018-09-11 12:52:00 -AOP afterReturn,返回值result = false
+2018-09-11 12:52:00 -请求url = http://localhost:8080/isExist
+2018-09-11 12:52:00 -所有的请求参数 key：value = [{"userName":"aaa"}]
+2018-09-11 12:52:00 -AOP afterReturn,返回值result = false
+2018-09-11 12:52:02 -请求url = http://localhost:8080/isExist
+2018-09-11 12:52:02 -所有的请求参数 key：value = [{"userName":"aaaa"}]
+2018-09-11 12:52:02 -AOP afterReturn,返回值result = false
+2018-09-11 12:57:41 -Starting ChatonlineApplication on yihui-computer with PID 23870 (/home/yihui/file/chatonline/chatonline/target/classes started by yihui in /home/yihui/file/chatonline/chatonline)
+2018-09-11 12:57:41 -No active profile set, falling back to default profiles: default
+2018-09-11 12:57:44 -Started ChatonlineApplication in 4.159 seconds (JVM running for 4.784)
+2018-09-11 12:58:33 -请求url = http://localhost:8080/register
+2018-09-11 12:58:33 -所有的请求参数 key：value = []
+2018-09-11 12:58:33 -AOP afterReturn,返回值result = register
+2018-09-11 12:58:57 -Starting ChatonlineApplication on yihui-computer with PID 24021 (/home/yihui/file/chatonline/chatonline/target/classes started by yihui in /home/yihui/file/chatonline/chatonline)
+2018-09-11 12:58:57 -No active profile set, falling back to default profiles: default
+2018-09-11 12:59:00 -Started ChatonlineApplication in 4.105 seconds (JVM running for 4.656)
+2018-09-11 12:59:02 -请求url = http://localhost:8080/register
+2018-09-11 12:59:02 -所有的请求参数 key：value = []
+2018-09-11 12:59:02 -AOP afterReturn,返回值result = register
+2018-09-11 12:59:30 -Starting ChatonlineApplication on yihui-computer with PID 24159 (/home/yihui/file/chatonline/chatonline/target/classes started by yihui in /home/yihui/file/chatonline/chatonline)
+2018-09-11 12:59:30 -No active profile set, falling back to default profiles: default
+2018-09-11 12:59:33 -Started ChatonlineApplication in 3.902 seconds (JVM running for 4.553)
+2018-09-11 13:00:07 -请求url = http://localhost:8080/register
+2018-09-11 13:00:07 -所有的请求参数 key：value = []
+2018-09-11 13:00:07 -AOP afterReturn,返回值result = register
+2018-09-11 13:01:28 -Starting ChatonlineApplication on yihui-computer with PID 24419 (/home/yihui/file/chatonline/chatonline/target/classes started by yihui in /home/yihui/file/chatonline/chatonline)
+2018-09-11 13:01:28 -No active profile set, falling back to default profiles: default
+2018-09-11 13:01:33 -Started ChatonlineApplication in 6.468 seconds (JVM running for 7.206)
+2018-09-11 13:01:41 -请求url = http://localhost:8080/register
+2018-09-11 13:01:41 -所有的请求参数 key：value = []
+2018-09-11 13:01:41 -AOP afterReturn,返回值result = register
+2018-09-11 13:02:06 -Starting ChatonlineApplication on yihui-computer with PID 24591 (/home/yihui/file/chatonline/chatonline/target/classes started by yihui in /home/yihui/file/chatonline/chatonline)
+2018-09-11 13:02:06 -No active profile set, falling back to default profiles: default
+2018-09-11 13:02:09 -Started ChatonlineApplication in 4.06 seconds (JVM running for 4.814)
+2018-09-11 13:02:15 -请求url = http://localhost:8080/register
+2018-09-11 13:02:15 -所有的请求参数 key：value = []
+2018-09-11 13:02:15 -AOP afterReturn,返回值result = register
+2018-09-11 13:04:48 -Starting ChatonlineApplication on yihui-computer with PID 24897 (/home/yihui/file/chatonline/chatonline/target/classes started by yihui in /home/yihui/file/chatonline/chatonline)
+2018-09-11 13:04:48 -No active profile set, falling back to default profiles: default
+2018-09-11 13:04:52 -Started ChatonlineApplication in 4.137 seconds (JVM running for 4.687)
+2018-09-11 13:04:54 -请求url = http://localhost:8080/register
+2018-09-11 13:04:54 -所有的请求参数 key：value = []
+2018-09-11 13:04:54 -AOP afterReturn,返回值result = register
+2018-09-11 13:05:47 -Starting ChatonlineApplication on yihui-computer with PID 25052 (/home/yihui/file/chatonline/chatonline/target/classes started by yihui in /home/yihui/file/chatonline/chatonline)
+2018-09-11 13:05:47 -No active profile set, falling back to default profiles: default
+2018-09-11 13:05:50 -Started ChatonlineApplication in 3.87 seconds (JVM running for 4.421)
+2018-09-11 13:05:59 -请求url = http://localhost:8080/register
+2018-09-11 13:05:59 -所有的请求参数 key：value = []
+2018-09-11 13:05:59 -AOP afterReturn,返回值result = register
+2018-09-11 13:06:00 -请求url = http://localhost:8080/register
+2018-09-11 13:06:00 -所有的请求参数 key：value = []
+2018-09-11 13:06:00 -AOP afterReturn,返回值result = register
+2018-09-11 13:06:01 -请求url = http://localhost:8080/register
+2018-09-11 13:06:01 -所有的请求参数 key：value = []
+2018-09-11 13:06:01 -AOP afterReturn,返回值result = register
+2018-09-11 13:06:01 -请求url = http://localhost:8080/register
+2018-09-11 13:06:01 -所有的请求参数 key：value = []
+2018-09-11 13:06:01 -AOP afterReturn,返回值result = register
+2018-09-11 13:06:02 -请求url = http://localhost:8080/register
+2018-09-11 13:06:02 -所有的请求参数 key：value = []
+2018-09-11 13:06:02 -AOP afterReturn,返回值result = register
+2018-09-11 13:06:02 -请求url = http://localhost:8080/register
+2018-09-11 13:06:02 -所有的请求参数 key：value = []
+2018-09-11 13:06:02 -AOP afterReturn,返回值result = register
+2018-09-11 13:06:03 -请求url = http://localhost:8080/register
+2018-09-11 13:06:03 -所有的请求参数 key：value = []
+2018-09-11 13:06:03 -AOP afterReturn,返回值result = register
+2018-09-11 13:07:34 -Starting ChatonlineApplication on yihui-computer with PID 25204 (/home/yihui/file/chatonline/chatonline/target/classes started by yihui in /home/yihui/file/chatonline/chatonline)
+2018-09-11 13:07:34 -No active profile set, falling back to default profiles: default
+2018-09-11 13:07:39 -Started ChatonlineApplication in 5.201 seconds (JVM running for 5.808)
+2018-09-11 13:07:40 -请求url = http://localhost:8080/register
+2018-09-11 13:07:40 -所有的请求参数 key：value = []
+2018-09-11 13:07:41 -AOP afterReturn,返回值result = register
+2018-09-11 13:07:42 -请求url = http://localhost:8080/register
+2018-09-11 13:07:42 -所有的请求参数 key：value = []
+2018-09-11 13:07:42 -AOP afterReturn,返回值result = register
+2018-09-11 13:08:00 -Starting ChatonlineApplication on yihui-computer with PID 25343 (/home/yihui/file/chatonline/chatonline/target/classes started by yihui in /home/yihui/file/chatonline/chatonline)
+2018-09-11 13:08:00 -No active profile set, falling back to default profiles: default
+2018-09-11 13:08:03 -Started ChatonlineApplication in 3.737 seconds (JVM running for 4.503)
+2018-09-11 13:08:06 -请求url = http://localhost:8080/register
+2018-09-11 13:08:06 -所有的请求参数 key：value = []
+2018-09-11 13:08:06 -AOP afterReturn,返回值result = register
+2018-09-11 13:08:07 -请求url = http://localhost:8080/register
+2018-09-11 13:08:07 -所有的请求参数 key：value = []
+2018-09-11 13:08:07 -AOP afterReturn,返回值result = register
+2018-09-11 13:08:08 -请求url = http://localhost:8080/register
+2018-09-11 13:08:08 -所有的请求参数 key：value = []
+2018-09-11 13:08:08 -AOP afterReturn,返回值result = register
+2018-09-11 13:08:08 -请求url = http://localhost:8080/register
+2018-09-11 13:08:08 -所有的请求参数 key：value = []
+2018-09-11 13:08:08 -AOP afterReturn,返回值result = register
+2018-09-11 13:08:13 -请求url = http://localhost:8080/register
+2018-09-11 13:08:13 -所有的请求参数 key：value = []
+2018-09-11 13:08:13 -AOP afterReturn,返回值result = register
+2018-09-11 13:08:13 -请求url = http://localhost:8080/register
+2018-09-11 13:08:13 -所有的请求参数 key：value = []
+2018-09-11 13:08:13 -AOP afterReturn,返回值result = register
+2018-09-11 13:08:22 -请求url = http://localhost:8080/login
+2018-09-11 13:08:22 -所有的请求参数 key：value = [{"username":"magic"},{"password":"123456"}]
+2018-09-11 13:08:22 -AOP afterReturn,返回值result = index
+2018-09-11 13:08:28 -请求url = http://localhost:8080/register
+2018-09-11 13:08:28 -所有的请求参数 key：value = []
+2018-09-11 13:08:28 -AOP afterReturn,返回值result = register
+2018-09-11 13:09:05 -Starting ChatonlineApplication on yihui-computer with PID 25502 (/home/yihui/file/chatonline/chatonline/target/classes started by yihui in /home/yihui/file/chatonline/chatonline)
+2018-09-11 13:09:05 -No active profile set, falling back to default profiles: default
+2018-09-11 13:09:09 -Started ChatonlineApplication in 3.77 seconds (JVM running for 4.353)
+2018-09-11 13:09:36 -请求url = http://localhost:8080/
+2018-09-11 13:09:36 -所有的请求参数 key：value = []
+2018-09-11 13:09:36 -AOP afterReturn,返回值result = login
+2018-09-11 13:09:39 -请求url = http://localhost:8080/register
+2018-09-11 13:09:39 -所有的请求参数 key：value = []
+2018-09-11 13:09:39 -AOP afterReturn,返回值result = register
+2018-09-11 13:09:41 -请求url = http://localhost:8080/register
+2018-09-11 13:09:41 -所有的请求参数 key：value = []
+2018-09-11 13:09:41 -AOP afterReturn,返回值result = register
+2018-09-11 13:09:42 -请求url = http://localhost:8080/register
+2018-09-11 13:09:42 -所有的请求参数 key：value = []
+2018-09-11 13:09:42 -AOP afterReturn,返回值result = register
+2018-09-11 13:09:42 -请求url = http://localhost:8080/register
+2018-09-11 13:09:42 -所有的请求参数 key：value = []
+2018-09-11 13:09:42 -AOP afterReturn,返回值result = register
+2018-09-11 13:09:43 -请求url = http://localhost:8080/register
+2018-09-11 13:09:43 -所有的请求参数 key：value = []
+2018-09-11 13:09:43 -AOP afterReturn,返回值result = register
+2018-09-11 13:09:43 -请求url = http://localhost:8080/register
+2018-09-11 13:09:43 -所有的请求参数 key：value = []
+2018-09-11 13:09:43 -AOP afterReturn,返回值result = register
+2018-09-11 13:09:43 -请求url = http://localhost:8080/register
+2018-09-11 13:09:43 -所有的请求参数 key：value = []
+2018-09-11 13:09:43 -AOP afterReturn,返回值result = register
+2018-09-11 13:09:44 -请求url = http://localhost:8080/register
+2018-09-11 13:09:44 -所有的请求参数 key：value = []
+2018-09-11 13:09:44 -AOP afterReturn,返回值result = register
+2018-09-11 13:09:44 -请求url = http://localhost:8080/register
+2018-09-11 13:09:44 -所有的请求参数 key：value = []
+2018-09-11 13:09:44 -AOP afterReturn,返回值result = register
+2018-09-11 13:09:44 -请求url = http://localhost:8080/register
+2018-09-11 13:09:44 -所有的请求参数 key：value = []
+2018-09-11 13:09:44 -AOP afterReturn,返回值result = register
+2018-09-11 13:10:15 -Starting ChatonlineApplication on yihui-computer with PID 25644 (/home/yihui/file/chatonline/chatonline/target/classes started by yihui in /home/yihui/file/chatonline/chatonline)
+2018-09-11 13:10:15 -No active profile set, falling back to default profiles: default
+2018-09-11 13:10:18 -Started ChatonlineApplication in 3.741 seconds (JVM running for 4.464)
+2018-09-11 13:10:20 -请求url = http://localhost:8080/register
+2018-09-11 13:10:20 -所有的请求参数 key：value = []
+2018-09-11 13:10:20 -AOP afterReturn,返回值result = register
+2018-09-11 13:10:21 -请求url = http://localhost:8080/register
+2018-09-11 13:10:21 -所有的请求参数 key：value = []
+2018-09-11 13:10:21 -AOP afterReturn,返回值result = register
+2018-09-11 13:10:22 -请求url = http://localhost:8080/register
+2018-09-11 13:10:22 -所有的请求参数 key：value = []
+2018-09-11 13:10:22 -AOP afterReturn,返回值result = register
+2018-09-11 13:10:22 -请求url = http://localhost:8080/register
+2018-09-11 13:10:22 -所有的请求参数 key：value = []
+2018-09-11 13:10:22 -AOP afterReturn,返回值result = register
+2018-09-11 13:10:23 -请求url = http://localhost:8080/register
+2018-09-11 13:10:23 -所有的请求参数 key：value = []
+2018-09-11 13:10:23 -AOP afterReturn,返回值result = register
+2018-09-11 13:10:23 -请求url = http://localhost:8080/register
+2018-09-11 13:10:23 -所有的请求参数 key：value = []
+2018-09-11 13:10:23 -AOP afterReturn,返回值result = register
+2018-09-11 13:10:23 -请求url = http://localhost:8080/register
+2018-09-11 13:10:23 -所有的请求参数 key：value = []
+2018-09-11 13:10:23 -AOP afterReturn,返回值result = register
+2018-09-11 13:11:41 -Starting ChatonlineApplication on yihui-computer with PID 25797 (/home/yihui/file/chatonline/chatonline/target/classes started by yihui in /home/yihui/file/chatonline/chatonline)
+2018-09-11 13:11:41 -No active profile set, falling back to default profiles: default
+2018-09-11 13:11:45 -Started ChatonlineApplication in 3.809 seconds (JVM running for 4.399)
+2018-09-11 13:11:47 -请求url = http://localhost:8080/register
+2018-09-11 13:11:47 -所有的请求参数 key：value = []
+2018-09-11 13:11:47 -AOP afterReturn,返回值result = register
+2018-09-11 13:11:48 -请求url = http://localhost:8080/register
+2018-09-11 13:11:48 -所有的请求参数 key：value = []
+2018-09-11 13:11:48 -AOP afterReturn,返回值result = register
+2018-09-11 13:11:48 -请求url = http://localhost:8080/register
+2018-09-11 13:11:48 -所有的请求参数 key：value = []
+2018-09-11 13:11:48 -AOP afterReturn,返回值result = register
+2018-09-11 13:11:48 -请求url = http://localhost:8080/register
+2018-09-11 13:11:48 -所有的请求参数 key：value = []
+2018-09-11 13:11:48 -AOP afterReturn,返回值result = register
+2018-09-11 13:11:49 -请求url = http://localhost:8080/register
+2018-09-11 13:11:49 -所有的请求参数 key：value = []
+2018-09-11 13:11:49 -AOP afterReturn,返回值result = register
+2018-09-11 13:11:49 -请求url = http://localhost:8080/register
+2018-09-11 13:11:49 -所有的请求参数 key：value = []
+2018-09-11 13:11:49 -AOP afterReturn,返回值result = register
+2018-09-11 13:11:49 -请求url = http://localhost:8080/register
+2018-09-11 13:11:49 -所有的请求参数 key：value = []
+2018-09-11 13:11:49 -AOP afterReturn,返回值result = register
+2018-09-11 13:11:49 -请求url = http://localhost:8080/register
+2018-09-11 13:11:49 -所有的请求参数 key：value = []
+2018-09-11 13:11:49 -AOP afterReturn,返回值result = register
+2018-09-11 13:11:49 -请求url = http://localhost:8080/register
+2018-09-11 13:11:49 -所有的请求参数 key：value = []
+2018-09-11 13:11:49 -AOP afterReturn,返回值result = register
+2018-09-11 13:11:50 -请求url = http://localhost:8080/register
+2018-09-11 13:11:50 -所有的请求参数 key：value = []
+2018-09-11 13:11:50 -AOP afterReturn,返回值result = register
+2018-09-11 13:11:50 -请求url = http://localhost:8080/register
+2018-09-11 13:11:50 -所有的请求参数 key：value = []
+2018-09-11 13:11:50 -AOP afterReturn,返回值result = register
+2018-09-11 13:12:40 -Starting ChatonlineApplication on yihui-computer with PID 26459 (/home/yihui/file/chatonline/chatonline/target/classes started by yihui in /home/yihui/file/chatonline/chatonline)
+2018-09-11 13:12:40 -No active profile set, falling back to default profiles: default
+2018-09-11 13:12:45 -Started ChatonlineApplication in 6.291 seconds (JVM running for 7.25)
+2018-09-11 13:12:53 -请求url = http://localhost:8080/register
+2018-09-11 13:12:53 -所有的请求参数 key：value = []
+2018-09-11 13:12:53 -AOP afterReturn,返回值result = register
+2018-09-11 13:12:56 -请求url = http://localhost:8080/
+2018-09-11 13:12:56 -所有的请求参数 key：value = []
+2018-09-11 13:12:56 -AOP afterReturn,返回值result = login
+2018-09-11 13:12:58 -请求url = http://localhost:8080/register
+2018-09-11 13:12:58 -所有的请求参数 key：value = []
+2018-09-11 13:12:58 -AOP afterReturn,返回值result = register
+2018-09-11 13:16:58 -Starting ChatonlineApplication on yihui-computer with PID 26691 (/home/yihui/file/chatonline/chatonline/target/classes started by yihui in /home/yihui/file/chatonline/chatonline)
+2018-09-11 13:16:58 -No active profile set, falling back to default profiles: default
+2018-09-11 13:17:01 -Started ChatonlineApplication in 3.318 seconds (JVM running for 3.923)
+2018-09-11 13:17:03 -请求url = http://localhost:8080/register
+2018-09-11 13:17:03 -所有的请求参数 key：value = []
+2018-09-11 13:17:03 -AOP afterReturn,返回值result = register
+2018-09-11 13:19:28 -Starting ChatonlineApplication on yihui-computer with PID 27353 (/home/yihui/file/chatonline/chatonline/target/classes started by yihui in /home/yihui/file/chatonline/chatonline)
+2018-09-11 13:19:28 -No active profile set, falling back to default profiles: default
+2018-09-11 13:19:31 -Started ChatonlineApplication in 3.848 seconds (JVM running for 4.439)
+2018-09-11 13:19:39 -请求url = http://localhost:8080/register
+2018-09-11 13:19:39 -所有的请求参数 key：value = []
+2018-09-11 13:19:39 -AOP afterReturn,返回值result = register
+2018-09-11 13:19:47 -请求url = http://localhost:8080/isExist
+2018-09-11 13:19:47 -所有的请求参数 key：value = [{"userName":"a"}]
+2018-09-11 13:19:47 -AOP afterReturn,返回值result = false
+2018-09-11 13:19:48 -请求url = http://localhost:8080/isExist
+2018-09-11 13:19:48 -所有的请求参数 key：value = [{"userName":"a"}]
+2018-09-11 13:19:48 -AOP afterReturn,返回值result = false
+2018-09-11 13:19:51 -请求url = http://localhost:8080/isExist
+2018-09-11 13:19:51 -所有的请求参数 key：value = [{"userName":"m"}]
+2018-09-11 13:19:51 -AOP afterReturn,返回值result = false
+2018-09-11 13:19:51 -请求url = http://localhost:8080/isExist
+2018-09-11 13:19:51 -所有的请求参数 key：value = [{"userName":"mi"}]
+2018-09-11 13:19:51 -AOP afterReturn,返回值result = false
+2018-09-11 13:19:51 -请求url = http://localhost:8080/isExist
+2018-09-11 13:19:51 -所有的请求参数 key：value = [{"userName":"mig"}]
+2018-09-11 13:19:52 -AOP afterReturn,返回值result = false
+2018-09-11 13:19:52 -请求url = http://localhost:8080/isExist
+2018-09-11 13:19:52 -所有的请求参数 key：value = [{"userName":"migi"}]
+2018-09-11 13:19:52 -AOP afterReturn,返回值result = false
+2018-09-11 13:19:52 -请求url = http://localhost:8080/isExist
+2018-09-11 13:19:52 -所有的请求参数 key：value = [{"userName":"migic"}]
+2018-09-11 13:19:52 -AOP afterReturn,返回值result = false
+2018-09-11 13:19:54 -请求url = http://localhost:8080/isExist
+2018-09-11 13:19:54 -所有的请求参数 key：value = [{"userName":"migi"}]
+2018-09-11 13:19:54 -AOP afterReturn,返回值result = false
+2018-09-11 13:19:54 -请求url = http://localhost:8080/isExist
+2018-09-11 13:19:54 -所有的请求参数 key：value = [{"userName":"mig"}]
+2018-09-11 13:19:54 -AOP afterReturn,返回值result = false
+2018-09-11 13:19:54 -请求url = http://localhost:8080/isExist
+2018-09-11 13:19:54 -所有的请求参数 key：value = [{"userName":"mi"}]
+2018-09-11 13:19:54 -AOP afterReturn,返回值result = false
+2018-09-11 13:19:54 -请求url = http://localhost:8080/isExist
+2018-09-11 13:19:54 -所有的请求参数 key：value = [{"userName":"m"}]
+2018-09-11 13:19:54 -AOP afterReturn,返回值result = false
+2018-09-11 13:19:55 -请求url = http://localhost:8080/isExist
+2018-09-11 13:19:55 -所有的请求参数 key：value = [{"userName":"m"}]
+2018-09-11 13:19:55 -AOP afterReturn,返回值result = false
+2018-09-11 13:19:55 -请求url = http://localhost:8080/isExist
+2018-09-11 13:19:55 -所有的请求参数 key：value = [{"userName":"ma"}]
+2018-09-11 13:19:55 -AOP afterReturn,返回值result = false
+2018-09-11 13:19:56 -请求url = http://localhost:8080/isExist
+2018-09-11 13:19:56 -所有的请求参数 key：value = [{"userName":"mag"}]
+2018-09-11 13:19:56 -AOP afterReturn,返回值result = false
+2018-09-11 13:19:56 -请求url = http://localhost:8080/isExist
+2018-09-11 13:19:56 -所有的请求参数 key：value = [{"userName":"magi"}]
+2018-09-11 13:19:56 -AOP afterReturn,返回值result = false
+2018-09-11 13:19:56 -请求url = http://localhost:8080/isExist
+2018-09-11 13:19:56 -所有的请求参数 key：value = [{"userName":"magic"}]
+2018-09-11 13:19:56 -AOP afterReturn,返回值result = true
+2018-09-11 13:24:05 -请求url = http://localhost:8080/register
+2018-09-11 13:24:05 -所有的请求参数 key：value = []
+2018-09-11 13:24:05 -AOP afterReturn,返回值result = register
+2018-09-11 13:24:07 -请求url = http://localhost:8080/isExist
+2018-09-11 13:24:07 -所有的请求参数 key：value = [{"userName":"a"}]
+2018-09-11 13:24:07 -AOP afterReturn,返回值result = false
+2018-09-11 13:24:07 -请求url = http://localhost:8080/isExist
+2018-09-11 13:24:07 -所有的请求参数 key：value = [{"userName":"aa"}]
+2018-09-11 13:24:07 -AOP afterReturn,返回值result = false
+2018-09-11 13:24:57 -Starting ChatonlineApplication on yihui-computer with PID 27675 (/home/yihui/file/chatonline/chatonline/target/classes started by yihui in /home/yihui/file/chatonline/chatonline)
+2018-09-11 13:24:57 -No active profile set, falling back to default profiles: default
+2018-09-11 13:25:00 -Started ChatonlineApplication in 3.713 seconds (JVM running for 4.225)
+2018-09-11 13:25:03 -请求url = http://localhost:8080/register
+2018-09-11 13:25:03 -所有的请求参数 key：value = []
+2018-09-11 13:25:03 -AOP afterReturn,返回值result = register
+2018-09-11 13:25:55 -Starting ChatonlineApplication on yihui-computer with PID 27871 (/home/yihui/file/chatonline/chatonline/target/classes started by yihui in /home/yihui/file/chatonline/chatonline)
+2018-09-11 13:25:55 -No active profile set, falling back to default profiles: default
+2018-09-11 13:25:58 -Started ChatonlineApplication in 2.894 seconds (JVM running for 3.337)
+2018-09-11 13:26:19 -请求url = http://localhost:8080/register
+2018-09-11 13:26:19 -所有的请求参数 key：value = []
+2018-09-11 13:26:19 -AOP afterReturn,返回值result = register
+2018-09-11 13:26:22 -请求url = http://localhost:8080/isExist
+2018-09-11 13:26:22 -所有的请求参数 key：value = [{"userName":"a"}]
+2018-09-11 13:26:22 -请求url = http://localhost:8080/isExist
+2018-09-11 13:26:22 -所有的请求参数 key：value = [{"userName":"aa"}]
+2018-09-11 13:26:22 -AOP afterReturn,返回值result = false
+2018-09-11 13:26:22 -AOP afterReturn,返回值result = false
+2018-09-11 14:01:26 -Starting ChatonlineApplication on yihui-computer with PID 28157 (/home/yihui/file/chatonline/chatonline/target/classes started by yihui in /home/yihui/file/chatonline/chatonline)
+2018-09-11 14:01:26 -No active profile set, falling back to default profiles: default
+2018-09-11 14:01:30 -Started ChatonlineApplication in 4.07 seconds (JVM running for 4.72)
+2018-09-11 14:01:32 -请求url = http://localhost:8080/register
+2018-09-11 14:01:32 -所有的请求参数 key：value = []
+2018-09-11 14:01:32 -AOP afterReturn,返回值result = register
+2018-09-11 14:01:34 -请求url = http://localhost:8080/isExist
+2018-09-11 14:01:34 -所有的请求参数 key：value = [{"userName":"a"}]
+2018-09-11 14:01:34 -请求url = http://localhost:8080/isExist
+2018-09-11 14:01:34 -所有的请求参数 key：value = [{"userName":"aa"}]
+2018-09-11 14:01:35 -AOP afterReturn,返回值result = false
+2018-09-11 14:01:35 -AOP afterReturn,返回值result = false
+2018-09-11 14:02:15 -Starting ChatonlineApplication on yihui-computer with PID 28304 (/home/yihui/file/chatonline/chatonline/target/classes started by yihui in /home/yihui/file/chatonline/chatonline)
+2018-09-11 14:02:15 -No active profile set, falling back to default profiles: default
+2018-09-11 14:02:19 -Started ChatonlineApplication in 4.072 seconds (JVM running for 4.611)
+2018-09-11 14:02:31 -请求url = http://localhost:8080/register
+2018-09-11 14:02:31 -所有的请求参数 key：value = []
+2018-09-11 14:02:31 -AOP afterReturn,返回值result = register
+2018-09-11 14:03:55 -Starting ChatonlineApplication on yihui-computer with PID 28550 (/home/yihui/file/chatonline/chatonline/target/classes started by yihui in /home/yihui/file/chatonline/chatonline)
+2018-09-11 14:03:55 -No active profile set, falling back to default profiles: default
+2018-09-11 14:03:58 -Started ChatonlineApplication in 3.945 seconds (JVM running for 4.453)
+2018-09-11 14:04:00 -请求url = http://localhost:8080/register
+2018-09-11 14:04:00 -所有的请求参数 key：value = []
+2018-09-11 14:04:00 -AOP afterReturn,返回值result = register
+2018-09-11 14:04:02 -请求url = http://localhost:8080/isExist
+2018-09-11 14:04:02 -所有的请求参数 key：value = [{"userName":"a"}]
+2018-09-11 14:04:02 -请求url = http://localhost:8080/isExist
+2018-09-11 14:04:02 -所有的请求参数 key：value = [{"userName":"aa"}]
+2018-09-11 14:04:02 -AOP afterReturn,返回值result = false
+2018-09-11 14:04:02 -AOP afterReturn,返回值result = false
+2018-09-11 14:04:03 -请求url = http://localhost:8080/isExist
+2018-09-11 14:04:03 -所有的请求参数 key：value = [{"userName":"aa"}]
+2018-09-11 14:04:03 -AOP afterReturn,返回值result = false
+2018-09-11 14:04:29 -Starting ChatonlineApplication on yihui-computer with PID 28699 (/home/yihui/file/chatonline/chatonline/target/classes started by yihui in /home/yihui/file/chatonline/chatonline)
+2018-09-11 14:04:29 -No active profile set, falling back to default profiles: default
+2018-09-11 14:04:33 -Started ChatonlineApplication in 4.241 seconds (JVM running for 4.935)
+2018-09-11 14:04:36 -请求url = http://localhost:8080/register
+2018-09-11 14:04:36 -所有的请求参数 key：value = []
+2018-09-11 14:04:36 -AOP afterReturn,返回值result = register
+2018-09-11 14:07:01 -Starting ChatonlineApplication on yihui-computer with PID 28949 (/home/yihui/file/chatonline/chatonline/target/classes started by yihui in /home/yihui/file/chatonline/chatonline)
+2018-09-11 14:07:01 -No active profile set, falling back to default profiles: default
+2018-09-11 14:07:05 -Started ChatonlineApplication in 5.03 seconds (JVM running for 5.534)
+2018-09-11 14:07:07 -请求url = http://localhost:8080/register
+2018-09-11 14:07:07 -所有的请求参数 key：value = []
+2018-09-11 14:07:07 -AOP afterReturn,返回值result = register
+2018-09-11 14:07:46 -Starting ChatonlineApplication on yihui-computer with PID 29106 (/home/yihui/file/chatonline/chatonline/target/classes started by yihui in /home/yihui/file/chatonline/chatonline)
+2018-09-11 14:07:46 -No active profile set, falling back to default profiles: default
+2018-09-11 14:07:49 -Started ChatonlineApplication in 4.133 seconds (JVM running for 4.669)
+2018-09-11 14:07:52 -请求url = http://localhost:8080/register
+2018-09-11 14:07:52 -所有的请求参数 key：value = []
+2018-09-11 14:07:52 -AOP afterReturn,返回值result = register
+2018-09-11 14:07:54 -请求url = http://localhost:8080/isExist
+2018-09-11 14:07:54 -所有的请求参数 key：value = [{"userName":"a"}]
+2018-09-11 14:07:54 -请求url = http://localhost:8080/isExist
+2018-09-11 14:07:54 -所有的请求参数 key：value = [{"userName":"aa"}]
+2018-09-11 14:07:55 -AOP afterReturn,返回值result = false
+2018-09-11 14:07:55 -AOP afterReturn,返回值result = false
+2018-09-11 14:08:55 -Starting ChatonlineApplication on yihui-computer with PID 29265 (/home/yihui/file/chatonline/chatonline/target/classes started by yihui in /home/yihui/file/chatonline/chatonline)
+2018-09-11 14:08:55 -No active profile set, falling back to default profiles: default
+2018-09-11 14:09:00 -Started ChatonlineApplication in 4.725 seconds (JVM running for 5.278)
+2018-09-11 14:09:00 -请求url = http://localhost:8080/register
+2018-09-11 14:09:00 -所有的请求参数 key：value = []
+2018-09-11 14:09:00 -AOP afterReturn,返回值result = register
+2018-09-11 14:09:02 -请求url = http://localhost:8080/isExist
+2018-09-11 14:09:02 -所有的请求参数 key：value = [{"userName":"a"}]
+2018-09-11 14:09:02 -请求url = http://localhost:8080/isExist
+2018-09-11 14:09:02 -所有的请求参数 key：value = [{"userName":"aa"}]
+2018-09-11 14:09:03 -AOP afterReturn,返回值result = false
+2018-09-11 14:09:03 -AOP afterReturn,返回值result = false
+2018-09-11 14:09:03 -请求url = http://localhost:8080/isExist
+2018-09-11 14:09:03 -所有的请求参数 key：value = [{"userName":"aa"}]
+2018-09-11 14:09:03 -AOP afterReturn,返回值result = false
+2018-09-11 14:09:08 -请求url = http://localhost:8080/isExist
+2018-09-11 14:09:08 -所有的请求参数 key：value = [{"userName":"a"}]
+2018-09-11 14:09:08 -AOP afterReturn,返回值result = false
+2018-09-11 14:11:42 -Starting ChatonlineApplication on yihui-computer with PID 30592 (/home/yihui/file/chatonline/chatonline/target/classes started by yihui in /home/yihui/file/chatonline/chatonline)
+2018-09-11 14:11:42 -No active profile set, falling back to default profiles: default
+2018-09-11 14:11:47 -Started ChatonlineApplication in 5.727 seconds (JVM running for 6.558)
+2018-09-11 14:11:49 -请求url = http://localhost:8080/register
+2018-09-11 14:11:49 -所有的请求参数 key：value = []
+2018-09-11 14:11:49 -AOP afterReturn,返回值result = register
+2018-09-11 14:11:51 -请求url = http://localhost:8080/isExist
+2018-09-11 14:11:51 -所有的请求参数 key：value = [{"userName":"a"}]
+2018-09-11 14:11:51 -请求url = http://localhost:8080/isExist
+2018-09-11 14:11:51 -所有的请求参数 key：value = [{"userName":"aa"}]
+2018-09-11 14:11:52 -AOP afterReturn,返回值result = false
+2018-09-11 14:11:52 -AOP afterReturn,返回值result = false
+2018-09-11 14:13:14 -Starting ChatonlineApplication on yihui-computer with PID 31203 (/home/yihui/file/chatonline/chatonline/target/classes started by yihui in /home/yihui/file/chatonline/chatonline)
+2018-09-11 14:13:14 -No active profile set, falling back to default profiles: default
+2018-09-11 14:13:18 -Started ChatonlineApplication in 4.538 seconds (JVM running for 5.295)
+2018-09-11 14:13:20 -请求url = http://localhost:8080/register
+2018-09-11 14:13:20 -所有的请求参数 key：value = []
+2018-09-11 14:13:20 -AOP afterReturn,返回值result = register
+2018-09-11 14:13:22 -请求url = http://localhost:8080/isExist
+2018-09-11 14:13:22 -所有的请求参数 key：value = [{"userName":"a"}]
+2018-09-11 14:13:22 -请求url = http://localhost:8080/isExist
+2018-09-11 14:13:22 -所有的请求参数 key：value = [{"userName":"aa"}]
+2018-09-11 14:13:22 -AOP afterReturn,返回值result = false
+2018-09-11 14:13:22 -AOP afterReturn,返回值result = false
+2018-09-11 14:13:31 -请求url = http://localhost:8080/register
+2018-09-11 14:13:31 -所有的请求参数 key：value = [{"username":"aa"},{"password":"aa"}]
+2018-09-11 14:13:31 -AOP afterReturn,返回值result = register
+2018-09-11 14:17:37 -Starting ChatonlineApplication on yihui-computer with PID 31522 (/home/yihui/file/chatonline/chatonline/target/classes started by yihui in /home/yihui/file/chatonline/chatonline)
+2018-09-11 14:17:37 -No active profile set, falling back to default profiles: default
+2018-09-11 14:17:40 -Started ChatonlineApplication in 3.309 seconds (JVM running for 3.757)
+2018-09-11 14:17:45 -请求url = http://localhost:8080/register
+2018-09-11 14:17:45 -所有的请求参数 key：value = []
+2018-09-11 14:17:46 -AOP afterReturn,返回值result = login
+2018-09-11 14:17:48 -请求url = http://localhost:8080/
+2018-09-11 14:17:48 -所有的请求参数 key：value = []
+2018-09-11 14:17:48 -AOP afterReturn,返回值result = login
+2018-09-11 14:17:50 -请求url = http://localhost:8080/
+2018-09-11 14:17:50 -所有的请求参数 key：value = []
+2018-09-11 14:17:50 -AOP afterReturn,返回值result = login
+2018-09-11 14:17:52 -请求url = http://localhost:8080/register
+2018-09-11 14:17:52 -所有的请求参数 key：value = []
+2018-09-11 14:17:52 -AOP afterReturn,返回值result = login
+2018-09-11 14:17:54 -请求url = http://localhost:8080/register
+2018-09-11 14:17:54 -所有的请求参数 key：value = []
+2018-09-11 14:17:54 -AOP afterReturn,返回值result = login
+2018-09-11 14:17:55 -请求url = http://localhost:8080/register
+2018-09-11 14:17:55 -所有的请求参数 key：value = []
+2018-09-11 14:17:55 -AOP afterReturn,返回值result = login
+2018-09-11 14:17:55 -请求url = http://localhost:8080/register
+2018-09-11 14:17:55 -所有的请求参数 key：value = []
+2018-09-11 14:17:55 -AOP afterReturn,返回值result = login
+2018-09-11 14:17:56 -请求url = http://localhost:8080/register
+2018-09-11 14:17:56 -所有的请求参数 key：value = []
+2018-09-11 14:17:56 -AOP afterReturn,返回值result = login
+2018-09-11 14:17:57 -请求url = http://localhost:8080/register
+2018-09-11 14:17:57 -所有的请求参数 key：value = []
+2018-09-11 14:17:57 -AOP afterReturn,返回值result = login
+2018-09-11 14:19:50 -Starting ChatonlineApplication on yihui-computer with PID 31680 (/home/yihui/file/chatonline/chatonline/target/classes started by yihui in /home/yihui/file/chatonline/chatonline)
+2018-09-11 14:19:50 -No active profile set, falling back to default profiles: default
+2018-09-11 14:19:54 -Started ChatonlineApplication in 3.852 seconds (JVM running for 4.453)
+2018-09-11 14:19:58 -请求url = http://localhost:8080/
+2018-09-11 14:19:58 -所有的请求参数 key：value = []
+2018-09-11 14:19:58 -AOP afterReturn,返回值result = login
+2018-09-11 14:19:59 -请求url = http://localhost:8080/register
+2018-09-11 14:19:59 -所有的请求参数 key：value = []
+2018-09-11 14:19:59 -AOP afterReturn,返回值result = register
+2018-09-11 14:20:01 -请求url = http://localhost:8080/isExist
+2018-09-11 14:20:01 -所有的请求参数 key：value = [{"userName":"a"}]
+2018-09-11 14:20:01 -请求url = http://localhost:8080/isExist
+2018-09-11 14:20:01 -所有的请求参数 key：value = [{"userName":"aa"}]
+2018-09-11 14:20:01 -AOP afterReturn,返回值result = false
+2018-09-11 14:20:01 -AOP afterReturn,返回值result = false
+2018-09-11 14:20:03 -请求url = http://localhost:8080/isExist
+2018-09-11 14:20:03 -所有的请求参数 key：value = [{"userName":"a"}]
+2018-09-11 14:20:03 -AOP afterReturn,返回值result = false
+2018-09-11 14:20:04 -请求url = http://localhost:8080/isExist
+2018-09-11 14:20:04 -所有的请求参数 key：value = [{"userName":"yi"}]
+2018-09-11 14:20:04 -AOP afterReturn,返回值result = false
+2018-09-11 14:20:04 -请求url = http://localhost:8080/isExist
+2018-09-11 14:20:04 -所有的请求参数 key：value = [{"userName":"yi"}]
+2018-09-11 14:20:04 -AOP afterReturn,返回值result = false
+2018-09-11 14:20:04 -请求url = http://localhost:8080/isExist
+2018-09-11 14:20:04 -所有的请求参数 key：value = [{"userName":"yihui"}]
+2018-09-11 14:20:04 -AOP afterReturn,返回值result = false
+2018-09-11 14:20:04 -请求url = http://localhost:8080/isExist
+2018-09-11 14:20:04 -所有的请求参数 key：value = [{"userName":"yihui"}]
+2018-09-11 14:20:04 -AOP afterReturn,返回值result = false
+2018-09-11 14:20:04 -请求url = http://localhost:8080/isExist
+2018-09-11 14:20:04 -所有的请求参数 key：value = [{"userName":"yihui"}]
+2018-09-11 14:20:04 -AOP afterReturn,返回值result = false
+2018-09-11 14:20:05 -请求url = http://localhost:8080/isExist
+2018-09-11 14:20:05 -所有的请求参数 key：value = [{"userName":"yihu"}]
+2018-09-11 14:20:05 -AOP afterReturn,返回值result = false
+2018-09-11 14:20:05 -请求url = http://localhost:8080/isExist
+2018-09-11 14:20:05 -所有的请求参数 key：value = [{"userName":"yih"}]
+2018-09-11 14:20:05 -AOP afterReturn,返回值result = false
+2018-09-11 14:20:05 -请求url = http://localhost:8080/isExist
+2018-09-11 14:20:05 -所有的请求参数 key：value = [{"userName":"yi"}]
+2018-09-11 14:20:05 -AOP afterReturn,返回值result = false
+2018-09-11 14:20:05 -请求url = http://localhost:8080/isExist
+2018-09-11 14:20:05 -所有的请求参数 key：value = [{"userName":"y"}]
+2018-09-11 14:20:05 -AOP afterReturn,返回值result = false
+2018-09-11 14:20:06 -请求url = http://localhost:8080/isExist
+2018-09-11 14:20:06 -所有的请求参数 key：value = [{"userName":"yi"}]
+2018-09-11 14:20:06 -AOP afterReturn,返回值result = false
+2018-09-11 14:20:06 -请求url = http://localhost:8080/isExist
+2018-09-11 14:20:06 -所有的请求参数 key：value = [{"userName":"yi"}]
+2018-09-11 14:20:06 -AOP afterReturn,返回值result = false
+2018-09-11 14:20:06 -请求url = http://localhost:8080/isExist
+2018-09-11 14:20:06 -所有的请求参数 key：value = [{"userName":"yihi"}]
+2018-09-11 14:20:06 -AOP afterReturn,返回值result = false
+2018-09-11 14:20:06 -请求url = http://localhost:8080/isExist
+2018-09-11 14:20:06 -所有的请求参数 key：value = [{"userName":"yihi"}]
+2018-09-11 14:20:06 -AOP afterReturn,返回值result = false
+2018-09-11 14:20:07 -请求url = http://localhost:8080/isExist
+2018-09-11 14:20:07 -所有的请求参数 key：value = [{"userName":"一回"}]
+2018-09-11 14:20:07 -AOP afterReturn,返回值result = false
+2018-09-11 14:20:13 -请求url = http://localhost:8080/registerFinish
+2018-09-11 14:20:13 -所有的请求参数 key：value = [{"username":"一回"},{"password":"123456"}]
+2018-09-11 14:20:13 -AOP afterReturn,返回值result = login
+2018-09-11 14:20:22 -请求url = http://localhost:8080/login
+2018-09-11 14:20:22 -所有的请求参数 key：value = [{"username":"一回"},{"password":"123456"}]
+2018-09-11 14:20:22 -AOP afterReturn,返回值result = register
+2018-09-11 14:20:32 -请求url = http://localhost:8080/login
+2018-09-11 14:20:32 -所有的请求参数 key：value = [{"username":"一回"},{"password":"123456"}]
+2018-09-11 14:20:32 -AOP afterReturn,返回值result = register
+2018-09-11 14:25:00 -Starting ChatonlineApplication on yihui-computer with PID 32362 (/home/yihui/file/chatonline/chatonline/target/classes started by yihui in /home/yihui/file/chatonline/chatonline)
+2018-09-11 14:25:00 -No active profile set, falling back to default profiles: default
+2018-09-11 14:25:03 -Started ChatonlineApplication in 3.01 seconds (JVM running for 3.52)
+2018-09-11 14:25:12 -请求url = http://localhost:8080/login
+2018-09-11 14:25:12 -所有的请求参数 key：value = [{"username":"一回"},{"password":"123456"}]
+2018-09-11 14:25:13 -AOP afterReturn,返回值result = register
+2018-09-11 14:25:15 -请求url = http://localhost:8080/isExist
+2018-09-11 14:25:15 -所有的请求参数 key：value = [{"userName":"a"}]
+2018-09-11 14:25:15 -AOP afterReturn,返回值result = false
+2018-09-11 14:25:21 -请求url = http://localhost:8080/registerFinish
+2018-09-11 14:25:21 -所有的请求参数 key：value = [{"username":"a"},{"password":"a"}]
+2018-09-11 14:25:21 -账号 = a
+2018-09-11 14:25:21 -密码 = a,a
+2018-09-11 14:25:21 -AOP afterReturn,返回值result = login
+2018-09-11 14:25:57 -Starting ChatonlineApplication on yihui-computer with PID 32500 (/home/yihui/file/chatonline/chatonline/target/classes started by yihui in /home/yihui/file/chatonline/chatonline)
+2018-09-11 14:25:57 -No active profile set, falling back to default profiles: default
+2018-09-11 14:26:02 -Started ChatonlineApplication in 4.878 seconds (JVM running for 5.359)
+2018-09-11 14:26:03 -请求url = http://localhost:8080/registerFinish
+2018-09-11 14:26:03 -所有的请求参数 key：value = [{"username":"a"},{"password":"a"}]
+2018-09-11 14:26:03 -账号 = a
+2018-09-11 14:26:03 -密码 = a,a
+2018-09-11 14:26:03 -AOP afterReturn,返回值result = login
+2018-09-11 14:26:07 -请求url = http://localhost:8080/
+2018-09-11 14:26:07 -所有的请求参数 key：value = []
+2018-09-11 14:26:07 -AOP afterReturn,返回值result = login
+2018-09-11 14:26:10 -请求url = http://localhost:8080/register
+2018-09-11 14:26:10 -所有的请求参数 key：value = []
+2018-09-11 14:26:10 -AOP afterReturn,返回值result = register
+2018-09-11 14:26:11 -请求url = http://localhost:8080/isExist
+2018-09-11 14:26:11 -所有的请求参数 key：value = [{"userName":"a"}]
+2018-09-11 14:26:12 -AOP afterReturn,返回值result = false
+2018-09-11 14:26:12 -请求url = http://localhost:8080/isExist
+2018-09-11 14:26:12 -所有的请求参数 key：value = [{"userName":"a"}]
+2018-09-11 14:26:12 -AOP afterReturn,返回值result = false
+2018-09-11 14:26:16 -请求url = http://localhost:8080/registerFinish
+2018-09-11 14:26:16 -所有的请求参数 key：value = [{"username":"a"},{"password":"a"},{"confirm":"a"}]
+2018-09-11 14:26:16 -账号 = a
+2018-09-11 14:26:16 -密码 = a
+2018-09-11 14:26:16 -AOP afterReturn,返回值result = login
+2018-09-11 14:27:04 -Starting ChatonlineApplication on yihui-computer with PID 32688 (/home/yihui/file/chatonline/chatonline/target/classes started by yihui in /home/yihui/file/chatonline/chatonline)
+2018-09-11 14:27:04 -No active profile set, falling back to default profiles: default
+2018-09-11 14:27:07 -Started ChatonlineApplication in 3.043 seconds (JVM running for 3.485)
+2018-09-11 14:27:16 -请求url = http://localhost:8080/registerFinish
+2018-09-11 14:27:16 -所有的请求参数 key：value = [{"username":"a"},{"password":"a"},{"confirm":"a"}]
+2018-09-11 14:27:17 -账号 = a, 密码 = a
+2018-09-11 14:27:17 -AOP afterReturn,返回值result = login
+2018-09-11 14:27:18 -请求url = http://localhost:8080/
+2018-09-11 14:27:18 -所有的请求参数 key：value = []
+2018-09-11 14:27:18 -AOP afterReturn,返回值result = login
+2018-09-11 14:27:21 -请求url = http://localhost:8080/register
+2018-09-11 14:27:21 -所有的请求参数 key：value = []
+2018-09-11 14:27:21 -AOP afterReturn,返回值result = register
+2018-09-11 14:27:23 -请求url = http://localhost:8080/isExist
+2018-09-11 14:27:23 -所有的请求参数 key：value = [{"userName":"a"}]
+2018-09-11 14:27:23 -AOP afterReturn,返回值result = true
+2018-09-11 14:27:25 -请求url = http://localhost:8080/isExist
+2018-09-11 14:27:25 -所有的请求参数 key：value = [{"userName":"yi"}]
+2018-09-11 14:27:25 -AOP afterReturn,返回值result = false
+2018-09-11 14:27:26 -请求url = http://localhost:8080/isExist
+2018-09-11 14:27:26 -所有的请求参数 key：value = [{"userName":"yi"}]
+2018-09-11 14:27:26 -AOP afterReturn,返回值result = false
+2018-09-11 14:27:26 -请求url = http://localhost:8080/isExist
+2018-09-11 14:27:26 -所有的请求参数 key：value = [{"userName":"yihui"}]
+2018-09-11 14:27:26 -AOP afterReturn,返回值result = false
+2018-09-11 14:27:26 -请求url = http://localhost:8080/isExist
+2018-09-11 14:27:26 -所有的请求参数 key：value = [{"userName":"yihui"}]
+2018-09-11 14:27:26 -AOP afterReturn,返回值result = false
+2018-09-11 14:27:26 -请求url = http://localhost:8080/isExist
+2018-09-11 14:27:26 -所有的请求参数 key：value = [{"userName":"yihui"}]
+2018-09-11 14:27:26 -AOP afterReturn,返回值result = false
+2018-09-11 14:27:26 -请求url = http://localhost:8080/isExist
+2018-09-11 14:27:26 -所有的请求参数 key：value = [{"userName":"一回"}]
+2018-09-11 14:27:26 -AOP afterReturn,返回值result = false
+2018-09-11 14:27:34 -请求url = http://localhost:8080/registerFinish
+2018-09-11 14:27:34 -所有的请求参数 key：value = [{"username":"一回"},{"password":"123456"},{"confirm":"123456"}]
+2018-09-11 14:27:34 -账号 = 一回, 密码 = 123456
+2018-09-11 14:27:34 -AOP afterReturn,返回值result = login
+2018-09-11 14:27:42 -请求url = http://localhost:8080/login
+2018-09-11 14:27:42 -所有的请求参数 key：value = [{"username":"一回"},{"password":"123456"}]
+2018-09-11 14:27:42 -AOP afterReturn,返回值result = index

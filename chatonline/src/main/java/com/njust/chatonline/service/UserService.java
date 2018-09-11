@@ -6,4 +6,6 @@ public interface UserService {
     boolean Login(String username, String password);
 
     int Register(User user);
+
+    boolean isExist(String username);
 }
