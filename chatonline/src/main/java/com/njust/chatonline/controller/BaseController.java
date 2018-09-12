@@ -13,22 +13,27 @@ import javax.xml.ws.soap.Addressing;
 public class BaseController {
     @Autowired
     private UserService userService;
+
     @RequestMapping("/")
-    public String Index(){
+    public String Index() {
         return "login";
     }
 
     @RequestMapping("/login")
-    public String Login(String username,String password){
-        if(userService.Login(username,password)){
+    public String Login(String username, String password) {
+        if (userService.Login(username, password)) {
             return "index";
         }
         return "register";
     }
 
     @RequestMapping("/register")
-    public String Register(User user){
+    public String Register(User user) {
         return "login";
     }
 
+    @RequestMapping("/chatroom")
+    public String Chatroom(){
+        return "chatroom";
+    }
 }

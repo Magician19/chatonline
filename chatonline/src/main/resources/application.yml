@@ -2,6 +2,8 @@ server:
   port: 8080
 
 spring:
+    thymeleaf:
+        mode: LEGACYHTML5
     datasource:
         name: test
         url: jdbc:mysql://47.100.58.159:3306/chatonline?useUnicode=true&characterEncoding=UTF-8&allowMultiQueries=true
@@ -30,12 +32,12 @@ mybatis:
   mapper-locations: classpath:mapping/*.xml
 #  type-aliases-package: com.winter.model
 
-#pagehelper
-pagehelper:
-    helperDialect: mysql
-    reasonable: true
-    supportMethodsArguments: true
-    params: count=countSql
+##pagehelper
+#pagehelper:
+#    helperDialect: mysql
+#    reasonable: true
+#    supportMethodsArguments: true
+#    params: count=countSql
 
 redis:
               host: localhost
@@ -46,3 +48,4 @@ redis:
                 max-idle: 10
                 max-wait: 100000
               timeout: 0
+
