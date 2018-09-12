@@ -1,15 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8"/>
-    <title>Title</title>
+    <title>在线聊天室---登录</title>
+    <!-- Meta tag Keywords -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <script>
+        addEventListener("load", function () {
+            setTimeout(hideURLbar, 0);
+        }, false);
+
+        function hideURLbar() {
+            window.scrollTo(0, 1);
+        }
+    </script>
+    <link rel="stylesheet" href="./css/style.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="./css/font-awesome.css" />
+    <link href="//fonts.googleapis.com/css?family=Play:400,700" rel="stylesheet" />
+    <link href="//fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet" />
 </head>
 <body>
-<form  id="login" method="post" action="/login">
-    username: <input type="text" id="username" name="username"/>
-    password: <input type="text" id="password" name="password"/>
-    submit<input type="submit"/>
+<!--header-->
+<div class="header-w3l">
+    <h1>
+        穷极无<span>聊</span> <span>天</span>涯比邻
 
-</form>
+    </h1>
+</div>
+<!--//header-->
+<div class="main-content-agile">
+    <div class="sub-main-w3">
+        <h2>登录</h2>
+        <form  id="login" method="post" action="/login">
+            <label>账号</label>
+            <div class="pom-agile">
+                <span class="fa fa-user-o" aria-hidden="true"></span>
+                <input id="username" name="username" placeholder="Username" class="user" type="text" required="" />
+            </div>
+            <label>密码</label>
+            <div class="pom-agile">
+                <span class="fa fa-key" aria-hidden="true"></span>
+                <input id="password" name="password" placeholder="Password" class="pass" type="password" required="" />
+            </div>
+
+            <div class="right-w3l">
+                <input type="submit" value="登录" />
+            </div>
+            <div class="bottom-register">
+                没有账号？<a href="/register">注册</a>
+            </div>
+        </form>
+    </div>
+</div>
+
 </body>
 </html>
+
