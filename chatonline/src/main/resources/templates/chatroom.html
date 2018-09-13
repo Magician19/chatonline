@@ -1,28 +1,35 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="UTF-8"/>
     <title>Title</title>
+    <script src="http://libs.baidu.com/jquery/2.1.4/jquery.min.js"></script>
 </head>
 <body>
+
+<input id="roomId" type="hidden" th:value="${roomId}"/>
 <script type="text/javascript">
     var socket;
-    connectServer();
-    function connectServer() {
+    var roomId = $("#roomId").val();
+    console.log(roomId);
+    connectServer(roomId, roomId);
+
+    function connectServer(count, name) {
         if (!window.WebSocket) {
             window.WebSocket = window.MozWebSocket;
         }
         if (window.WebSocket) {
             socket = new WebSocket("ws://localhost:8081/ws");
-            socket.onmessage = function(event) {
+            socket.onmessage = function (event) {
                 var ta = document.getElementById('responseText');
                 ta.value = ta.value + '\n' + event.data
             };
-            socket.onopen = function(event) {
+            socket.onopen = function (event) {
                 var ta = document.getElementById('responseText');
+                socket.send("[LOGIN][" + new Date().getTime() + "][" + name + "][" + count + "]")
                 ta.value = "连接开启!";
             };
-            socket.onclose = function(event) {
+            socket.onclose = function (event) {
                 var ta = document.getElementById('responseText');
                 ta.value = ta.value + "连接被关闭";
             };
@@ -31,12 +38,14 @@
         }
     }
 
-    function send(message) {
+    function send(message, count) {
         if (!window.WebSocket) {
             return;
         }
         if (socket.readyState == WebSocket.OPEN) {
-            socket.send(message);
+            console.log("[CHAT][" + new Date().getTime() + "]" + "[" + "test" + "][" + "testpic" + "][" + message + "][" + count + "]")
+            socket.send("[CHAT][" + new Date().getTime() + "]" + "[" + "test" + "][" + "testpic" + "][" + message + "][" + count + "]");
+            // socket.send(message);
         } else {
             alert("连接没有开启.");
         }
@@ -47,8 +56,9 @@
     <h3>Netty聊天室：</h3>
     <textarea id="responseText" style="width: 500px; height: 300px;"></textarea>
     <br>
-    <input type="text" name="message"  style="width: 300px" value="聊天文字在此....">
-    <input type="button" value="发送消息" onclick="send(this.form.message.value)">
+
+    <input type="text" name="message" style="width: 300px" value="聊天文字在此....">
+    <input type="button" value="发送消息" onclick="send(this.form.message.value,roomId)">
     <input type="button" onclick="javascript:document.getElementById('responseText').value=''" value="清空聊天记录">
 </form>
 <br>
