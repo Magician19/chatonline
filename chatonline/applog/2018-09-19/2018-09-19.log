@@ -1,0 +1,119 @@
+2018-09-19 09:40:17 -Starting ChatonlineApplication on pc with PID 7680 (C:\Users\Kevin\Documents\GitHub\chatonline\chatonline\target\classes started by Kevin in C:\Users\Kevin\Documents\GitHub\chatonline\chatonline)
+2018-09-19 09:40:17 -No active profile set, falling back to default profiles: default
+2018-09-19 09:40:43 -Starting ChatonlineApplication on pc with PID 12392 (C:\Users\Kevin\Documents\GitHub\chatonline\chatonline\target\classes started by Kevin in C:\Users\Kevin\Documents\GitHub\chatonline\chatonline)
+2018-09-19 09:40:43 -No active profile set, falling back to default profiles: default
+2018-09-19 09:40:59 -Started ChatonlineApplication in 19.113 seconds (JVM running for 23.247)
+2018-09-19 09:41:16 -请求url = http://localhost:8080/
+2018-09-19 09:41:16 -所有的请求参数 key：value = []
+2018-09-19 09:41:16 -AOP afterReturn,返回值result = login
+2018-09-19 09:41:23 -请求url = http://localhost:8080/login
+2018-09-19 09:41:23 -所有的请求参数 key：value = [{"username":"magic"},{"password":"123456"}]
+2018-09-19 09:41:24 -AOP afterReturn,返回值result = index
+2018-09-19 09:41:26 -请求url = http://localhost:8080/chatroom
+2018-09-19 09:41:26 -所有的请求参数 key：value = [{"roomId":"1"}]
+2018-09-19 09:41:26 -AOP afterReturn,返回值result = chat
+2018-09-19 09:42:51 -Starting ChatonlineApplication on pc with PID 13188 (C:\Users\Kevin\Documents\GitHub\chatonline\chatonline\target\classes started by Kevin in C:\Users\Kevin\Documents\GitHub\chatonline\chatonline)
+2018-09-19 09:42:51 -No active profile set, falling back to default profiles: default
+2018-09-19 09:43:07 -Started ChatonlineApplication in 18.359 seconds (JVM running for 22.566)
+2018-09-19 09:43:28 -请求url = http://localhost:8080/chatroom
+2018-09-19 09:43:28 -所有的请求参数 key：value = [{"roomId":"1"}]
+2018-09-19 09:43:28 -AOP afterReturn,返回值result = chat
+2018-09-19 09:46:15 -Starting ChatonlineApplication on pc with PID 15304 (C:\Users\Kevin\Documents\GitHub\chatonline\chatonline\target\classes started by Kevin in C:\Users\Kevin\Documents\GitHub\chatonline\chatonline)
+2018-09-19 09:46:15 -No active profile set, falling back to default profiles: default
+2018-09-19 09:46:30 -Started ChatonlineApplication in 18.044 seconds (JVM running for 22.138)
+2018-09-19 09:46:34 -请求url = http://localhost:8080/chatroom
+2018-09-19 09:46:34 -所有的请求参数 key：value = [{"roomId":"1"}]
+2018-09-19 09:46:34 -AOP afterReturn,返回值result = chat
+2018-09-19 09:48:59 -Starting ChatonlineApplication on pc with PID 11000 (C:\Users\Kevin\Documents\GitHub\chatonline\chatonline\target\classes started by Kevin in C:\Users\Kevin\Documents\GitHub\chatonline\chatonline)
+2018-09-19 09:48:59 -No active profile set, falling back to default profiles: default
+2018-09-19 09:49:15 -Started ChatonlineApplication in 17.52 seconds (JVM running for 20.911)
+2018-09-19 09:49:25 -请求url = http://localhost:8080/chatroom
+2018-09-19 09:49:25 -所有的请求参数 key：value = [{"roomId":"1"}]
+2018-09-19 09:49:25 -AOP afterReturn,返回值result = chat
+2018-09-19 09:51:07 -Starting ChatonlineApplication on pc with PID 16400 (C:\Users\Kevin\Documents\GitHub\chatonline\chatonline\target\classes started by Kevin in C:\Users\Kevin\Documents\GitHub\chatonline\chatonline)
+2018-09-19 09:51:07 -No active profile set, falling back to default profiles: default
+2018-09-19 09:51:22 -Started ChatonlineApplication in 17.25 seconds (JVM running for 21.259)
+2018-09-19 09:51:38 -请求url = http://localhost:8080/chatroom
+2018-09-19 09:51:38 -所有的请求参数 key：value = [{"roomId":"1"}]
+2018-09-19 09:51:38 -AOP afterReturn,返回值result = chat
+2018-09-19 09:53:36 -Starting ChatonlineApplication on pc with PID 14396 (C:\Users\Kevin\Documents\GitHub\chatonline\chatonline\target\classes started by Kevin in C:\Users\Kevin\Documents\GitHub\chatonline\chatonline)
+2018-09-19 09:53:37 -No active profile set, falling back to default profiles: default
+2018-09-19 09:53:53 -Started ChatonlineApplication in 18.818 seconds (JVM running for 23.014)
+2018-09-19 09:54:05 -请求url = http://localhost:8080/chatroom
+2018-09-19 09:54:05 -所有的请求参数 key：value = [{"roomId":"1"}]
+2018-09-19 09:54:05 -AOP afterReturn,返回值result = chat
+2018-09-19 09:55:27 -Starting ChatonlineApplication on pc with PID 4212 (C:\Users\Kevin\Documents\GitHub\chatonline\chatonline\target\classes started by Kevin in C:\Users\Kevin\Documents\GitHub\chatonline\chatonline)
+2018-09-19 09:55:27 -No active profile set, falling back to default profiles: default
+2018-09-19 09:55:43 -Started ChatonlineApplication in 18.606 seconds (JVM running for 23.14)
+2018-09-19 09:55:45 -请求url = http://localhost:8080/chatroom
+2018-09-19 09:55:45 -所有的请求参数 key：value = [{"roomId":"1"}]
+2018-09-19 09:55:45 -AOP afterReturn,返回值result = chat
+2018-09-19 09:56:42 -请求url = http://localhost:8080/
+2018-09-19 09:56:42 -所有的请求参数 key：value = []
+2018-09-19 09:56:42 -AOP afterReturn,返回值result = login
+2018-09-19 09:56:46 -请求url = http://localhost:8080/login
+2018-09-19 09:56:46 -所有的请求参数 key：value = [{"username":"magic"},{"password":"123456"}]
+2018-09-19 09:56:47 -AOP afterReturn,返回值result = index
+2018-09-19 09:56:49 -请求url = http://localhost:8080/chatroom
+2018-09-19 09:56:49 -所有的请求参数 key：value = [{"roomId":"1"}]
+2018-09-19 09:56:49 -AOP afterReturn,返回值result = chat
+2018-09-19 09:57:36 -Starting ChatonlineApplication on pc with PID 15668 (C:\Users\Kevin\Documents\GitHub\chatonline\chatonline\target\classes started by Kevin in C:\Users\Kevin\Documents\GitHub\chatonline\chatonline)
+2018-09-19 09:57:37 -No active profile set, falling back to default profiles: default
+2018-09-19 09:57:53 -Started ChatonlineApplication in 18.548 seconds (JVM running for 22.914)
+2018-09-19 09:58:02 -请求url = http://localhost:8080/chatroom
+2018-09-19 09:58:02 -所有的请求参数 key：value = [{"roomId":"1"}]
+2018-09-19 09:58:02 -AOP afterReturn,返回值result = chat
+2018-09-19 09:59:00 -Starting ChatonlineApplication on pc with PID 8164 (C:\Users\Kevin\Documents\GitHub\chatonline\chatonline\target\classes started by Kevin in C:\Users\Kevin\Documents\GitHub\chatonline\chatonline)
+2018-09-19 09:59:00 -No active profile set, falling back to default profiles: default
+2018-09-19 09:59:16 -Started ChatonlineApplication in 18.856 seconds (JVM running for 23.402)
+2018-09-19 09:59:26 -请求url = http://localhost:8080/chatroom
+2018-09-19 09:59:26 -所有的请求参数 key：value = [{"roomId":"1"}]
+2018-09-19 09:59:26 -AOP afterReturn,返回值result = chat
+2018-09-19 10:00:26 -Starting ChatonlineApplication on pc with PID 14200 (C:\Users\Kevin\Documents\GitHub\chatonline\chatonline\target\classes started by Kevin in C:\Users\Kevin\Documents\GitHub\chatonline\chatonline)
+2018-09-19 10:00:26 -No active profile set, falling back to default profiles: default
+2018-09-19 10:00:43 -Started ChatonlineApplication in 19.382 seconds (JVM running for 23.859)
+2018-09-19 10:00:49 -请求url = http://localhost:8080/chatroom
+2018-09-19 10:00:49 -所有的请求参数 key：value = [{"roomId":"1"}]
+2018-09-19 10:00:49 -AOP afterReturn,返回值result = chat
+2018-09-19 10:02:32 -Starting ChatonlineApplication on pc with PID 8132 (C:\Users\Kevin\Documents\GitHub\chatonline\chatonline\target\classes started by Kevin in C:\Users\Kevin\Documents\GitHub\chatonline\chatonline)
+2018-09-19 10:02:32 -No active profile set, falling back to default profiles: default
+2018-09-19 10:02:48 -Started ChatonlineApplication in 17.91 seconds (JVM running for 21.77)
+2018-09-19 10:02:52 -请求url = http://localhost:8080/chatroom
+2018-09-19 10:02:52 -所有的请求参数 key：value = [{"roomId":"1"}]
+2018-09-19 10:02:52 -AOP afterReturn,返回值result = chat
+2018-09-19 10:03:44 -Starting ChatonlineApplication on pc with PID 12820 (C:\Users\Kevin\Documents\GitHub\chatonline\chatonline\target\classes started by Kevin in C:\Users\Kevin\Documents\GitHub\chatonline\chatonline)
+2018-09-19 10:03:44 -No active profile set, falling back to default profiles: default
+2018-09-19 10:04:00 -Started ChatonlineApplication in 17.683 seconds (JVM running for 21.522)
+2018-09-19 10:04:06 -请求url = http://localhost:8080/chatroom
+2018-09-19 10:04:06 -所有的请求参数 key：value = [{"roomId":"1"}]
+2018-09-19 10:04:06 -AOP afterReturn,返回值result = chat
+2018-09-19 10:04:20 -请求url = http://localhost:8080/chatroom
+2018-09-19 10:04:20 -所有的请求参数 key：value = [{"roomId":"1"}]
+2018-09-19 10:04:20 -AOP afterReturn,返回值result = chat
+2018-09-19 10:04:25 -请求url = http://localhost:8080/chatroom
+2018-09-19 10:04:25 -所有的请求参数 key：value = [{"roomId":"1"}]
+2018-09-19 10:04:25 -AOP afterReturn,返回值result = chat
+2018-09-19 10:04:28 -请求url = http://localhost:8080/chatroom
+2018-09-19 10:04:28 -所有的请求参数 key：value = [{"roomId":"1"}]
+2018-09-19 10:04:28 -AOP afterReturn,返回值result = chat
+2018-09-19 10:04:31 -请求url = http://localhost:8080/chatroom
+2018-09-19 10:04:31 -所有的请求参数 key：value = [{"roomId":"1"}]
+2018-09-19 10:04:31 -AOP afterReturn,返回值result = chat
+2018-09-19 10:18:12 -Starting ChatonlineApplication on pc with PID 5428 (C:\Users\Kevin\Documents\GitHub\chatonline\chatonline\target\classes started by Kevin in C:\Users\Kevin\Documents\GitHub\chatonline\chatonline)
+2018-09-19 10:18:12 -No active profile set, falling back to default profiles: default
+2018-09-19 10:18:28 -Started ChatonlineApplication in 18.188 seconds (JVM running for 22.457)
+2018-09-19 10:18:46 -请求url = http://localhost:8080/chatroom
+2018-09-19 10:18:46 -所有的请求参数 key：value = [{"roomId":"1"}]
+2018-09-19 10:18:46 -AOP afterReturn,返回值result = chat
+2018-09-19 10:31:18 -Starting ChatonlineApplication on pc with PID 15424 (C:\Users\Kevin\Documents\GitHub\chatonline\chatonline\target\classes started by Kevin in C:\Users\Kevin\Documents\GitHub\chatonline\chatonline)
+2018-09-19 10:31:18 -No active profile set, falling back to default profiles: default
+2018-09-19 10:31:34 -Started ChatonlineApplication in 18.241 seconds (JVM running for 22.434)
+2018-09-19 10:31:41 -请求url = http://localhost:8080/chatroom
+2018-09-19 10:31:41 -所有的请求参数 key：value = [{"roomId":"1"}]
+2018-09-19 10:31:41 -AOP afterReturn,返回值result = chat
+2018-09-19 10:32:01 -请求url = http://localhost:8080/chatroom
+2018-09-19 10:32:01 -所有的请求参数 key：value = [{"roomId":"1"}]
+2018-09-19 10:32:01 -AOP afterReturn,返回值result = chat
+2018-09-19 10:37:37 -Starting ChatonlineApplication on pc with PID 6064 (C:\Users\Kevin\Documents\GitHub\chatonline\chatonline\target\classes started by Kevin in C:\Users\Kevin\Documents\GitHub\chatonline\chatonline)
+2018-09-19 10:37:37 -No active profile set, falling back to default profiles: default
+2018-09-19 10:37:53 -Started ChatonlineApplication in 18.023 seconds (JVM running for 21.998)

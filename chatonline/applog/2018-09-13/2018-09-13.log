@@ -21,3 +21,4 @@
 2018-09-13 09:40:45 -AOP afterReturn,返回值result = chatroom
 2018-09-13 09:44:45 -Starting ChatonlineApplication on pc with PID 1848 (C:\Users\Kevin\Documents\GitHub\chatonline\chatonline\target\classes started by Kevin in C:\Users\Kevin\Documents\GitHub\chatonline\chatonline)
 2018-09-13 09:44:45 -No active profile set, falling back to default profiles: default
+2018-09-13 09:45:02 -Started ChatonlineApplication in 18.547 seconds (JVM running for 23.51)

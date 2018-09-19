@@ -37,7 +37,8 @@ public class BaseController {
     @RequestMapping("/chatroom")
     public String Chatroom(String roomId, Model model) {
         model.addAttribute("roomId",roomId);
-        return "chatroom";
+        model.addAttribute("username","magic");
+        return "chat";
     }
 
     @RequestMapping("/registerFinish")
