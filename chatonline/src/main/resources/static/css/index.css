@@ -1,0 +1,10 @@
+#header {
+    display: inline;
+}
+ul {
+    display: inline;
+}
+
+ul li {
+    float: right;
+}
