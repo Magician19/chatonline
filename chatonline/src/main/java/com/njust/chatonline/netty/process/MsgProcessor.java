@@ -43,6 +43,7 @@ public class MsgProcessor {
 
         //获取消息发送者
         String username = request.getSender();
+        System.out.println(username);
         String roomId = request.getRoomId();
         //判断如果是登录动作，就往onlineUsers中加入一条数据
         if (IMP.LOGIN.getName().equals(request.getCmd())) {

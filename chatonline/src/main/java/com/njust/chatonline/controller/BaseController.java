@@ -43,7 +43,7 @@ public class BaseController {
     @RequestMapping("/chatroom")
     public String Chatroom(String roomId, String password, String username, Model model) {
         Room room = roomService.getRoomById(Integer.valueOf(roomId));
-        if (room.getPassword().equals(password) || room.getPassword() == null || room.getPassword() == "") {
+        if ( room.getPassword() == null || room.getPassword() == "" || room.getPassword().equals(password) ) {
             model.addAttribute("roomId", roomId);
             model.addAttribute("username", username);
             return "chat";
@@ -73,7 +73,10 @@ public class BaseController {
     }
 
     @RequestMapping("/index")
-    public String index() {
+    public String index(Model model) {
+        List<Room> rooms = roomService.getAllRoom();
+        System.out.println(rooms.size());
+        model.addAttribute("rooms",rooms);
         return "index";
     }
 

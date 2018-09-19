@@ -6,7 +6,7 @@ spring:
         mode: LEGACYHTML5
     datasource:
         name: test
-        url: jdbc:mysql://47.100.58.159:3306/chatonline?useUnicode=true&characterEncoding=UTF-8&allowMultiQueries=true
+        url: jdbc:mysql://47.100.58.159:3306/chatonline?useUnicode=true&characterEncoding=UTF-8&allowMultiQueries=true&useSSL=true
         username: root
         password: 123456
         # 使用druid数据源

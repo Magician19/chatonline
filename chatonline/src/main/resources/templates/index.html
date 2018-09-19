@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8"/>
     <title>hall</title>
@@ -8,5 +8,13 @@
 hello world!
 <a href="/chatroom?roomId=1">进入聊天室1</a>
 <a href="/chatroom?roomId=2">进入聊天室2</a>
+
+<div>
+    <ul>
+        <li  th:each="room:${rooms}">
+            <span th:text="${room.roomid}"></span>
+        </li>
+    </ul>
+</div>
 </body>
 </html>
