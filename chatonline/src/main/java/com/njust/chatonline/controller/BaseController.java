@@ -55,6 +55,18 @@ public class BaseController {
         return "index";
     }
 
+    @RequestMapping("/enterChatroom")
+    @ResponseBody
+    public String EnterChatroom(String roomId, String password, String username, Model model) {
+        Room room = roomService.getRoomById(Integer.valueOf(roomId));
+        if ( room.getPassword() == null || room.getPassword() == "" || room.getPassword().equals(password) ) {
+            model.addAttribute("roomId", roomId);
+            model.addAttribute("username", username);
+            roomService.addNum(Integer.valueOf(roomId));
+            return "chat";
+        }
+        return "index";
+    }
     @RequestMapping("/exitChatroom")
     public String ExitChatroom(String roomId,Model model,String username) {
         roomService.subNum(Integer.valueOf(roomId));

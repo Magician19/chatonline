@@ -22,10 +22,9 @@
   </delete>
   <insert id="insert" parameterType="com.njust.chatonline.entity.Room" useGeneratedKeys="true" keyProperty="roomid"
           keyColumn="roomid">
-    insert into room (roomId, password, createTime, 
-      number)
-    values (#{roomid,jdbcType=INTEGER}, #{password,jdbcType=VARCHAR}, #{createtime,jdbcType=TIMESTAMP}, 
-      #{number,jdbcType=INTEGER})
+    insert into room ( password
+     )
+    values ( #{password,jdbcType=VARCHAR})
   </insert>
   <insert id="insertSelective" parameterType="com.njust.chatonline.entity.Room" >
     insert into room
