@@ -477,7 +477,8 @@
 	.wrapper.style1 {
 		padding-top: 10em;
 		padding-bottom: 2em;
-		background: url(../../images/bg.jpg) no-repeat center top;
+		/*background: url(../../images/bg.jpg) no-repeat center top;*/
+		background-color: #FFFFFF;
 		background-size: cover;
 		background-attachment: fixed;
 		-webkit-backface-visibility: hidden;
@@ -497,7 +498,7 @@
 		top: 0;
 		left: 0;
 		width: 100%;
-		background: #0F1116;
+		background: #01AAED;
 		color: #fff;
 		padding: 1.25em 1.25em 1.25em 1.25em;
 		z-index: 100;
@@ -617,6 +618,7 @@
 	.box {
 		padding: 3em 2em;
 		background: #FFF;
+		/*border: 3px solid #0C0C0C;*/
 		text-align: center;
 		border-radius: 0px 0px 6px 6px;
 	}

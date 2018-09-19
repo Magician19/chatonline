@@ -55,6 +55,29 @@
                 }
             }
         });
+        
+        function createRoom() {
+            var username = $("#username").val();
+            var password = prompt("请输入房间密码(可为空)");
+           // alert(password);
+            if (password != null || password != undefined) {
+                $.ajax({
+                    type: "GET",
+                    url: "http://localhost:8080/insertRoom",
+                    data: {password:password},
+                    success: function (data) {
+                        if (data != null) {
+                            var roomId = data;
+                            alert(username + password + data);
+                            window.location.href = "http://localhost:8080/chatroom?roomId="+roomId+"&password="+password+"&username="+username;
+                        }
+                    }
+                });
+            }
+
+        }
+
+
     </script>
 
 
@@ -65,7 +88,7 @@
 <div class="wrapper style1">
 
     <!-- Header -->
-    <div id="header" class="skel-panels-fixed">
+    <div id="header" class="skel-panels-fixed" >
         <div id="logo">
             <h1><a href="index.html">聊天大厅</a></h1>
         </div>
@@ -81,42 +104,40 @@
     <!-- Banner -->
     <div id="banner" class="container">
         <section>
-            <a href="#" class="button medium">创建房间</a>
+            <a href="#" class="button medium" onclick="createRoom()">创建房间</a>
         </section>
     </div>
 
     <!-- Extra -->
     <div id="extra">
-        <div class="container">
-            <!--<div class="row no-collapse-1">-->
-            <!--<section class="4u"> <a href="#" class="image featured"><img src="images/pic01.jpg" alt=""></a>-->
-            <!--<div class="box">-->
-            <!--<p>房间号：1</p>-->
-            <!--<a href="#" class="button">加入聊天</a>-->
+        <!--<div class="container">-->
+            <!--<div class="row no-collapse-1" th:each="room:${rooms}">-->
+                <!--<section class="4u"> <a href="#" class="image featured"><img src="###" alt=""></a>-->
+                    <!--<div class="box">-->
+                        <!--<p th:text="${room.roomid}"></p>-->
+                        <!--<a href="#" class="button">加入聊天</a>-->
+                    <!--</div>-->
+                <!--</section>-->
             <!--</div>-->
-            <!--</section>-->
-            <!--<section class="4u"> <a href="#" class="image featured"><img src="images/pic02.jpg" alt=""></a>-->
-            <!--<div class="box">-->
-            <!--<p>房间号：1</p>-->
-            <!--<a href="#" class="button">加入聊天</a> </div>-->
-            <!--</section>-->
-            <!--<section class="4u"> <a href="#" class="image featured"><img src="images/pic02.jpg" alt=""></a>-->
-            <!--<div class="box">-->
-            <!--<p>房间号：1</p>-->
-            <!--<a href="#" class="button">加入聊天</a> </div>-->
-            <!--</section>-->
-
-            <!--</div>-->
-            <div class="row no-collapse-1" th:each="room:${rooms}">
-                <section class="4u"> <a href="#" class="image featured"><img src="###" alt=""></a>
+        <!--</div>-->
+        <div class="container" >
+            <input id="username" type="hidden" th:value="${username}"/>
+            <div class="row no-collapse-1" >
+                <section class="4u" th:each="room, roomStat:${rooms}"> <a href="#" class="image featured"><img class="roomPic" alt=""></a>
                     <div class="box">
-                        <p th:text="${room.roomid}"></p>
-                        <a href="#" class="button">加入聊天</a>
+                        <p>
+                            <span>房间号:</span><span th:text="${room.roomid}"></span><br/>
+                            <span>在线人数:</span><span th:text="${room.number}"></span>
+                        </p>
+                        <a href="#" class="button" th:onclick="'javascript:intoRoom('+${room.roomid}+','+${room.password}+')'">加入聊天</a>
+                    </div>
+                    <div disabled="true">
+                       <br/>
                     </div>
                 </section>
+
+
             </div>
-
-
         </div>
     </div>
 
@@ -124,4 +145,52 @@
 
 
 </body>
+<script>
+
+    var pics = document.getElementsByClassName("roomPic");
+    var imgArr = ["./images/pic01.jpg", "./images/pic02.jpg", "./images/pic03.jpg"];
+
+    for (var i in pics) {
+        var index = Math.floor((Math.random()*imgArr.length));//随机下标，保证随机的数字在数组中能取到
+        var imgSrc = imgArr[index];//随机获取的图片路径
+        pics[i].setAttribute('src',imgSrc);//设置src属性
+    }
+
+    function intoRoom(roomId, password ) {
+        //var roomId = $("#roomId").val();
+        //var password = $("#password").val();
+        var username = $("#username").val();
+
+        //alert(room);
+
+        //alert(roomId + ", " + password + username);
+        var dataJson = {
+            "roomId":roomId,
+            "password":password,
+            "username":username
+        };
+        if (password != "" && password != null) {
+            var pwd = prompt("请输入房间密码");
+            $.ajax({
+                type: "GET",
+                url: "http://localhost:8080/enterChatroom",
+                data: dataJson,
+                success: function (data) {
+
+                    if (data != null) {
+
+                        var url = "http://localhost:8080/chatroom?roomId="+roomId+"&password="+password+"&username="+username;
+                        window.location.href = url;
+                    }
+                }
+            })
+        }
+        else {
+            var password = "";
+            var url = "http://localhost:8080/chatroom?roomId="+roomId+"&password="+password+"&username="+username;
+            window.location.href = url;
+            //window.location.href = "http://localhost:8080/chatroom?roomId=1&password=&username=一回";
+        }
+    }
+</script>
 </html>

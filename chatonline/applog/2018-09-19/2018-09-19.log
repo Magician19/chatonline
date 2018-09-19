@@ -800,3 +800,1214 @@
 2018-09-19 21:28:31 -==>  Preparing: select roomId, password, createTime, number from room where roomId = ? 
 2018-09-19 21:28:31 -==> Parameters: 4(Integer)
 2018-09-19 21:28:31 -<==      Total: 0
+2018-09-19 21:35:19 -Starting ChatonlineApplication on yihui-computer with PID 20504 (/home/yihui/chatonline/chatonline/target/classes started by yihui in /home/yihui/chatonline/chatonline)
+2018-09-19 21:35:19 -Running with Spring Boot v1.5.15.RELEASE, Spring v4.3.18.RELEASE
+2018-09-19 21:35:19 -No active profile set, falling back to default profiles: default
+2018-09-19 21:35:22 -Started ChatonlineApplication in 3.215 seconds (JVM running for 3.701)
+2018-09-19 21:35:28 -请求url = http://localhost:8080/login
+2018-09-19 21:35:28 -所有的请求参数 key：value = [{"username":"一回"},{"password":"123456"}]
+2018-09-19 21:35:28 -==>  Preparing: select * from user where username = ?; 
+2018-09-19 21:35:28 -==> Parameters: 一回(String)
+2018-09-19 21:35:29 -<==      Total: 1
+2018-09-19 21:35:29 -==>  Preparing: select * from room 
+2018-09-19 21:35:29 -==> Parameters: 
+2018-09-19 21:35:29 -<==      Total: 25
+2018-09-19 21:35:29 -AOP afterReturn,返回值result = index
+2018-09-19 21:35:38 -请求url = http://localhost:8080/
+2018-09-19 21:35:38 -所有的请求参数 key：value = []
+2018-09-19 21:35:38 -AOP afterReturn,返回值result = login
+2018-09-19 21:35:39 -请求url = http://localhost:8080/login
+2018-09-19 21:35:39 -所有的请求参数 key：value = [{"username":"一回"},{"password":"123456"}]
+2018-09-19 21:35:39 -==>  Preparing: select * from user where username = ?; 
+2018-09-19 21:35:39 -==> Parameters: 一回(String)
+2018-09-19 21:35:39 -<==      Total: 1
+2018-09-19 21:35:39 -==>  Preparing: select * from room 
+2018-09-19 21:35:39 -==> Parameters: 
+2018-09-19 21:35:40 -<==      Total: 25
+2018-09-19 21:35:40 -AOP afterReturn,返回值result = index
+2018-09-19 21:35:45 -请求url = http://localhost:8080/insertRoom
+2018-09-19 21:35:45 -所有的请求参数 key：value = [{"password":"1"}]
+2018-09-19 21:35:45 -==>  Preparing: insert into room (roomId, password, createTime, number) values (?, ?, ?, ?) 
+2018-09-19 21:35:45 -==> Parameters: null, 1(String), null, null
+2018-09-19 21:35:45 -<==    Updates: 1
+2018-09-19 21:35:45 -AOP afterReturn,返回值result = 29
+2018-09-19 21:35:45 -请求url = http://localhost:8080/chatroom
+2018-09-19 21:35:45 -所有的请求参数 key：value = [{"roomId":"1"},{"password":""},{"username":"一回"}]
+2018-09-19 21:35:45 -==>  Preparing: select roomId, password, createTime, number from room where roomId = ? 
+2018-09-19 21:35:45 -==> Parameters: 1(Integer)
+2018-09-19 21:35:45 -<==      Total: 1
+2018-09-19 21:35:45 -AOP afterReturn,返回值result = index
+2018-09-19 21:39:56 -Starting ChatonlineApplication on yihui-computer with PID 20792 (/home/yihui/chatonline/chatonline/target/classes started by yihui in /home/yihui/chatonline/chatonline)
+2018-09-19 21:39:56 -Running with Spring Boot v1.5.15.RELEASE, Spring v4.3.18.RELEASE
+2018-09-19 21:39:56 -No active profile set, falling back to default profiles: default
+2018-09-19 21:39:59 -Started ChatonlineApplication in 4.219 seconds (JVM running for 4.99)
+2018-09-19 21:42:03 -Starting ChatonlineApplication on yihui-computer with PID 20980 (/home/yihui/chatonline/chatonline/target/classes started by yihui in /home/yihui/chatonline/chatonline)
+2018-09-19 21:42:03 -Running with Spring Boot v1.5.15.RELEASE, Spring v4.3.18.RELEASE
+2018-09-19 21:42:03 -No active profile set, falling back to default profiles: default
+2018-09-19 21:42:07 -Started ChatonlineApplication in 4.162 seconds (JVM running for 4.79)
+2018-09-19 21:42:15 -请求url = http://localhost:8080/login
+2018-09-19 21:42:15 -所有的请求参数 key：value = [{"username":"一回"},{"password":"123456"}]
+2018-09-19 21:42:16 -==>  Preparing: select * from user where username = ?; 
+2018-09-19 21:42:16 -==> Parameters: 一回(String)
+2018-09-19 21:42:16 -<==      Total: 1
+2018-09-19 21:42:16 -==>  Preparing: select * from room 
+2018-09-19 21:42:16 -==> Parameters: 
+2018-09-19 21:42:16 -<==      Total: 26
+2018-09-19 21:42:16 -AOP afterReturn,返回值result = index
+2018-09-19 21:44:35 -Starting ChatonlineApplication on yihui-computer with PID 21286 (/home/yihui/chatonline/chatonline/target/classes started by yihui in /home/yihui/chatonline/chatonline)
+2018-09-19 21:44:35 -Running with Spring Boot v1.5.15.RELEASE, Spring v4.3.18.RELEASE
+2018-09-19 21:44:35 -No active profile set, falling back to default profiles: default
+2018-09-19 21:44:38 -Started ChatonlineApplication in 3.283 seconds (JVM running for 4.029)
+2018-09-19 21:45:02 -请求url = http://localhost:8080/login
+2018-09-19 21:45:02 -所有的请求参数 key：value = [{"username":"一回"},{"password":"123456"}]
+2018-09-19 21:45:03 -==>  Preparing: select * from user where username = ?; 
+2018-09-19 21:45:03 -==> Parameters: 一回(String)
+2018-09-19 21:45:03 -<==      Total: 1
+2018-09-19 21:45:03 -==>  Preparing: select * from room 
+2018-09-19 21:45:03 -==> Parameters: 
+2018-09-19 21:45:03 -<==      Total: 26
+2018-09-19 21:45:03 -AOP afterReturn,返回值result = index
+2018-09-19 21:45:57 -请求url = http://localhost:8080/enterChatroom
+2018-09-19 21:45:57 -所有的请求参数 key：value = [{"roomId":"1"},{"password":"1"},{"username":"一回"}]
+2018-09-19 21:45:57 -==>  Preparing: select roomId, password, createTime, number from room where roomId = ? 
+2018-09-19 21:45:57 -==> Parameters: 1(Integer)
+2018-09-19 21:45:57 -<==      Total: 1
+2018-09-19 21:45:57 -==>  Preparing: select roomId, password, createTime, number from room where roomId = ? 
+2018-09-19 21:45:57 -==> Parameters: 1(Integer)
+2018-09-19 21:45:57 -<==      Total: 1
+2018-09-19 21:45:57 -==>  Preparing: update room set password = ?, createTime = ?, number = ? where roomId = ? 
+2018-09-19 21:45:57 -==> Parameters: 1(String), 2018-09-19 20:17:46.0(Timestamp), 2(Integer), 1(Integer)
+2018-09-19 21:45:57 -<==    Updates: 1
+2018-09-19 21:45:57 -AOP afterReturn,返回值result = chat
+2018-09-19 21:46:19 -Starting ChatonlineApplication on yihui-computer with PID 21455 (/home/yihui/chatonline/chatonline/target/classes started by yihui in /home/yihui/chatonline/chatonline)
+2018-09-19 21:46:19 -Running with Spring Boot v1.5.15.RELEASE, Spring v4.3.18.RELEASE
+2018-09-19 21:46:19 -No active profile set, falling back to default profiles: default
+2018-09-19 21:46:22 -Started ChatonlineApplication in 3.928 seconds (JVM running for 4.641)
+2018-09-19 21:46:28 -请求url = http://localhost:8080/login
+2018-09-19 21:46:28 -所有的请求参数 key：value = [{"username":"一回"},{"password":"123456"}]
+2018-09-19 21:46:28 -==>  Preparing: select * from user where username = ?; 
+2018-09-19 21:46:29 -==> Parameters: 一回(String)
+2018-09-19 21:46:29 -<==      Total: 1
+2018-09-19 21:46:29 -==>  Preparing: select * from room 
+2018-09-19 21:46:29 -==> Parameters: 
+2018-09-19 21:46:29 -<==      Total: 26
+2018-09-19 21:46:29 -AOP afterReturn,返回值result = index
+2018-09-19 21:46:34 -请求url = http://localhost:8080/enterChatroom
+2018-09-19 21:46:34 -所有的请求参数 key：value = [{"roomId":"1"},{"password":"1"},{"username":"一回"}]
+2018-09-19 21:46:34 -==>  Preparing: select roomId, password, createTime, number from room where roomId = ? 
+2018-09-19 21:46:34 -==> Parameters: 1(Integer)
+2018-09-19 21:46:34 -<==      Total: 1
+2018-09-19 21:46:34 -==>  Preparing: select roomId, password, createTime, number from room where roomId = ? 
+2018-09-19 21:46:34 -==> Parameters: 1(Integer)
+2018-09-19 21:46:34 -<==      Total: 1
+2018-09-19 21:46:34 -==>  Preparing: update room set password = ?, createTime = ?, number = ? where roomId = ? 
+2018-09-19 21:46:34 -==> Parameters: 1(String), 2018-09-19 20:17:46.0(Timestamp), 3(Integer), 1(Integer)
+2018-09-19 21:46:34 -<==    Updates: 1
+2018-09-19 21:46:34 -AOP afterReturn,返回值result = chat
+2018-09-19 21:46:36 -请求url = http://localhost:8080/chatroom
+2018-09-19 21:46:36 -所有的请求参数 key：value = [{"roomId":"1"},{"password":""},{"username":"一回"}]
+2018-09-19 21:46:36 -==>  Preparing: select roomId, password, createTime, number from room where roomId = ? 
+2018-09-19 21:46:36 -==> Parameters: 1(Integer)
+2018-09-19 21:46:36 -<==      Total: 1
+2018-09-19 21:46:36 -AOP afterReturn,返回值result = index
+2018-09-19 21:46:52 -请求url = http://localhost:8080/chatroom
+2018-09-19 21:46:52 -所有的请求参数 key：value = [{"roomId":"1"},{"password":""},{"username":"一回"}]
+2018-09-19 21:46:52 -==>  Preparing: select roomId, password, createTime, number from room where roomId = ? 
+2018-09-19 21:46:52 -==> Parameters: 1(Integer)
+2018-09-19 21:46:52 -<==      Total: 1
+2018-09-19 21:46:52 -AOP afterReturn,返回值result = index
+2018-09-19 21:47:21 -请求url = http://localhost:8080/chatroom
+2018-09-19 21:47:21 -所有的请求参数 key：value = [{"roomId":"1"},{"password":"1"},{"username":"一回"}]
+2018-09-19 21:47:21 -==>  Preparing: select roomId, password, createTime, number from room where roomId = ? 
+2018-09-19 21:47:21 -==> Parameters: 1(Integer)
+2018-09-19 21:47:21 -<==      Total: 1
+2018-09-19 21:47:21 -==>  Preparing: select roomId, password, createTime, number from room where roomId = ? 
+2018-09-19 21:47:21 -==> Parameters: 1(Integer)
+2018-09-19 21:47:21 -<==      Total: 1
+2018-09-19 21:47:21 -==>  Preparing: update room set password = ?, createTime = ?, number = ? where roomId = ? 
+2018-09-19 21:47:21 -==> Parameters: 1(String), 2018-09-19 20:17:46.0(Timestamp), 4(Integer), 1(Integer)
+2018-09-19 21:47:21 -<==    Updates: 1
+2018-09-19 21:47:21 -AOP afterReturn,返回值result = chat
+2018-09-19 21:47:38 -请求url = http://localhost:8080/login
+2018-09-19 21:47:38 -所有的请求参数 key：value = [{"username":"一回"},{"password":"123456"}]
+2018-09-19 21:47:38 -==>  Preparing: select * from user where username = ?; 
+2018-09-19 21:47:38 -==> Parameters: 一回(String)
+2018-09-19 21:47:38 -<==      Total: 1
+2018-09-19 21:47:38 -==>  Preparing: select * from room 
+2018-09-19 21:47:38 -==> Parameters: 
+2018-09-19 21:47:38 -<==      Total: 26
+2018-09-19 21:47:38 -AOP afterReturn,返回值result = index
+2018-09-19 21:47:43 -请求url = http://localhost:8080/enterChatroom
+2018-09-19 21:47:43 -所有的请求参数 key：value = [{"roomId":"1"},{"password":"1"},{"username":"一回"}]
+2018-09-19 21:47:43 -==>  Preparing: select roomId, password, createTime, number from room where roomId = ? 
+2018-09-19 21:47:43 -==> Parameters: 1(Integer)
+2018-09-19 21:47:43 -<==      Total: 1
+2018-09-19 21:47:43 -==>  Preparing: select roomId, password, createTime, number from room where roomId = ? 
+2018-09-19 21:47:43 -==> Parameters: 1(Integer)
+2018-09-19 21:47:43 -<==      Total: 1
+2018-09-19 21:47:43 -==>  Preparing: update room set password = ?, createTime = ?, number = ? where roomId = ? 
+2018-09-19 21:47:43 -==> Parameters: 1(String), 2018-09-19 20:17:46.0(Timestamp), 5(Integer), 1(Integer)
+2018-09-19 21:47:43 -<==    Updates: 1
+2018-09-19 21:47:43 -AOP afterReturn,返回值result = chat
+2018-09-19 21:47:44 -请求url = http://localhost:8080/chatroom
+2018-09-19 21:47:44 -所有的请求参数 key：value = [{"roomId":"1"},{"password":""},{"username":"一回"}]
+2018-09-19 21:47:44 -==>  Preparing: select roomId, password, createTime, number from room where roomId = ? 
+2018-09-19 21:47:44 -==> Parameters: 1(Integer)
+2018-09-19 21:47:44 -<==      Total: 1
+2018-09-19 21:47:44 -AOP afterReturn,返回值result = index
+2018-09-19 21:57:01 -Starting ChatonlineApplication on yihui-computer with PID 22029 (/home/yihui/chatonline/chatonline/target/classes started by yihui in /home/yihui/chatonline/chatonline)
+2018-09-19 21:57:01 -Running with Spring Boot v1.5.15.RELEASE, Spring v4.3.18.RELEASE
+2018-09-19 21:57:01 -No active profile set, falling back to default profiles: default
+2018-09-19 21:57:05 -Started ChatonlineApplication in 4.171 seconds (JVM running for 4.705)
+2018-09-19 21:57:10 -请求url = http://localhost:8080/login
+2018-09-19 21:57:10 -所有的请求参数 key：value = [{"username":"一回"},{"password":"123456"}]
+2018-09-19 21:57:11 -==>  Preparing: select * from user where username = ?; 
+2018-09-19 21:57:11 -==> Parameters: 一回(String)
+2018-09-19 21:57:11 -<==      Total: 1
+2018-09-19 21:57:11 -==>  Preparing: select * from room 
+2018-09-19 21:57:11 -==> Parameters: 
+2018-09-19 21:57:11 -<==      Total: 26
+2018-09-19 21:57:11 -AOP afterReturn,返回值result = index
+2018-09-19 21:59:54 -Starting ChatonlineApplication on yihui-computer with PID 22247 (/home/yihui/chatonline/chatonline/target/classes started by yihui in /home/yihui/chatonline/chatonline)
+2018-09-19 21:59:54 -Running with Spring Boot v1.5.15.RELEASE, Spring v4.3.18.RELEASE
+2018-09-19 21:59:54 -No active profile set, falling back to default profiles: default
+2018-09-19 21:59:58 -Started ChatonlineApplication in 4.767 seconds (JVM running for 5.848)
+2018-09-19 22:00:09 -请求url = http://localhost:8080/login
+2018-09-19 22:00:09 -所有的请求参数 key：value = [{"username":"一回"},{"password":"123456"}]
+2018-09-19 22:00:10 -==>  Preparing: select * from user where username = ?; 
+2018-09-19 22:00:10 -==> Parameters: 一回(String)
+2018-09-19 22:00:10 -<==      Total: 1
+2018-09-19 22:00:10 -==>  Preparing: select * from room 
+2018-09-19 22:00:10 -==> Parameters: 
+2018-09-19 22:00:10 -<==      Total: 26
+2018-09-19 22:00:10 -AOP afterReturn,返回值result = index
+2018-09-19 22:00:15 -请求url = http://localhost:8080/
+2018-09-19 22:00:15 -所有的请求参数 key：value = []
+2018-09-19 22:00:15 -AOP afterReturn,返回值result = login
+2018-09-19 22:00:17 -请求url = http://localhost:8080/login
+2018-09-19 22:00:17 -所有的请求参数 key：value = [{"username":"一回"},{"password":"123456"}]
+2018-09-19 22:00:17 -==>  Preparing: select * from user where username = ?; 
+2018-09-19 22:00:17 -==> Parameters: 一回(String)
+2018-09-19 22:00:17 -<==      Total: 1
+2018-09-19 22:00:17 -==>  Preparing: select * from room 
+2018-09-19 22:00:17 -==> Parameters: 
+2018-09-19 22:00:17 -<==      Total: 26
+2018-09-19 22:00:17 -AOP afterReturn,返回值result = index
+2018-09-19 22:00:45 -Starting ChatonlineApplication on yihui-computer with PID 22417 (/home/yihui/chatonline/chatonline/target/classes started by yihui in /home/yihui/chatonline/chatonline)
+2018-09-19 22:00:45 -Running with Spring Boot v1.5.15.RELEASE, Spring v4.3.18.RELEASE
+2018-09-19 22:00:45 -No active profile set, falling back to default profiles: default
+2018-09-19 22:00:49 -Started ChatonlineApplication in 4.237 seconds (JVM running for 5.039)
+2018-09-19 22:00:51 -请求url = http://localhost:8080/login
+2018-09-19 22:00:51 -所有的请求参数 key：value = [{"username":"一回"},{"password":"123456"}]
+2018-09-19 22:00:52 -==>  Preparing: select * from user where username = ?; 
+2018-09-19 22:00:52 -==> Parameters: 一回(String)
+2018-09-19 22:00:52 -<==      Total: 1
+2018-09-19 22:00:52 -==>  Preparing: select * from room 
+2018-09-19 22:00:52 -==> Parameters: 
+2018-09-19 22:00:52 -<==      Total: 26
+2018-09-19 22:00:52 -AOP afterReturn,返回值result = index
+2018-09-19 22:01:04 -请求url = http://localhost:8080/login
+2018-09-19 22:01:04 -所有的请求参数 key：value = [{"username":"一回"},{"password":"123456"}]
+2018-09-19 22:01:04 -==>  Preparing: select * from user where username = ?; 
+2018-09-19 22:01:04 -==> Parameters: 一回(String)
+2018-09-19 22:01:04 -<==      Total: 1
+2018-09-19 22:01:04 -==>  Preparing: select * from room 
+2018-09-19 22:01:04 -==> Parameters: 
+2018-09-19 22:01:04 -<==      Total: 26
+2018-09-19 22:01:04 -AOP afterReturn,返回值result = index
+2018-09-19 22:01:07 -请求url = http://localhost:8080/
+2018-09-19 22:01:07 -所有的请求参数 key：value = []
+2018-09-19 22:01:07 -AOP afterReturn,返回值result = login
+2018-09-19 22:01:09 -请求url = http://localhost:8080/login
+2018-09-19 22:01:09 -所有的请求参数 key：value = [{"username":"一回"},{"password":"123456"}]
+2018-09-19 22:01:09 -==>  Preparing: select * from user where username = ?; 
+2018-09-19 22:01:09 -==> Parameters: 一回(String)
+2018-09-19 22:01:09 -<==      Total: 1
+2018-09-19 22:01:09 -==>  Preparing: select * from room 
+2018-09-19 22:01:09 -==> Parameters: 
+2018-09-19 22:01:09 -<==      Total: 26
+2018-09-19 22:01:09 -AOP afterReturn,返回值result = index
+2018-09-19 22:01:45 -Starting ChatonlineApplication on yihui-computer with PID 22663 (/home/yihui/chatonline/chatonline/target/classes started by yihui in /home/yihui/chatonline/chatonline)
+2018-09-19 22:01:45 -Running with Spring Boot v1.5.15.RELEASE, Spring v4.3.18.RELEASE
+2018-09-19 22:01:45 -No active profile set, falling back to default profiles: default
+2018-09-19 22:01:49 -Started ChatonlineApplication in 4.947 seconds (JVM running for 5.557)
+2018-09-19 22:01:52 -请求url = http://localhost:8080/login
+2018-09-19 22:01:52 -所有的请求参数 key：value = [{"username":"一回"},{"password":"123456"}]
+2018-09-19 22:01:52 -==>  Preparing: select * from user where username = ?; 
+2018-09-19 22:01:52 -==> Parameters: 一回(String)
+2018-09-19 22:01:52 -<==      Total: 1
+2018-09-19 22:01:52 -==>  Preparing: select * from room 
+2018-09-19 22:01:52 -==> Parameters: 
+2018-09-19 22:01:52 -<==      Total: 26
+2018-09-19 22:01:52 -AOP afterReturn,返回值result = index
+2018-09-19 22:02:05 -请求url = http://localhost:8080/insertRoom
+2018-09-19 22:02:05 -所有的请求参数 key：value = [{"password":""}]
+2018-09-19 22:02:05 -==>  Preparing: insert into room (roomId, password, createTime, number) values (?, ?, ?, ?) 
+2018-09-19 22:02:05 -==> Parameters: null, (String), null, null
+2018-09-19 22:02:05 -<==    Updates: 1
+2018-09-19 22:02:05 -AOP afterReturn,返回值result = 30
+2018-09-19 22:02:05 -请求url = http://localhost:8080/chatroom
+2018-09-19 22:02:05 -所有的请求参数 key：value = [{"roomId":"1"},{"password":""},{"username":"一回"}]
+2018-09-19 22:02:05 -==>  Preparing: select roomId, password, createTime, number from room where roomId = ? 
+2018-09-19 22:02:05 -==> Parameters: 1(Integer)
+2018-09-19 22:02:05 -<==      Total: 1
+2018-09-19 22:02:05 -AOP afterReturn,返回值result = index
+2018-09-19 22:02:28 -Starting ChatonlineApplication on yihui-computer with PID 22821 (/home/yihui/chatonline/chatonline/target/classes started by yihui in /home/yihui/chatonline/chatonline)
+2018-09-19 22:02:28 -Running with Spring Boot v1.5.15.RELEASE, Spring v4.3.18.RELEASE
+2018-09-19 22:02:28 -No active profile set, falling back to default profiles: default
+2018-09-19 22:02:34 -Started ChatonlineApplication in 6.167 seconds (JVM running for 7.041)
+2018-09-19 22:02:36 -请求url = http://localhost:8080/login
+2018-09-19 22:02:36 -所有的请求参数 key：value = [{"username":"一回"},{"password":"123456"}]
+2018-09-19 22:02:36 -==>  Preparing: select * from user where username = ?; 
+2018-09-19 22:02:36 -==> Parameters: 一回(String)
+2018-09-19 22:02:36 -<==      Total: 1
+2018-09-19 22:02:36 -==>  Preparing: select * from room 
+2018-09-19 22:02:36 -==> Parameters: 
+2018-09-19 22:02:36 -<==      Total: 27
+2018-09-19 22:02:36 -AOP afterReturn,返回值result = index
+2018-09-19 22:03:42 -Starting ChatonlineApplication on yihui-computer with PID 23010 (/home/yihui/chatonline/chatonline/target/classes started by yihui in /home/yihui/chatonline/chatonline)
+2018-09-19 22:03:42 -Running with Spring Boot v1.5.15.RELEASE, Spring v4.3.18.RELEASE
+2018-09-19 22:03:42 -No active profile set, falling back to default profiles: default
+2018-09-19 22:03:46 -Started ChatonlineApplication in 4.184 seconds (JVM running for 4.691)
+2018-09-19 22:03:52 -请求url = http://localhost:8080/login
+2018-09-19 22:03:52 -所有的请求参数 key：value = [{"username":"一回"},{"password":"123456"}]
+2018-09-19 22:03:52 -==>  Preparing: select * from user where username = ?; 
+2018-09-19 22:03:52 -==> Parameters: 一回(String)
+2018-09-19 22:03:52 -<==      Total: 1
+2018-09-19 22:03:52 -==>  Preparing: select * from room 
+2018-09-19 22:03:52 -==> Parameters: 
+2018-09-19 22:03:52 -<==      Total: 27
+2018-09-19 22:03:52 -AOP afterReturn,返回值result = index
+2018-09-19 22:04:37 -Starting ChatonlineApplication on yihui-computer with PID 23192 (/home/yihui/chatonline/chatonline/target/classes started by yihui in /home/yihui/chatonline/chatonline)
+2018-09-19 22:04:37 -Running with Spring Boot v1.5.15.RELEASE, Spring v4.3.18.RELEASE
+2018-09-19 22:04:37 -No active profile set, falling back to default profiles: default
+2018-09-19 22:04:42 -Started ChatonlineApplication in 5.418 seconds (JVM running for 6.07)
+2018-09-19 22:04:44 -请求url = http://localhost:8080/login
+2018-09-19 22:04:44 -所有的请求参数 key：value = [{"username":"一回"},{"password":"123456"}]
+2018-09-19 22:04:44 -==>  Preparing: select * from user where username = ?; 
+2018-09-19 22:04:44 -==> Parameters: 一回(String)
+2018-09-19 22:04:44 -<==      Total: 1
+2018-09-19 22:04:44 -==>  Preparing: select * from room 
+2018-09-19 22:04:44 -==> Parameters: 
+2018-09-19 22:04:44 -<==      Total: 27
+2018-09-19 22:04:44 -AOP afterReturn,返回值result = index
+2018-09-19 22:06:49 -Starting ChatonlineApplication on yihui-computer with PID 23398 (/home/yihui/chatonline/chatonline/target/classes started by yihui in /home/yihui/chatonline/chatonline)
+2018-09-19 22:06:49 -Running with Spring Boot v1.5.15.RELEASE, Spring v4.3.18.RELEASE
+2018-09-19 22:06:49 -No active profile set, falling back to default profiles: default
+2018-09-19 22:06:53 -Started ChatonlineApplication in 4.623 seconds (JVM running for 5.154)
+2018-09-19 22:07:00 -请求url = http://localhost:8080/login
+2018-09-19 22:07:00 -所有的请求参数 key：value = [{"username":"一回"},{"password":"123456"}]
+2018-09-19 22:07:00 -==>  Preparing: select * from user where username = ?; 
+2018-09-19 22:07:00 -==> Parameters: 一回(String)
+2018-09-19 22:07:00 -<==      Total: 1
+2018-09-19 22:07:00 -==>  Preparing: select * from room 
+2018-09-19 22:07:00 -==> Parameters: 
+2018-09-19 22:07:00 -<==      Total: 27
+2018-09-19 22:07:00 -AOP afterReturn,返回值result = index
+2018-09-19 22:08:03 -请求url = http://localhost:8080/
+2018-09-19 22:08:03 -所有的请求参数 key：value = []
+2018-09-19 22:08:03 -AOP afterReturn,返回值result = login
+2018-09-19 22:08:07 -请求url = http://localhost:8080/login
+2018-09-19 22:08:07 -所有的请求参数 key：value = [{"username":"magic"},{"password":"123456"}]
+2018-09-19 22:08:07 -==>  Preparing: select * from user where username = ?; 
+2018-09-19 22:08:07 -==> Parameters: magic(String)
+2018-09-19 22:08:07 -<==      Total: 1
+2018-09-19 22:08:07 -==>  Preparing: select * from room 
+2018-09-19 22:08:07 -==> Parameters: 
+2018-09-19 22:08:07 -<==      Total: 27
+2018-09-19 22:08:07 -AOP afterReturn,返回值result = index
+2018-09-19 22:10:29 -Starting ChatonlineApplication on yihui-computer with PID 23732 (/home/yihui/chatonline/chatonline/target/classes started by yihui in /home/yihui/chatonline/chatonline)
+2018-09-19 22:10:29 -Running with Spring Boot v1.5.15.RELEASE, Spring v4.3.18.RELEASE
+2018-09-19 22:10:29 -No active profile set, falling back to default profiles: default
+2018-09-19 22:10:34 -Started ChatonlineApplication in 4.969 seconds (JVM running for 5.488)
+2018-09-19 22:10:38 -请求url = http://localhost:8080/login
+2018-09-19 22:10:38 -所有的请求参数 key：value = [{"username":"magic"},{"password":"123456"}]
+2018-09-19 22:10:38 -==>  Preparing: select * from user where username = ?; 
+2018-09-19 22:10:38 -==> Parameters: magic(String)
+2018-09-19 22:10:38 -<==      Total: 1
+2018-09-19 22:10:38 -==>  Preparing: select * from room 
+2018-09-19 22:10:38 -==> Parameters: 
+2018-09-19 22:10:38 -<==      Total: 27
+2018-09-19 22:10:38 -AOP afterReturn,返回值result = index
+2018-09-19 22:11:46 -Starting ChatonlineApplication on yihui-computer with PID 23893 (/home/yihui/chatonline/chatonline/target/classes started by yihui in /home/yihui/chatonline/chatonline)
+2018-09-19 22:11:46 -Running with Spring Boot v1.5.15.RELEASE, Spring v4.3.18.RELEASE
+2018-09-19 22:11:46 -No active profile set, falling back to default profiles: default
+2018-09-19 22:11:50 -Started ChatonlineApplication in 4.657 seconds (JVM running for 5.211)
+2018-09-19 22:11:56 -Starting ChatonlineApplication on yihui-computer with PID 24038 (/home/yihui/chatonline/chatonline/target/classes started by yihui in /home/yihui/chatonline/chatonline)
+2018-09-19 22:11:56 -Running with Spring Boot v1.5.15.RELEASE, Spring v4.3.18.RELEASE
+2018-09-19 22:11:56 -No active profile set, falling back to default profiles: default
+2018-09-19 22:11:59 -Started ChatonlineApplication in 4.342 seconds (JVM running for 5.0)
+2018-09-19 22:12:07 -请求url = http://localhost:8080/
+2018-09-19 22:12:07 -所有的请求参数 key：value = []
+2018-09-19 22:12:07 -AOP afterReturn,返回值result = login
+2018-09-19 22:12:09 -请求url = http://localhost:8080/login
+2018-09-19 22:12:09 -所有的请求参数 key：value = [{"username":"magic"},{"password":"123456"}]
+2018-09-19 22:12:10 -==>  Preparing: select * from user where username = ?; 
+2018-09-19 22:12:10 -==> Parameters: magic(String)
+2018-09-19 22:12:10 -<==      Total: 1
+2018-09-19 22:12:10 -==>  Preparing: select * from room 
+2018-09-19 22:12:10 -==> Parameters: 
+2018-09-19 22:12:10 -<==      Total: 27
+2018-09-19 22:12:10 -AOP afterReturn,返回值result = index
+2018-09-19 22:12:34 -Starting ChatonlineApplication on yihui-computer with PID 24190 (/home/yihui/chatonline/chatonline/target/classes started by yihui in /home/yihui/chatonline/chatonline)
+2018-09-19 22:12:34 -Running with Spring Boot v1.5.15.RELEASE, Spring v4.3.18.RELEASE
+2018-09-19 22:12:34 -No active profile set, falling back to default profiles: default
+2018-09-19 22:12:38 -Started ChatonlineApplication in 4.05 seconds (JVM running for 4.526)
+2018-09-19 22:12:44 -请求url = http://localhost:8080/
+2018-09-19 22:12:44 -所有的请求参数 key：value = []
+2018-09-19 22:12:44 -AOP afterReturn,返回值result = login
+2018-09-19 22:12:45 -请求url = http://localhost:8080/login
+2018-09-19 22:12:45 -所有的请求参数 key：value = [{"username":"magic"},{"password":"123456"}]
+2018-09-19 22:12:46 -==>  Preparing: select * from user where username = ?; 
+2018-09-19 22:12:46 -==> Parameters: magic(String)
+2018-09-19 22:12:46 -<==      Total: 1
+2018-09-19 22:12:46 -==>  Preparing: select * from room 
+2018-09-19 22:12:46 -==> Parameters: 
+2018-09-19 22:12:46 -<==      Total: 27
+2018-09-19 22:12:46 -AOP afterReturn,返回值result = index
+2018-09-19 22:12:50 -请求url = http://localhost:8080/enterChatroom
+2018-09-19 22:12:50 -所有的请求参数 key：value = [{"roomId":"1"},{"password":"1"},{"username":"magic"}]
+2018-09-19 22:12:50 -==>  Preparing: select roomId, password, createTime, number from room where roomId = ? 
+2018-09-19 22:12:50 -==> Parameters: 1(Integer)
+2018-09-19 22:12:50 -<==      Total: 1
+2018-09-19 22:12:50 -==>  Preparing: select roomId, password, createTime, number from room where roomId = ? 
+2018-09-19 22:12:50 -==> Parameters: 1(Integer)
+2018-09-19 22:12:51 -<==      Total: 1
+2018-09-19 22:12:51 -==>  Preparing: update room set password = ?, createTime = ?, number = ? where roomId = ? 
+2018-09-19 22:12:51 -==> Parameters: 1(String), 2018-09-19 20:17:46.0(Timestamp), 6(Integer), 1(Integer)
+2018-09-19 22:12:51 -<==    Updates: 1
+2018-09-19 22:12:51 -AOP afterReturn,返回值result = chat
+2018-09-19 22:12:51 -请求url = http://localhost:8080/chatroom
+2018-09-19 22:12:51 -所有的请求参数 key：value = [{"roomId":"1"},{"password":"1"},{"username":"magic"}]
+2018-09-19 22:12:51 -==>  Preparing: select roomId, password, createTime, number from room where roomId = ? 
+2018-09-19 22:12:51 -==> Parameters: 1(Integer)
+2018-09-19 22:12:51 -<==      Total: 1
+2018-09-19 22:12:51 -==>  Preparing: select roomId, password, createTime, number from room where roomId = ? 
+2018-09-19 22:12:51 -==> Parameters: 1(Integer)
+2018-09-19 22:12:51 -<==      Total: 1
+2018-09-19 22:12:51 -==>  Preparing: update room set password = ?, createTime = ?, number = ? where roomId = ? 
+2018-09-19 22:12:51 -==> Parameters: 1(String), 2018-09-19 20:17:46.0(Timestamp), 7(Integer), 1(Integer)
+2018-09-19 22:12:51 -<==    Updates: 1
+2018-09-19 22:12:51 -AOP afterReturn,返回值result = chat
+2018-09-19 22:13:14 -请求url = http://localhost:8080/enterChatroom
+2018-09-19 22:13:14 -所有的请求参数 key：value = [{"roomId":"1"},{"password":"1"},{"username":"magic"}]
+2018-09-19 22:13:14 -==>  Preparing: select roomId, password, createTime, number from room where roomId = ? 
+2018-09-19 22:13:14 -==> Parameters: 1(Integer)
+2018-09-19 22:13:14 -<==      Total: 1
+2018-09-19 22:13:14 -==>  Preparing: select roomId, password, createTime, number from room where roomId = ? 
+2018-09-19 22:13:14 -==> Parameters: 1(Integer)
+2018-09-19 22:13:14 -<==      Total: 1
+2018-09-19 22:13:14 -==>  Preparing: update room set password = ?, createTime = ?, number = ? where roomId = ? 
+2018-09-19 22:13:14 -==> Parameters: 1(String), 2018-09-19 20:17:46.0(Timestamp), 8(Integer), 1(Integer)
+2018-09-19 22:13:14 -<==    Updates: 1
+2018-09-19 22:13:14 -AOP afterReturn,返回值result = chat
+2018-09-19 22:13:14 -请求url = http://localhost:8080/chatroom
+2018-09-19 22:13:14 -所有的请求参数 key：value = [{"roomId":"1"},{"password":"1"},{"username":"magic"}]
+2018-09-19 22:13:14 -==>  Preparing: select roomId, password, createTime, number from room where roomId = ? 
+2018-09-19 22:13:14 -==> Parameters: 1(Integer)
+2018-09-19 22:13:14 -<==      Total: 1
+2018-09-19 22:13:14 -==>  Preparing: select roomId, password, createTime, number from room where roomId = ? 
+2018-09-19 22:13:14 -==> Parameters: 1(Integer)
+2018-09-19 22:13:14 -<==      Total: 1
+2018-09-19 22:13:14 -==>  Preparing: update room set password = ?, createTime = ?, number = ? where roomId = ? 
+2018-09-19 22:13:14 -==> Parameters: 1(String), 2018-09-19 20:17:46.0(Timestamp), 9(Integer), 1(Integer)
+2018-09-19 22:13:14 -<==    Updates: 1
+2018-09-19 22:13:15 -AOP afterReturn,返回值result = chat
+2018-09-19 22:13:57 -Starting ChatonlineApplication on yihui-computer with PID 24375 (/home/yihui/chatonline/chatonline/target/classes started by yihui in /home/yihui/chatonline/chatonline)
+2018-09-19 22:13:57 -Running with Spring Boot v1.5.15.RELEASE, Spring v4.3.18.RELEASE
+2018-09-19 22:13:57 -No active profile set, falling back to default profiles: default
+2018-09-19 22:14:01 -Started ChatonlineApplication in 3.634 seconds (JVM running for 4.272)
+2018-09-19 22:14:07 -请求url = http://localhost:8080/login
+2018-09-19 22:14:07 -所有的请求参数 key：value = [{"username":"magic"},{"password":"123456"}]
+2018-09-19 22:14:08 -==>  Preparing: select * from user where username = ?; 
+2018-09-19 22:14:08 -==> Parameters: magic(String)
+2018-09-19 22:14:08 -<==      Total: 1
+2018-09-19 22:14:08 -==>  Preparing: select * from room 
+2018-09-19 22:14:08 -==> Parameters: 
+2018-09-19 22:14:08 -<==      Total: 27
+2018-09-19 22:14:08 -AOP afterReturn,返回值result = index
+2018-09-19 22:14:32 -Starting ChatonlineApplication on yihui-computer with PID 24520 (/home/yihui/chatonline/chatonline/target/classes started by yihui in /home/yihui/chatonline/chatonline)
+2018-09-19 22:14:32 -Running with Spring Boot v1.5.15.RELEASE, Spring v4.3.18.RELEASE
+2018-09-19 22:14:32 -No active profile set, falling back to default profiles: default
+2018-09-19 22:14:36 -Started ChatonlineApplication in 4.196 seconds (JVM running for 4.71)
+2018-09-19 22:14:38 -请求url = http://localhost:8080/login
+2018-09-19 22:14:38 -所有的请求参数 key：value = [{"username":"magic"},{"password":"123456"}]
+2018-09-19 22:14:38 -==>  Preparing: select * from user where username = ?; 
+2018-09-19 22:14:38 -==> Parameters: magic(String)
+2018-09-19 22:14:38 -<==      Total: 1
+2018-09-19 22:14:38 -==>  Preparing: select * from room 
+2018-09-19 22:14:38 -==> Parameters: 
+2018-09-19 22:14:38 -<==      Total: 27
+2018-09-19 22:14:38 -AOP afterReturn,返回值result = index
+2018-09-19 22:14:42 -请求url = http://localhost:8080/chatroom
+2018-09-19 22:14:42 -所有的请求参数 key：value = [{"roomId":"5"},{"password":"null"},{"username":"magic"}]
+2018-09-19 22:14:42 -==>  Preparing: select roomId, password, createTime, number from room where roomId = ? 
+2018-09-19 22:14:42 -==> Parameters: 5(Integer)
+2018-09-19 22:14:42 -<==      Total: 1
+2018-09-19 22:14:42 -==>  Preparing: select roomId, password, createTime, number from room where roomId = ? 
+2018-09-19 22:14:42 -==> Parameters: 5(Integer)
+2018-09-19 22:14:42 -<==      Total: 1
+2018-09-19 22:14:42 -==>  Preparing: update room set password = ?, createTime = ?, number = ? where roomId = ? 
+2018-09-19 22:14:42 -==> Parameters: null(String), 2018-09-19 21:07:12.0(Timestamp), 1(Integer), 5(Integer)
+2018-09-19 22:14:42 -<==    Updates: 1
+2018-09-19 22:14:42 -AOP afterReturn,返回值result = chat
+2018-09-19 22:16:16 -Starting ChatonlineApplication on yihui-computer with PID 24751 (/home/yihui/chatonline/chatonline/target/classes started by yihui in /home/yihui/chatonline/chatonline)
+2018-09-19 22:16:16 -Running with Spring Boot v1.5.15.RELEASE, Spring v4.3.18.RELEASE
+2018-09-19 22:16:16 -No active profile set, falling back to default profiles: default
+2018-09-19 22:16:19 -Started ChatonlineApplication in 4.096 seconds (JVM running for 4.615)
+2018-09-19 22:16:25 -请求url = http://localhost:8080/login
+2018-09-19 22:16:25 -所有的请求参数 key：value = [{"username":"magic"},{"password":"123456"}]
+2018-09-19 22:16:26 -==>  Preparing: select * from user where username = ?; 
+2018-09-19 22:16:26 -==> Parameters: magic(String)
+2018-09-19 22:16:26 -<==      Total: 1
+2018-09-19 22:16:26 -==>  Preparing: select * from room 
+2018-09-19 22:16:26 -==> Parameters: 
+2018-09-19 22:16:26 -<==      Total: 27
+2018-09-19 22:16:26 -AOP afterReturn,返回值result = index
+2018-09-19 22:16:37 -请求url = http://localhost:8080/chatroom
+2018-09-19 22:16:37 -所有的请求参数 key：value = [{"roomId":"9"},{"password":"undefined"},{"username":"magic"}]
+2018-09-19 22:16:37 -==>  Preparing: select roomId, password, createTime, number from room where roomId = ? 
+2018-09-19 22:16:37 -==> Parameters: 9(Integer)
+2018-09-19 22:16:37 -<==      Total: 1
+2018-09-19 22:16:37 -AOP afterReturn,返回值result = index
+2018-09-19 22:17:09 -请求url = http://localhost:8080/insertRoom
+2018-09-19 22:17:09 -所有的请求参数 key：value = [{"password":""}]
+2018-09-19 22:17:09 -==>  Preparing: insert into room (roomId, password, createTime, number) values (?, ?, ?, ?) 
+2018-09-19 22:17:09 -==> Parameters: null, (String), null, null
+2018-09-19 22:17:09 -<==    Updates: 1
+2018-09-19 22:17:09 -AOP afterReturn,返回值result = 31
+2018-09-19 22:17:09 -请求url = http://localhost:8080/chatroom
+2018-09-19 22:17:09 -所有的请求参数 key：value = [{"roomId":"1"},{"password":""},{"username":"一回"}]
+2018-09-19 22:17:09 -==>  Preparing: select roomId, password, createTime, number from room where roomId = ? 
+2018-09-19 22:17:09 -==> Parameters: 1(Integer)
+2018-09-19 22:17:09 -<==      Total: 1
+2018-09-19 22:17:09 -AOP afterReturn,返回值result = index
+2018-09-19 22:19:08 -Starting ChatonlineApplication on yihui-computer with PID 24940 (/home/yihui/chatonline/chatonline/target/classes started by yihui in /home/yihui/chatonline/chatonline)
+2018-09-19 22:19:08 -Running with Spring Boot v1.5.15.RELEASE, Spring v4.3.18.RELEASE
+2018-09-19 22:19:08 -No active profile set, falling back to default profiles: default
+2018-09-19 22:19:12 -Started ChatonlineApplication in 4.305 seconds (JVM running for 4.815)
+2018-09-19 22:19:17 -请求url = http://localhost:8080/login
+2018-09-19 22:19:17 -所有的请求参数 key：value = [{"username":"magic"},{"password":"123456"}]
+2018-09-19 22:19:17 -==>  Preparing: select * from user where username = ?; 
+2018-09-19 22:19:17 -==> Parameters: magic(String)
+2018-09-19 22:19:17 -<==      Total: 1
+2018-09-19 22:19:17 -==>  Preparing: select * from room 
+2018-09-19 22:19:17 -==> Parameters: 
+2018-09-19 22:19:17 -<==      Total: 28
+2018-09-19 22:19:17 -AOP afterReturn,返回值result = index
+2018-09-19 22:19:21 -请求url = http://localhost:8080/insertRoom
+2018-09-19 22:19:21 -所有的请求参数 key：value = [{"password":""}]
+2018-09-19 22:19:21 -==>  Preparing: insert into room (roomId, password, createTime, number) values (?, ?, ?, ?) 
+2018-09-19 22:19:21 -==> Parameters: null, (String), null, null
+2018-09-19 22:19:21 -<==    Updates: 1
+2018-09-19 22:19:21 -AOP afterReturn,返回值result = 32
+2018-09-19 22:19:36 -请求url = http://localhost:8080/chatroom
+2018-09-19 22:19:36 -所有的请求参数 key：value = [{"roomId":"undefined"},{"password":""},{"username":"magic"}]
+2018-09-19 22:19:51 -Starting ChatonlineApplication on yihui-computer with PID 25118 (/home/yihui/chatonline/chatonline/target/classes started by yihui in /home/yihui/chatonline/chatonline)
+2018-09-19 22:19:51 -Running with Spring Boot v1.5.15.RELEASE, Spring v4.3.18.RELEASE
+2018-09-19 22:19:51 -No active profile set, falling back to default profiles: default
+2018-09-19 22:19:54 -Started ChatonlineApplication in 3.948 seconds (JVM running for 4.595)
+2018-09-19 22:20:00 -请求url = http://localhost:8080/login
+2018-09-19 22:20:00 -所有的请求参数 key：value = [{"username":"magic"},{"password":"123456"}]
+2018-09-19 22:20:00 -==>  Preparing: select * from user where username = ?; 
+2018-09-19 22:20:00 -==> Parameters: magic(String)
+2018-09-19 22:20:00 -<==      Total: 1
+2018-09-19 22:20:00 -==>  Preparing: select * from room 
+2018-09-19 22:20:00 -==> Parameters: 
+2018-09-19 22:20:00 -<==      Total: 29
+2018-09-19 22:20:00 -AOP afterReturn,返回值result = index
+2018-09-19 22:20:03 -请求url = http://localhost:8080/insertRoom
+2018-09-19 22:20:03 -所有的请求参数 key：value = [{"password":""}]
+2018-09-19 22:20:03 -==>  Preparing: insert into room (roomId, password, createTime, number) values (?, ?, ?, ?) 
+2018-09-19 22:20:03 -==> Parameters: null, (String), null, null
+2018-09-19 22:20:03 -<==    Updates: 1
+2018-09-19 22:20:03 -AOP afterReturn,返回值result = 33
+2018-09-19 22:20:05 -请求url = http://localhost:8080/chatroom
+2018-09-19 22:20:05 -所有的请求参数 key：value = [{"roomId":"33"},{"password":""},{"username":"magic"}]
+2018-09-19 22:20:05 -==>  Preparing: select roomId, password, createTime, number from room where roomId = ? 
+2018-09-19 22:20:05 -==> Parameters: 33(Integer)
+2018-09-19 22:20:05 -<==      Total: 1
+2018-09-19 22:20:05 -==>  Preparing: select roomId, password, createTime, number from room where roomId = ? 
+2018-09-19 22:20:05 -==> Parameters: 33(Integer)
+2018-09-19 22:20:05 -<==      Total: 1
+2018-09-19 22:20:54 -请求url = http://localhost:8080/insertRoom
+2018-09-19 22:20:54 -所有的请求参数 key：value = [{"password":"1"}]
+2018-09-19 22:20:54 -==>  Preparing: insert into room (roomId, password, createTime, number) values (?, ?, ?, ?) 
+2018-09-19 22:20:54 -==> Parameters: null, 1(String), null, null
+2018-09-19 22:20:54 -<==    Updates: 1
+2018-09-19 22:20:54 -AOP afterReturn,返回值result = 34
+2018-09-19 22:20:57 -请求url = http://localhost:8080/chatroom
+2018-09-19 22:20:57 -所有的请求参数 key：value = [{"roomId":"34"},{"password":"1"},{"username":"magic"}]
+2018-09-19 22:20:57 -==>  Preparing: select roomId, password, createTime, number from room where roomId = ? 
+2018-09-19 22:20:57 -==> Parameters: 34(Integer)
+2018-09-19 22:20:57 -<==      Total: 1
+2018-09-19 22:20:57 -==>  Preparing: select roomId, password, createTime, number from room where roomId = ? 
+2018-09-19 22:20:57 -==> Parameters: 34(Integer)
+2018-09-19 22:20:57 -<==      Total: 1
+2018-09-19 22:24:55 -请求url = http://localhost:8080/enterChatroom
+2018-09-19 22:24:55 -所有的请求参数 key：value = [{"roomId":"1"},{"password":"1"},{"username":"magic"}]
+2018-09-19 22:24:55 -==>  Preparing: select roomId, password, createTime, number from room where roomId = ? 
+2018-09-19 22:24:55 -==> Parameters: 1(Integer)
+2018-09-19 22:24:55 -<==      Total: 1
+2018-09-19 22:24:55 -==>  Preparing: select roomId, password, createTime, number from room where roomId = ? 
+2018-09-19 22:24:55 -==> Parameters: 1(Integer)
+2018-09-19 22:24:55 -<==      Total: 1
+2018-09-19 22:24:55 -==>  Preparing: update room set password = ?, createTime = ?, number = ? where roomId = ? 
+2018-09-19 22:24:55 -==> Parameters: 1(String), 2018-09-19 20:17:46.0(Timestamp), 10(Integer), 1(Integer)
+2018-09-19 22:24:55 -<==    Updates: 1
+2018-09-19 22:24:55 -AOP afterReturn,返回值result = chat
+2018-09-19 22:24:55 -请求url = http://localhost:8080/chatroom
+2018-09-19 22:24:55 -所有的请求参数 key：value = [{"roomId":"1"},{"password":"1"},{"username":"magic"}]
+2018-09-19 22:24:55 -==>  Preparing: select roomId, password, createTime, number from room where roomId = ? 
+2018-09-19 22:24:55 -==> Parameters: 1(Integer)
+2018-09-19 22:24:55 -<==      Total: 1
+2018-09-19 22:24:55 -==>  Preparing: select roomId, password, createTime, number from room where roomId = ? 
+2018-09-19 22:24:55 -==> Parameters: 1(Integer)
+2018-09-19 22:24:55 -<==      Total: 1
+2018-09-19 22:24:55 -==>  Preparing: update room set password = ?, createTime = ?, number = ? where roomId = ? 
+2018-09-19 22:24:55 -==> Parameters: 1(String), 2018-09-19 20:17:46.0(Timestamp), 11(Integer), 1(Integer)
+2018-09-19 22:24:55 -<==    Updates: 1
+2018-09-19 22:24:55 -AOP afterReturn,返回值result = chat
+2018-09-19 22:27:51 -Starting ChatonlineApplication on yihui-computer with PID 25428 (/home/yihui/chatonline/chatonline/target/classes started by yihui in /home/yihui/chatonline/chatonline)
+2018-09-19 22:27:51 -Running with Spring Boot v1.5.15.RELEASE, Spring v4.3.18.RELEASE
+2018-09-19 22:27:51 -No active profile set, falling back to default profiles: default
+2018-09-19 22:27:53 -Started ChatonlineApplication in 3.239 seconds (JVM running for 4.004)
+2018-09-19 22:28:01 -请求url = http://localhost:8080/login
+2018-09-19 22:28:01 -所有的请求参数 key：value = [{"username":"magic"},{"password":"123456"}]
+2018-09-19 22:28:01 -==>  Preparing: select * from user where username = ?; 
+2018-09-19 22:28:01 -==> Parameters: magic(String)
+2018-09-19 22:28:01 -<==      Total: 1
+2018-09-19 22:28:01 -==>  Preparing: select * from room 
+2018-09-19 22:28:01 -==> Parameters: 
+2018-09-19 22:28:01 -<==      Total: 0
+2018-09-19 22:28:01 -AOP afterReturn,返回值result = index
+2018-09-19 22:28:06 -请求url = http://localhost:8080/
+2018-09-19 22:28:06 -所有的请求参数 key：value = []
+2018-09-19 22:28:06 -AOP afterReturn,返回值result = login
+2018-09-19 22:28:08 -请求url = http://localhost:8080/login
+2018-09-19 22:28:08 -所有的请求参数 key：value = [{"username":"magic"},{"password":"123456"}]
+2018-09-19 22:28:08 -==>  Preparing: select * from user where username = ?; 
+2018-09-19 22:28:08 -==> Parameters: magic(String)
+2018-09-19 22:28:08 -<==      Total: 1
+2018-09-19 22:28:08 -==>  Preparing: select * from room 
+2018-09-19 22:28:08 -==> Parameters: 
+2018-09-19 22:28:08 -<==      Total: 0
+2018-09-19 22:28:08 -AOP afterReturn,返回值result = index
+2018-09-19 22:28:21 -请求url = http://localhost:8080/insertRoom
+2018-09-19 22:28:21 -所有的请求参数 key：value = [{"password":""}]
+2018-09-19 22:28:21 -==>  Preparing: insert into room ( password ) values ( ?) 
+2018-09-19 22:28:21 -==> Parameters: (String)
+2018-09-19 22:28:21 -<==    Updates: 1
+2018-09-19 22:28:21 -AOP afterReturn,返回值result = 35
+2018-09-19 22:28:22 -请求url = http://localhost:8080/chatroom
+2018-09-19 22:28:22 -所有的请求参数 key：value = [{"roomId":"35"},{"password":""},{"username":"magic"}]
+2018-09-19 22:28:22 -==>  Preparing: select roomId, password, createTime, number from room where roomId = ? 
+2018-09-19 22:28:22 -==> Parameters: 35(Integer)
+2018-09-19 22:28:23 -<==      Total: 1
+2018-09-19 22:28:23 -==>  Preparing: select roomId, password, createTime, number from room where roomId = ? 
+2018-09-19 22:28:23 -==> Parameters: 35(Integer)
+2018-09-19 22:28:23 -<==      Total: 1
+2018-09-19 22:28:23 -==>  Preparing: update room set password = ?, createTime = ?, number = ? where roomId = ? 
+2018-09-19 22:28:23 -==> Parameters: (String), 2018-09-19 22:28:21.0(Timestamp), 2(Integer), 35(Integer)
+2018-09-19 22:28:23 -<==    Updates: 1
+2018-09-19 22:28:23 -AOP afterReturn,返回值result = chat
+2018-09-19 22:28:26 -请求url = http://localhost:8080/login
+2018-09-19 22:28:26 -所有的请求参数 key：value = [{"username":"magic"},{"password":"123456"}]
+2018-09-19 22:28:26 -==>  Preparing: select * from user where username = ?; 
+2018-09-19 22:28:26 -==> Parameters: magic(String)
+2018-09-19 22:28:26 -<==      Total: 1
+2018-09-19 22:28:26 -==>  Preparing: select * from room 
+2018-09-19 22:28:26 -==> Parameters: 
+2018-09-19 22:28:26 -<==      Total: 1
+2018-09-19 22:28:26 -AOP afterReturn,返回值result = index
+2018-09-19 22:28:36 -请求url = http://localhost:8080/chatroom
+2018-09-19 22:28:36 -所有的请求参数 key：value = [{"roomId":"35"},{"password":"undefined"},{"username":"magic"}]
+2018-09-19 22:28:36 -==>  Preparing: select roomId, password, createTime, number from room where roomId = ? 
+2018-09-19 22:28:36 -==> Parameters: 35(Integer)
+2018-09-19 22:28:36 -<==      Total: 1
+2018-09-19 22:28:36 -AOP afterReturn,返回值result = index
+2018-09-19 22:29:30 -Starting ChatonlineApplication on yihui-computer with PID 25588 (/home/yihui/chatonline/chatonline/target/classes started by yihui in /home/yihui/chatonline/chatonline)
+2018-09-19 22:29:30 -Running with Spring Boot v1.5.15.RELEASE, Spring v4.3.18.RELEASE
+2018-09-19 22:29:30 -No active profile set, falling back to default profiles: default
+2018-09-19 22:29:33 -Started ChatonlineApplication in 3.894 seconds (JVM running for 4.502)
+2018-09-19 22:29:41 -请求url = http://localhost:8080/login
+2018-09-19 22:29:41 -所有的请求参数 key：value = [{"username":"magic"},{"password":"123456"}]
+2018-09-19 22:29:41 -==>  Preparing: select * from user where username = ?; 
+2018-09-19 22:29:41 -==> Parameters: magic(String)
+2018-09-19 22:29:41 -<==      Total: 1
+2018-09-19 22:29:41 -==>  Preparing: select * from room 
+2018-09-19 22:29:41 -==> Parameters: 
+2018-09-19 22:29:41 -<==      Total: 1
+2018-09-19 22:29:41 -AOP afterReturn,返回值result = index
+2018-09-19 22:29:45 -请求url = http://localhost:8080/chatroom
+2018-09-19 22:29:45 -所有的请求参数 key：value = [{"roomId":"35"},{"password":"null"},{"username":"magic"}]
+2018-09-19 22:29:45 -==>  Preparing: select roomId, password, createTime, number from room where roomId = ? 
+2018-09-19 22:29:45 -==> Parameters: 35(Integer)
+2018-09-19 22:29:45 -<==      Total: 1
+2018-09-19 22:29:45 -AOP afterReturn,返回值result = index
+2018-09-19 22:30:07 -Starting ChatonlineApplication on yihui-computer with PID 25748 (/home/yihui/chatonline/chatonline/target/classes started by yihui in /home/yihui/chatonline/chatonline)
+2018-09-19 22:30:07 -Running with Spring Boot v1.5.15.RELEASE, Spring v4.3.18.RELEASE
+2018-09-19 22:30:07 -No active profile set, falling back to default profiles: default
+2018-09-19 22:30:10 -Started ChatonlineApplication in 3.819 seconds (JVM running for 4.439)
+2018-09-19 22:30:20 -请求url = http://localhost:8080/login
+2018-09-19 22:30:20 -所有的请求参数 key：value = [{"username":"magic"},{"password":"123456"}]
+2018-09-19 22:30:20 -==>  Preparing: select * from user where username = ?; 
+2018-09-19 22:30:20 -==> Parameters: magic(String)
+2018-09-19 22:30:21 -<==      Total: 1
+2018-09-19 22:30:21 -==>  Preparing: select * from room 
+2018-09-19 22:30:21 -==> Parameters: 
+2018-09-19 22:30:21 -<==      Total: 1
+2018-09-19 22:30:21 -AOP afterReturn,返回值result = index
+2018-09-19 22:30:23 -请求url = http://localhost:8080/chatroom
+2018-09-19 22:30:23 -所有的请求参数 key：value = [{"roomId":"35"},{"password":""},{"username":"magic"}]
+2018-09-19 22:30:23 -==>  Preparing: select roomId, password, createTime, number from room where roomId = ? 
+2018-09-19 22:30:23 -==> Parameters: 35(Integer)
+2018-09-19 22:30:23 -<==      Total: 1
+2018-09-19 22:30:23 -==>  Preparing: select roomId, password, createTime, number from room where roomId = ? 
+2018-09-19 22:30:23 -==> Parameters: 35(Integer)
+2018-09-19 22:30:23 -<==      Total: 1
+2018-09-19 22:30:23 -==>  Preparing: update room set password = ?, createTime = ?, number = ? where roomId = ? 
+2018-09-19 22:30:23 -==> Parameters: (String), 2018-09-19 22:28:21.0(Timestamp), 3(Integer), 35(Integer)
+2018-09-19 22:30:24 -<==    Updates: 1
+2018-09-19 22:30:24 -AOP afterReturn,返回值result = chat
+2018-09-19 22:30:36 -Starting ChatonlineApplication on yihui-computer with PID 25912 (/home/yihui/chatonline/chatonline/target/classes started by yihui in /home/yihui/chatonline/chatonline)
+2018-09-19 22:30:36 -Running with Spring Boot v1.5.15.RELEASE, Spring v4.3.18.RELEASE
+2018-09-19 22:30:36 -No active profile set, falling back to default profiles: default
+2018-09-19 22:30:40 -Started ChatonlineApplication in 4.632 seconds (JVM running for 5.33)
+2018-09-19 22:30:42 -请求url = http://localhost:8080/exitChatroom
+2018-09-19 22:30:42 -所有的请求参数 key：value = [{"roomId":"35"},{"username":"magic"}]
+2018-09-19 22:30:42 -==>  Preparing: select roomId, password, createTime, number from room where roomId = ? 
+2018-09-19 22:30:42 -==> Parameters: 35(Integer)
+2018-09-19 22:30:42 -<==      Total: 1
+2018-09-19 22:30:42 -==>  Preparing: update room set password = ?, createTime = ?, number = ? where roomId = ? 
+2018-09-19 22:30:42 -==> Parameters: (String), 2018-09-19 22:28:21.0(Timestamp), 2(Integer), 35(Integer)
+2018-09-19 22:30:42 -<==    Updates: 1
+2018-09-19 22:30:42 -==>  Preparing: select roomId, password, createTime, number from room where roomId = ? 
+2018-09-19 22:30:42 -==> Parameters: 35(Integer)
+2018-09-19 22:30:42 -<==      Total: 1
+2018-09-19 22:30:42 -==>  Preparing: select * from room 
+2018-09-19 22:30:42 -==> Parameters: 
+2018-09-19 22:30:42 -<==      Total: 1
+2018-09-19 22:30:42 -AOP afterReturn,返回值result = index
+2018-09-19 22:30:44 -请求url = http://localhost:8080/exitChatroom
+2018-09-19 22:30:44 -所有的请求参数 key：value = [{"roomId":"35"},{"username":"magic"}]
+2018-09-19 22:30:44 -==>  Preparing: select roomId, password, createTime, number from room where roomId = ? 
+2018-09-19 22:30:45 -==> Parameters: 35(Integer)
+2018-09-19 22:30:45 -<==      Total: 1
+2018-09-19 22:30:45 -==>  Preparing: update room set password = ?, createTime = ?, number = ? where roomId = ? 
+2018-09-19 22:30:45 -==> Parameters: (String), 2018-09-19 22:28:21.0(Timestamp), 1(Integer), 35(Integer)
+2018-09-19 22:30:45 -<==    Updates: 1
+2018-09-19 22:30:45 -==>  Preparing: select roomId, password, createTime, number from room where roomId = ? 
+2018-09-19 22:30:45 -==> Parameters: 35(Integer)
+2018-09-19 22:30:45 -<==      Total: 1
+2018-09-19 22:30:45 -==>  Preparing: select * from room 
+2018-09-19 22:30:45 -==> Parameters: 
+2018-09-19 22:30:45 -<==      Total: 1
+2018-09-19 22:30:45 -AOP afterReturn,返回值result = index
+2018-09-19 22:30:58 -请求url = http://localhost:8080/chatroom
+2018-09-19 22:30:58 -所有的请求参数 key：value = [{"roomId":"35"},{"password":""},{"username":"magic"}]
+2018-09-19 22:30:58 -==>  Preparing: select roomId, password, createTime, number from room where roomId = ? 
+2018-09-19 22:30:58 -==> Parameters: 35(Integer)
+2018-09-19 22:30:58 -<==      Total: 1
+2018-09-19 22:30:58 -==>  Preparing: select roomId, password, createTime, number from room where roomId = ? 
+2018-09-19 22:30:58 -==> Parameters: 35(Integer)
+2018-09-19 22:30:59 -<==      Total: 1
+2018-09-19 22:30:59 -==>  Preparing: update room set password = ?, createTime = ?, number = ? where roomId = ? 
+2018-09-19 22:30:59 -==> Parameters: (String), 2018-09-19 22:28:21.0(Timestamp), 2(Integer), 35(Integer)
+2018-09-19 22:30:59 -<==    Updates: 1
+2018-09-19 22:30:59 -AOP afterReturn,返回值result = chat
+2018-09-19 22:31:01 -请求url = http://localhost:8080/exitChatroom
+2018-09-19 22:31:01 -所有的请求参数 key：value = [{"roomId":"35"},{"username":"magic"}]
+2018-09-19 22:31:01 -==>  Preparing: select roomId, password, createTime, number from room where roomId = ? 
+2018-09-19 22:31:01 -==> Parameters: 35(Integer)
+2018-09-19 22:31:01 -<==      Total: 1
+2018-09-19 22:31:01 -==>  Preparing: update room set password = ?, createTime = ?, number = ? where roomId = ? 
+2018-09-19 22:31:01 -==> Parameters: (String), 2018-09-19 22:28:21.0(Timestamp), 1(Integer), 35(Integer)
+2018-09-19 22:31:01 -<==    Updates: 1
+2018-09-19 22:31:01 -==>  Preparing: select roomId, password, createTime, number from room where roomId = ? 
+2018-09-19 22:31:01 -==> Parameters: 35(Integer)
+2018-09-19 22:31:01 -<==      Total: 1
+2018-09-19 22:31:01 -==>  Preparing: select * from room 
+2018-09-19 22:31:01 -==> Parameters: 
+2018-09-19 22:31:01 -<==      Total: 1
+2018-09-19 22:31:01 -AOP afterReturn,返回值result = index
+2018-09-19 22:31:19 -请求url = http://localhost:8080/insertRoom
+2018-09-19 22:31:19 -所有的请求参数 key：value = [{"password":""}]
+2018-09-19 22:31:19 -==>  Preparing: insert into room ( password ) values ( ?) 
+2018-09-19 22:31:19 -==> Parameters: (String)
+2018-09-19 22:31:19 -<==    Updates: 1
+2018-09-19 22:31:19 -AOP afterReturn,返回值result = 36
+2018-09-19 22:31:20 -请求url = http://localhost:8080/chatroom
+2018-09-19 22:31:20 -所有的请求参数 key：value = [{"roomId":"36"},{"password":"null"},{"username":"magic"}]
+2018-09-19 22:31:20 -==>  Preparing: select roomId, password, createTime, number from room where roomId = ? 
+2018-09-19 22:31:20 -==> Parameters: 36(Integer)
+2018-09-19 22:31:20 -<==      Total: 1
+2018-09-19 22:31:20 -AOP afterReturn,返回值result = index
+2018-09-19 22:31:21 -请求url = http://localhost:8080/chatroom
+2018-09-19 22:31:21 -所有的请求参数 key：value = [{"roomId":"36"},{"password":"null"},{"username":"magic"}]
+2018-09-19 22:31:21 -==>  Preparing: select roomId, password, createTime, number from room where roomId = ? 
+2018-09-19 22:31:21 -==> Parameters: 36(Integer)
+2018-09-19 22:31:21 -<==      Total: 1
+2018-09-19 22:31:21 -AOP afterReturn,返回值result = index
+2018-09-19 22:31:23 -请求url = http://localhost:8080/index.html
+2018-09-19 22:31:23 -所有的请求参数 key：value = []
+2018-09-19 22:31:23 -==>  Preparing: select * from room 
+2018-09-19 22:31:23 -==> Parameters: 
+2018-09-19 22:31:23 -<==      Total: 2
+2018-09-19 22:31:23 -AOP afterReturn,返回值result = index
+2018-09-19 22:32:48 -Starting ChatonlineApplication on yihui-computer with PID 26112 (/home/yihui/chatonline/chatonline/target/classes started by yihui in /home/yihui/chatonline/chatonline)
+2018-09-19 22:32:48 -Running with Spring Boot v1.5.15.RELEASE, Spring v4.3.18.RELEASE
+2018-09-19 22:32:48 -No active profile set, falling back to default profiles: default
+2018-09-19 22:32:53 -Started ChatonlineApplication in 5.288 seconds (JVM running for 5.821)
+2018-09-19 22:32:55 -请求url = http://localhost:8080/index.html
+2018-09-19 22:32:55 -所有的请求参数 key：value = []
+2018-09-19 22:32:55 -==>  Preparing: select * from room 
+2018-09-19 22:32:55 -==> Parameters: 
+2018-09-19 22:32:55 -<==      Total: 2
+2018-09-19 22:32:55 -AOP afterReturn,返回值result = index
+2018-09-19 22:33:00 -请求url = http://localhost:8080/insertRoom
+2018-09-19 22:33:00 -所有的请求参数 key：value = [{"password":""}]
+2018-09-19 22:33:00 -==>  Preparing: insert into room ( password ) values ( ?) 
+2018-09-19 22:33:00 -==> Parameters: (String)
+2018-09-19 22:33:00 -<==    Updates: 1
+2018-09-19 22:33:00 -AOP afterReturn,返回值result = 37
+2018-09-19 22:33:01 -请求url = http://localhost:8080/chatroom
+2018-09-19 22:33:01 -所有的请求参数 key：value = [{"roomId":"37"},{"password":"null"},{"username":""}]
+2018-09-19 22:33:01 -==>  Preparing: select roomId, password, createTime, number from room where roomId = ? 
+2018-09-19 22:33:01 -==> Parameters: 37(Integer)
+2018-09-19 22:33:01 -<==      Total: 1
+2018-09-19 22:33:01 -AOP afterReturn,返回值result = index
+2018-09-19 22:33:28 -Starting ChatonlineApplication on yihui-computer with PID 26271 (/home/yihui/chatonline/chatonline/target/classes started by yihui in /home/yihui/chatonline/chatonline)
+2018-09-19 22:33:28 -Running with Spring Boot v1.5.15.RELEASE, Spring v4.3.18.RELEASE
+2018-09-19 22:33:28 -No active profile set, falling back to default profiles: default
+2018-09-19 22:33:34 -Started ChatonlineApplication in 5.727 seconds (JVM running for 6.393)
+2018-09-19 22:33:34 -请求url = http://localhost:8080/index.html
+2018-09-19 22:33:34 -所有的请求参数 key：value = []
+2018-09-19 22:33:35 -==>  Preparing: select * from room 
+2018-09-19 22:33:35 -==> Parameters: 
+2018-09-19 22:33:35 -<==      Total: 3
+2018-09-19 22:33:35 -AOP afterReturn,返回值result = index
+2018-09-19 22:34:04 -Starting ChatonlineApplication on yihui-computer with PID 26420 (/home/yihui/chatonline/chatonline/target/classes started by yihui in /home/yihui/chatonline/chatonline)
+2018-09-19 22:34:04 -Running with Spring Boot v1.5.15.RELEASE, Spring v4.3.18.RELEASE
+2018-09-19 22:34:04 -No active profile set, falling back to default profiles: default
+2018-09-19 22:34:08 -Started ChatonlineApplication in 4.344 seconds (JVM running for 4.878)
+2018-09-19 22:34:33 -请求url = http://localhost:8080/chatroom
+2018-09-19 22:34:33 -所有的请求参数 key：value = [{"roomId":"36"},{"password":""},{"username":""}]
+2018-09-19 22:34:33 -==>  Preparing: select roomId, password, createTime, number from room where roomId = ? 
+2018-09-19 22:34:33 -==> Parameters: 36(Integer)
+2018-09-19 22:34:33 -<==      Total: 1
+2018-09-19 22:34:33 -==>  Preparing: select roomId, password, createTime, number from room where roomId = ? 
+2018-09-19 22:34:33 -==> Parameters: 36(Integer)
+2018-09-19 22:34:33 -<==      Total: 1
+2018-09-19 22:34:33 -==>  Preparing: update room set password = ?, createTime = ?, number = ? where roomId = ? 
+2018-09-19 22:34:33 -==> Parameters: (String), 2018-09-19 22:31:19.0(Timestamp), 2(Integer), 36(Integer)
+2018-09-19 22:34:33 -<==    Updates: 1
+2018-09-19 22:34:33 -AOP afterReturn,返回值result = chat
+2018-09-19 22:34:38 -请求url = http://localhost:8080/chatroom
+2018-09-19 22:34:38 -所有的请求参数 key：value = [{"roomId":"37"},{"password":""},{"username":""}]
+2018-09-19 22:34:38 -==>  Preparing: select roomId, password, createTime, number from room where roomId = ? 
+2018-09-19 22:34:38 -==> Parameters: 37(Integer)
+2018-09-19 22:34:38 -<==      Total: 1
+2018-09-19 22:34:38 -==>  Preparing: select roomId, password, createTime, number from room where roomId = ? 
+2018-09-19 22:34:38 -==> Parameters: 37(Integer)
+2018-09-19 22:34:38 -<==      Total: 1
+2018-09-19 22:34:38 -==>  Preparing: update room set password = ?, createTime = ?, number = ? where roomId = ? 
+2018-09-19 22:34:38 -==> Parameters: (String), 2018-09-19 22:33:00.0(Timestamp), 2(Integer), 37(Integer)
+2018-09-19 22:34:38 -<==    Updates: 1
+2018-09-19 22:34:38 -AOP afterReturn,返回值result = chat
+2018-09-19 22:34:40 -请求url = http://localhost:8080/exitChatroom
+2018-09-19 22:34:40 -所有的请求参数 key：value = [{"roomId":"37"},{"username":""}]
+2018-09-19 22:34:40 -==>  Preparing: select roomId, password, createTime, number from room where roomId = ? 
+2018-09-19 22:34:40 -==> Parameters: 37(Integer)
+2018-09-19 22:34:40 -<==      Total: 1
+2018-09-19 22:34:40 -==>  Preparing: update room set password = ?, createTime = ?, number = ? where roomId = ? 
+2018-09-19 22:34:40 -==> Parameters: (String), 2018-09-19 22:33:00.0(Timestamp), 1(Integer), 37(Integer)
+2018-09-19 22:34:40 -<==    Updates: 1
+2018-09-19 22:34:40 -==>  Preparing: select roomId, password, createTime, number from room where roomId = ? 
+2018-09-19 22:34:40 -==> Parameters: 37(Integer)
+2018-09-19 22:34:40 -<==      Total: 1
+2018-09-19 22:34:40 -==>  Preparing: select * from room 
+2018-09-19 22:34:40 -==> Parameters: 
+2018-09-19 22:34:40 -<==      Total: 3
+2018-09-19 22:34:40 -AOP afterReturn,返回值result = index
+2018-09-19 22:34:41 -请求url = http://localhost:8080/chatroom
+2018-09-19 22:34:41 -所有的请求参数 key：value = [{"roomId":"35"},{"password":""},{"username":""}]
+2018-09-19 22:34:41 -==>  Preparing: select roomId, password, createTime, number from room where roomId = ? 
+2018-09-19 22:34:41 -==> Parameters: 35(Integer)
+2018-09-19 22:34:41 -<==      Total: 1
+2018-09-19 22:34:41 -==>  Preparing: select roomId, password, createTime, number from room where roomId = ? 
+2018-09-19 22:34:41 -==> Parameters: 35(Integer)
+2018-09-19 22:34:41 -<==      Total: 1
+2018-09-19 22:34:41 -==>  Preparing: update room set password = ?, createTime = ?, number = ? where roomId = ? 
+2018-09-19 22:34:41 -==> Parameters: (String), 2018-09-19 22:28:21.0(Timestamp), 2(Integer), 35(Integer)
+2018-09-19 22:34:41 -<==    Updates: 1
+2018-09-19 22:34:41 -AOP afterReturn,返回值result = chat
+2018-09-19 22:34:43 -请求url = http://localhost:8080/exitChatroom
+2018-09-19 22:34:43 -所有的请求参数 key：value = [{"roomId":"35"},{"username":""}]
+2018-09-19 22:34:43 -==>  Preparing: select roomId, password, createTime, number from room where roomId = ? 
+2018-09-19 22:34:43 -==> Parameters: 35(Integer)
+2018-09-19 22:34:43 -<==      Total: 1
+2018-09-19 22:34:43 -==>  Preparing: update room set password = ?, createTime = ?, number = ? where roomId = ? 
+2018-09-19 22:34:43 -==> Parameters: (String), 2018-09-19 22:28:21.0(Timestamp), 1(Integer), 35(Integer)
+2018-09-19 22:34:43 -<==    Updates: 1
+2018-09-19 22:34:43 -==>  Preparing: select roomId, password, createTime, number from room where roomId = ? 
+2018-09-19 22:34:43 -==> Parameters: 35(Integer)
+2018-09-19 22:34:43 -<==      Total: 1
+2018-09-19 22:34:43 -==>  Preparing: select * from room 
+2018-09-19 22:34:43 -==> Parameters: 
+2018-09-19 22:34:43 -<==      Total: 3
+2018-09-19 22:34:43 -AOP afterReturn,返回值result = index
+2018-09-19 22:34:46 -请求url = http://localhost:8080/insertRoom
+2018-09-19 22:34:46 -所有的请求参数 key：value = [{"password":"1"}]
+2018-09-19 22:34:46 -==>  Preparing: insert into room ( password ) values ( ?) 
+2018-09-19 22:34:46 -==> Parameters: 1(String)
+2018-09-19 22:34:46 -<==    Updates: 1
+2018-09-19 22:34:46 -AOP afterReturn,返回值result = 38
+2018-09-19 22:34:47 -请求url = http://localhost:8080/chatroom
+2018-09-19 22:34:47 -所有的请求参数 key：value = [{"roomId":"38"},{"password":"1"},{"username":""}]
+2018-09-19 22:34:47 -==>  Preparing: select roomId, password, createTime, number from room where roomId = ? 
+2018-09-19 22:34:47 -==> Parameters: 38(Integer)
+2018-09-19 22:34:47 -<==      Total: 1
+2018-09-19 22:34:47 -==>  Preparing: select roomId, password, createTime, number from room where roomId = ? 
+2018-09-19 22:34:47 -==> Parameters: 38(Integer)
+2018-09-19 22:34:47 -<==      Total: 1
+2018-09-19 22:34:47 -==>  Preparing: update room set password = ?, createTime = ?, number = ? where roomId = ? 
+2018-09-19 22:34:47 -==> Parameters: 1(String), 2018-09-19 22:34:46.0(Timestamp), 2(Integer), 38(Integer)
+2018-09-19 22:34:47 -<==    Updates: 1
+2018-09-19 22:34:47 -AOP afterReturn,返回值result = chat
+2018-09-19 22:34:50 -请求url = http://localhost:8080/exitChatroom
+2018-09-19 22:34:50 -所有的请求参数 key：value = [{"roomId":"38"},{"username":""}]
+2018-09-19 22:34:50 -==>  Preparing: select roomId, password, createTime, number from room where roomId = ? 
+2018-09-19 22:34:50 -==> Parameters: 38(Integer)
+2018-09-19 22:34:50 -<==      Total: 1
+2018-09-19 22:34:50 -==>  Preparing: update room set password = ?, createTime = ?, number = ? where roomId = ? 
+2018-09-19 22:34:50 -==> Parameters: 1(String), 2018-09-19 22:34:46.0(Timestamp), 1(Integer), 38(Integer)
+2018-09-19 22:34:50 -<==    Updates: 1
+2018-09-19 22:34:50 -==>  Preparing: select roomId, password, createTime, number from room where roomId = ? 
+2018-09-19 22:34:50 -==> Parameters: 38(Integer)
+2018-09-19 22:34:50 -<==      Total: 1
+2018-09-19 22:34:50 -==>  Preparing: select * from room 
+2018-09-19 22:34:50 -==> Parameters: 
+2018-09-19 22:34:50 -<==      Total: 4
+2018-09-19 22:34:50 -AOP afterReturn,返回值result = index
+2018-09-19 22:34:56 -请求url = http://localhost:8080/enterChatroom
+2018-09-19 22:34:56 -所有的请求参数 key：value = [{"roomId":"38"},{"password":"1"},{"username":""}]
+2018-09-19 22:34:56 -==>  Preparing: select roomId, password, createTime, number from room where roomId = ? 
+2018-09-19 22:34:56 -==> Parameters: 38(Integer)
+2018-09-19 22:34:56 -<==      Total: 1
+2018-09-19 22:34:56 -==>  Preparing: select roomId, password, createTime, number from room where roomId = ? 
+2018-09-19 22:34:56 -==> Parameters: 38(Integer)
+2018-09-19 22:34:56 -<==      Total: 1
+2018-09-19 22:34:56 -==>  Preparing: update room set password = ?, createTime = ?, number = ? where roomId = ? 
+2018-09-19 22:34:56 -==> Parameters: 1(String), 2018-09-19 22:34:46.0(Timestamp), 2(Integer), 38(Integer)
+2018-09-19 22:34:56 -<==    Updates: 1
+2018-09-19 22:34:56 -AOP afterReturn,返回值result = chat
+2018-09-19 22:34:56 -请求url = http://localhost:8080/chatroom
+2018-09-19 22:34:56 -所有的请求参数 key：value = [{"roomId":"38"},{"password":"1"},{"username":""}]
+2018-09-19 22:34:56 -==>  Preparing: select roomId, password, createTime, number from room where roomId = ? 
+2018-09-19 22:34:56 -==> Parameters: 38(Integer)
+2018-09-19 22:34:56 -<==      Total: 1
+2018-09-19 22:34:56 -==>  Preparing: select roomId, password, createTime, number from room where roomId = ? 
+2018-09-19 22:34:56 -==> Parameters: 38(Integer)
+2018-09-19 22:34:56 -<==      Total: 1
+2018-09-19 22:34:56 -==>  Preparing: update room set password = ?, createTime = ?, number = ? where roomId = ? 
+2018-09-19 22:34:56 -==> Parameters: 1(String), 2018-09-19 22:34:46.0(Timestamp), 3(Integer), 38(Integer)
+2018-09-19 22:34:56 -<==    Updates: 1
+2018-09-19 22:34:56 -AOP afterReturn,返回值result = chat
+2018-09-19 22:35:01 -请求url = http://localhost:8080/exitChatroom
+2018-09-19 22:35:01 -所有的请求参数 key：value = [{"roomId":"38"},{"username":""}]
+2018-09-19 22:35:01 -==>  Preparing: select roomId, password, createTime, number from room where roomId = ? 
+2018-09-19 22:35:01 -==> Parameters: 38(Integer)
+2018-09-19 22:35:01 -<==      Total: 1
+2018-09-19 22:35:01 -==>  Preparing: update room set password = ?, createTime = ?, number = ? where roomId = ? 
+2018-09-19 22:35:01 -==> Parameters: 1(String), 2018-09-19 22:34:46.0(Timestamp), 2(Integer), 38(Integer)
+2018-09-19 22:35:01 -<==    Updates: 1
+2018-09-19 22:35:01 -==>  Preparing: select roomId, password, createTime, number from room where roomId = ? 
+2018-09-19 22:35:01 -==> Parameters: 38(Integer)
+2018-09-19 22:35:01 -<==      Total: 1
+2018-09-19 22:35:01 -==>  Preparing: select * from room 
+2018-09-19 22:35:01 -==> Parameters: 
+2018-09-19 22:35:01 -<==      Total: 4
+2018-09-19 22:35:01 -AOP afterReturn,返回值result = index
+2018-09-19 22:35:26 -请求url = http://localhost:8080/insertRoom
+2018-09-19 22:35:26 -所有的请求参数 key：value = [{"password":""}]
+2018-09-19 22:35:26 -==>  Preparing: insert into room ( password ) values ( ?) 
+2018-09-19 22:35:26 -==> Parameters: (String)
+2018-09-19 22:35:26 -<==    Updates: 1
+2018-09-19 22:35:26 -AOP afterReturn,返回值result = 39
+2018-09-19 22:35:26 -请求url = http://localhost:8080/chatroom
+2018-09-19 22:35:26 -所有的请求参数 key：value = [{"roomId":"39"},{"password":""},{"username":""}]
+2018-09-19 22:35:26 -==>  Preparing: select roomId, password, createTime, number from room where roomId = ? 
+2018-09-19 22:35:26 -==> Parameters: 39(Integer)
+2018-09-19 22:35:26 -<==      Total: 1
+2018-09-19 22:35:26 -==>  Preparing: select roomId, password, createTime, number from room where roomId = ? 
+2018-09-19 22:35:26 -==> Parameters: 39(Integer)
+2018-09-19 22:35:26 -<==      Total: 1
+2018-09-19 22:35:26 -==>  Preparing: update room set password = ?, createTime = ?, number = ? where roomId = ? 
+2018-09-19 22:35:26 -==> Parameters: (String), 2018-09-19 22:35:26.0(Timestamp), 2(Integer), 39(Integer)
+2018-09-19 22:35:26 -<==    Updates: 1
+2018-09-19 22:35:26 -AOP afterReturn,返回值result = chat
+2018-09-19 22:35:30 -请求url = http://localhost:8080/exitChatroom
+2018-09-19 22:35:30 -所有的请求参数 key：value = [{"roomId":"39"},{"username":""}]
+2018-09-19 22:35:30 -==>  Preparing: select roomId, password, createTime, number from room where roomId = ? 
+2018-09-19 22:35:30 -==> Parameters: 39(Integer)
+2018-09-19 22:35:30 -<==      Total: 1
+2018-09-19 22:35:30 -==>  Preparing: update room set password = ?, createTime = ?, number = ? where roomId = ? 
+2018-09-19 22:35:30 -==> Parameters: (String), 2018-09-19 22:35:26.0(Timestamp), 1(Integer), 39(Integer)
+2018-09-19 22:35:30 -<==    Updates: 1
+2018-09-19 22:35:30 -==>  Preparing: select roomId, password, createTime, number from room where roomId = ? 
+2018-09-19 22:35:30 -==> Parameters: 39(Integer)
+2018-09-19 22:35:30 -<==      Total: 1
+2018-09-19 22:35:30 -==>  Preparing: select * from room 
+2018-09-19 22:35:30 -==> Parameters: 
+2018-09-19 22:35:30 -<==      Total: 5
+2018-09-19 22:35:30 -AOP afterReturn,返回值result = index
+2018-09-19 22:35:37 -请求url = http://localhost:8080/insertRoom
+2018-09-19 22:35:37 -所有的请求参数 key：value = [{"password":""}]
+2018-09-19 22:35:37 -==>  Preparing: insert into room ( password ) values ( ?) 
+2018-09-19 22:35:37 -==> Parameters: (String)
+2018-09-19 22:35:37 -<==    Updates: 1
+2018-09-19 22:35:37 -AOP afterReturn,返回值result = 40
+2018-09-19 22:35:38 -请求url = http://localhost:8080/chatroom
+2018-09-19 22:35:38 -所有的请求参数 key：value = [{"roomId":"40"},{"password":""},{"username":""}]
+2018-09-19 22:35:38 -==>  Preparing: select roomId, password, createTime, number from room where roomId = ? 
+2018-09-19 22:35:38 -==> Parameters: 40(Integer)
+2018-09-19 22:35:38 -<==      Total: 1
+2018-09-19 22:35:38 -==>  Preparing: select roomId, password, createTime, number from room where roomId = ? 
+2018-09-19 22:35:38 -==> Parameters: 40(Integer)
+2018-09-19 22:35:38 -<==      Total: 1
+2018-09-19 22:35:38 -==>  Preparing: update room set password = ?, createTime = ?, number = ? where roomId = ? 
+2018-09-19 22:35:38 -==> Parameters: (String), 2018-09-19 22:35:37.0(Timestamp), 2(Integer), 40(Integer)
+2018-09-19 22:35:38 -<==    Updates: 1
+2018-09-19 22:35:38 -AOP afterReturn,返回值result = chat
+2018-09-19 22:35:40 -请求url = http://localhost:8080/exitChatroom
+2018-09-19 22:35:40 -所有的请求参数 key：value = [{"roomId":"40"},{"username":""}]
+2018-09-19 22:35:40 -==>  Preparing: select roomId, password, createTime, number from room where roomId = ? 
+2018-09-19 22:35:40 -==> Parameters: 40(Integer)
+2018-09-19 22:35:40 -<==      Total: 1
+2018-09-19 22:35:40 -==>  Preparing: update room set password = ?, createTime = ?, number = ? where roomId = ? 
+2018-09-19 22:35:40 -==> Parameters: (String), 2018-09-19 22:35:37.0(Timestamp), 1(Integer), 40(Integer)
+2018-09-19 22:35:40 -<==    Updates: 1
+2018-09-19 22:35:40 -==>  Preparing: select roomId, password, createTime, number from room where roomId = ? 
+2018-09-19 22:35:40 -==> Parameters: 40(Integer)
+2018-09-19 22:35:40 -<==      Total: 1
+2018-09-19 22:35:40 -==>  Preparing: select * from room 
+2018-09-19 22:35:40 -==> Parameters: 
+2018-09-19 22:35:40 -<==      Total: 6
+2018-09-19 22:35:40 -AOP afterReturn,返回值result = index
+2018-09-19 22:37:33 -Starting ChatonlineApplication on yihui-computer with PID 27018 (/home/yihui/chatonline/chatonline/target/classes started by yihui in /home/yihui/chatonline/chatonline)
+2018-09-19 22:37:33 -Running with Spring Boot v1.5.15.RELEASE, Spring v4.3.18.RELEASE
+2018-09-19 22:37:33 -No active profile set, falling back to default profiles: default
+2018-09-19 22:37:37 -Started ChatonlineApplication in 4.828 seconds (JVM running for 6.82)
+2018-09-19 22:37:51 -请求url = http://localhost:8080/chatroom
+2018-09-19 22:37:51 -所有的请求参数 key：value = [{"roomId":"36"},{"password":""},{"username":""}]
+2018-09-19 22:37:52 -==>  Preparing: select roomId, password, createTime, number from room where roomId = ? 
+2018-09-19 22:37:52 -==> Parameters: 36(Integer)
+2018-09-19 22:37:52 -<==      Total: 1
+2018-09-19 22:37:52 -==>  Preparing: select roomId, password, createTime, number from room where roomId = ? 
+2018-09-19 22:37:52 -==> Parameters: 36(Integer)
+2018-09-19 22:37:52 -<==      Total: 1
+2018-09-19 22:37:52 -==>  Preparing: update room set password = ?, createTime = ?, number = ? where roomId = ? 
+2018-09-19 22:37:52 -==> Parameters: (String), 2018-09-19 22:31:19.0(Timestamp), 3(Integer), 36(Integer)
+2018-09-19 22:37:52 -<==    Updates: 1
+2018-09-19 22:37:52 -AOP afterReturn,返回值result = chat
+2018-09-19 22:37:59 -请求url = http://localhost:8080/exitChatroom
+2018-09-19 22:37:59 -所有的请求参数 key：value = [{"roomId":"36"},{"username":""}]
+2018-09-19 22:38:18 -==>  Preparing: select roomId, password, createTime, number from room where roomId = ? 
+2018-09-19 22:38:18 -==> Parameters: 36(Integer)
+2018-09-19 22:38:18 -<==      Total: 1
+2018-09-19 22:40:01 -==>  Preparing: update room set password = ?, createTime = ?, number = ? where roomId = ? 
+2018-09-19 22:40:01 -==> Parameters: (String), 2018-09-19 22:31:19.0(Timestamp), 2(Integer), 36(Integer)
+2018-09-19 22:40:01 -<==    Updates: 0
+2018-09-19 22:40:01 -==>  Preparing: select roomId, password, createTime, number from room where roomId = ? 
+2018-09-19 22:40:01 -==> Parameters: 36(Integer)
+2018-09-19 22:40:01 -<==      Total: 0
+2018-09-19 22:40:04 -Starting ChatonlineApplication on yihui-computer with PID 27254 (/home/yihui/chatonline/chatonline/target/classes started by yihui in /home/yihui/chatonline/chatonline)
+2018-09-19 22:40:04 -Running with Spring Boot v1.5.15.RELEASE, Spring v4.3.18.RELEASE
+2018-09-19 22:40:04 -No active profile set, falling back to default profiles: default
+2018-09-19 22:40:08 -Started ChatonlineApplication in 5.073 seconds (JVM running for 5.971)
+2018-09-19 22:40:16 -请求url = http://localhost:8080/exitChatroom
+2018-09-19 22:40:16 -所有的请求参数 key：value = [{"roomId":"36"},{"username":""}]
+2018-09-19 22:40:16 -==>  Preparing: select roomId, password, createTime, number from room where roomId = ? 
+2018-09-19 22:40:16 -==> Parameters: 36(Integer)
+2018-09-19 22:40:16 -<==      Total: 0
+2018-09-19 22:40:21 -请求url = http://localhost:8080/exitChatroom
+2018-09-19 22:40:21 -所有的请求参数 key：value = []
+2018-09-19 22:40:25 -请求url = http://localhost:8080/
+2018-09-19 22:40:25 -所有的请求参数 key：value = []
+2018-09-19 22:40:25 -AOP afterReturn,返回值result = login
+2018-09-19 22:40:27 -请求url = http://localhost:8080/login
+2018-09-19 22:40:27 -所有的请求参数 key：value = [{"username":"magic"},{"password":"123456"}]
+2018-09-19 22:40:27 -==>  Preparing: select * from user where username = ?; 
+2018-09-19 22:40:27 -==> Parameters: magic(String)
+2018-09-19 22:40:27 -<==      Total: 1
+2018-09-19 22:40:27 -==>  Preparing: select * from room 
+2018-09-19 22:40:27 -==> Parameters: 
+2018-09-19 22:40:27 -<==      Total: 0
+2018-09-19 22:40:27 -AOP afterReturn,返回值result = index
+2018-09-19 22:40:31 -请求url = http://localhost:8080/insertRoom
+2018-09-19 22:40:31 -所有的请求参数 key：value = [{"password":""}]
+2018-09-19 22:40:31 -==>  Preparing: insert into room ( password ) values ( ?) 
+2018-09-19 22:40:31 -==> Parameters: (String)
+2018-09-19 22:40:31 -<==    Updates: 1
+2018-09-19 22:40:31 -AOP afterReturn,返回值result = 41
+2018-09-19 22:40:32 -请求url = http://localhost:8080/chatroom
+2018-09-19 22:40:32 -所有的请求参数 key：value = [{"roomId":"41"},{"password":""},{"username":"magic"}]
+2018-09-19 22:40:32 -==>  Preparing: select roomId, password, createTime, number from room where roomId = ? 
+2018-09-19 22:40:32 -==> Parameters: 41(Integer)
+2018-09-19 22:40:32 -<==      Total: 1
+2018-09-19 22:40:32 -==>  Preparing: select roomId, password, createTime, number from room where roomId = ? 
+2018-09-19 22:40:32 -==> Parameters: 41(Integer)
+2018-09-19 22:40:32 -<==      Total: 1
+2018-09-19 22:40:32 -==>  Preparing: update room set password = ?, createTime = ?, number = ? where roomId = ? 
+2018-09-19 22:40:32 -==> Parameters: (String), 2018-09-19 22:40:31.0(Timestamp), 1(Integer), 41(Integer)
+2018-09-19 22:40:32 -<==    Updates: 1
+2018-09-19 22:40:32 -AOP afterReturn,返回值result = chat
+2018-09-19 22:40:35 -请求url = http://localhost:8080/exitChatroom
+2018-09-19 22:40:35 -所有的请求参数 key：value = [{"roomId":"41"},{"username":"magic"}]
+2018-09-19 22:40:35 -==>  Preparing: select roomId, password, createTime, number from room where roomId = ? 
+2018-09-19 22:40:35 -==> Parameters: 41(Integer)
+2018-09-19 22:40:35 -<==      Total: 1
+2018-09-19 22:40:35 -==>  Preparing: update room set password = ?, createTime = ?, number = ? where roomId = ? 
+2018-09-19 22:40:35 -==> Parameters: (String), 2018-09-19 22:40:31.0(Timestamp), 0(Integer), 41(Integer)
+2018-09-19 22:40:35 -<==    Updates: 1
+2018-09-19 22:40:35 -==>  Preparing: select roomId, password, createTime, number from room where roomId = ? 
+2018-09-19 22:40:35 -==> Parameters: 41(Integer)
+2018-09-19 22:40:35 -<==      Total: 1
+2018-09-19 22:40:35 -==>  Preparing: delete from room where roomId = ? 
+2018-09-19 22:40:35 -==> Parameters: 41(Integer)
+2018-09-19 22:40:35 -<==    Updates: 1
+2018-09-19 22:40:35 -==>  Preparing: select * from room 
+2018-09-19 22:40:35 -==> Parameters: 
+2018-09-19 22:40:35 -<==      Total: 0
+2018-09-19 22:40:35 -AOP afterReturn,返回值result = index
+2018-09-19 22:40:40 -请求url = http://localhost:8080/insertRoom
+2018-09-19 22:40:40 -所有的请求参数 key：value = [{"password":""}]
+2018-09-19 22:40:40 -==>  Preparing: insert into room ( password ) values ( ?) 
+2018-09-19 22:40:40 -==> Parameters: (String)
+2018-09-19 22:40:40 -<==    Updates: 1
+2018-09-19 22:40:40 -AOP afterReturn,返回值result = 42
+2018-09-19 22:40:41 -请求url = http://localhost:8080/chatroom
+2018-09-19 22:40:41 -所有的请求参数 key：value = [{"roomId":"42"},{"password":""},{"username":"magic"}]
+2018-09-19 22:40:41 -==>  Preparing: select roomId, password, createTime, number from room where roomId = ? 
+2018-09-19 22:40:41 -==> Parameters: 42(Integer)
+2018-09-19 22:40:41 -<==      Total: 1
+2018-09-19 22:40:41 -==>  Preparing: select roomId, password, createTime, number from room where roomId = ? 
+2018-09-19 22:40:41 -==> Parameters: 42(Integer)
+2018-09-19 22:40:41 -<==      Total: 1
+2018-09-19 22:40:41 -==>  Preparing: update room set password = ?, createTime = ?, number = ? where roomId = ? 
+2018-09-19 22:40:41 -==> Parameters: (String), 2018-09-19 22:40:40.0(Timestamp), 1(Integer), 42(Integer)
+2018-09-19 22:40:41 -<==    Updates: 1
+2018-09-19 22:40:41 -AOP afterReturn,返回值result = chat
+2018-09-19 22:40:54 -请求url = http://localhost:8080/
+2018-09-19 22:40:54 -所有的请求参数 key：value = []
+2018-09-19 22:40:54 -AOP afterReturn,返回值result = login
+2018-09-19 22:41:03 -请求url = http://localhost:8080/login
+2018-09-19 22:41:03 -所有的请求参数 key：value = [{"username":"一回"},{"password":"123456"}]
+2018-09-19 22:41:03 -==>  Preparing: select * from user where username = ?; 
+2018-09-19 22:41:03 -==> Parameters: 一回(String)
+2018-09-19 22:41:03 -<==      Total: 1
+2018-09-19 22:41:03 -==>  Preparing: select * from room 
+2018-09-19 22:41:03 -==> Parameters: 
+2018-09-19 22:41:03 -<==      Total: 1
+2018-09-19 22:41:03 -AOP afterReturn,返回值result = index
+2018-09-19 22:41:11 -请求url = http://localhost:8080/exitChatroom
+2018-09-19 22:41:11 -所有的请求参数 key：value = [{"roomId":"42"},{"username":"magic"}]
+2018-09-19 22:41:11 -==>  Preparing: select roomId, password, createTime, number from room where roomId = ? 
+2018-09-19 22:41:11 -==> Parameters: 42(Integer)
+2018-09-19 22:41:11 -<==      Total: 1
+2018-09-19 22:41:11 -==>  Preparing: update room set password = ?, createTime = ?, number = ? where roomId = ? 
+2018-09-19 22:41:11 -==> Parameters: (String), 2018-09-19 22:40:40.0(Timestamp), 0(Integer), 42(Integer)
+2018-09-19 22:41:11 -<==    Updates: 1
+2018-09-19 22:41:11 -==>  Preparing: select roomId, password, createTime, number from room where roomId = ? 
+2018-09-19 22:41:11 -==> Parameters: 42(Integer)
+2018-09-19 22:41:11 -<==      Total: 1
+2018-09-19 22:41:11 -==>  Preparing: delete from room where roomId = ? 
+2018-09-19 22:41:11 -==> Parameters: 42(Integer)
+2018-09-19 22:41:11 -<==    Updates: 1
+2018-09-19 22:41:11 -==>  Preparing: select * from room 
+2018-09-19 22:41:11 -==> Parameters: 
+2018-09-19 22:41:11 -<==      Total: 0
+2018-09-19 22:41:11 -AOP afterReturn,返回值result = index
+2018-09-19 22:41:14 -请求url = http://localhost:8080/login
+2018-09-19 22:41:14 -所有的请求参数 key：value = [{"username":"一回"},{"password":"123456"}]
+2018-09-19 22:41:14 -==>  Preparing: select * from user where username = ?; 
+2018-09-19 22:41:14 -==> Parameters: 一回(String)
+2018-09-19 22:41:15 -<==      Total: 1
+2018-09-19 22:41:15 -==>  Preparing: select * from room 
+2018-09-19 22:41:15 -==> Parameters: 
+2018-09-19 22:41:15 -<==      Total: 0
+2018-09-19 22:41:15 -AOP afterReturn,返回值result = index
+2018-09-19 22:41:39 -请求url = http://localhost:8080/index.html
+2018-09-19 22:41:39 -所有的请求参数 key：value = []
+2018-09-19 22:41:39 -==>  Preparing: select * from room 
+2018-09-19 22:41:39 -==> Parameters: 
+2018-09-19 22:41:39 -<==      Total: 0
+2018-09-19 22:41:39 -AOP afterReturn,返回值result = index
+2018-09-19 22:41:48 -请求url = http://localhost:8080/insertRoom
+2018-09-19 22:41:48 -所有的请求参数 key：value = [{"password":""}]
+2018-09-19 22:41:48 -==>  Preparing: insert into room ( password ) values ( ?) 
+2018-09-19 22:41:48 -==> Parameters: (String)
+2018-09-19 22:41:48 -<==    Updates: 1
+2018-09-19 22:41:48 -AOP afterReturn,返回值result = 43
+2018-09-19 22:41:49 -请求url = http://localhost:8080/chatroom
+2018-09-19 22:41:49 -所有的请求参数 key：value = [{"roomId":"43"},{"password":""},{"username":""}]
+2018-09-19 22:41:49 -==>  Preparing: select roomId, password, createTime, number from room where roomId = ? 
+2018-09-19 22:41:49 -==> Parameters: 43(Integer)
+2018-09-19 22:41:49 -<==      Total: 1
+2018-09-19 22:41:49 -==>  Preparing: select roomId, password, createTime, number from room where roomId = ? 
+2018-09-19 22:41:49 -==> Parameters: 43(Integer)
+2018-09-19 22:41:49 -<==      Total: 1
+2018-09-19 22:41:49 -==>  Preparing: update room set password = ?, createTime = ?, number = ? where roomId = ? 
+2018-09-19 22:41:49 -==> Parameters: (String), 2018-09-19 22:41:48.0(Timestamp), 1(Integer), 43(Integer)
+2018-09-19 22:41:49 -<==    Updates: 1
+2018-09-19 22:41:49 -AOP afterReturn,返回值result = chat
+2018-09-19 22:42:19 -请求url = http://localhost:8080/exitChatroom
+2018-09-19 22:42:19 -所有的请求参数 key：value = [{"roomId":"42"},{"username":"magic"}]
+2018-09-19 22:42:19 -==>  Preparing: select roomId, password, createTime, number from room where roomId = ? 
+2018-09-19 22:42:19 -==> Parameters: 42(Integer)
+2018-09-19 22:42:19 -<==      Total: 0
+2018-09-19 22:42:35 -请求url = http://localhost:8080/exitChatroom
+2018-09-19 22:42:35 -所有的请求参数 key：value = []
+2018-09-19 22:42:39 -请求url = http://localhost:8080/
+2018-09-19 22:42:39 -所有的请求参数 key：value = []
+2018-09-19 22:42:39 -AOP afterReturn,返回值result = login
+2018-09-19 22:42:41 -请求url = http://localhost:8080/login
+2018-09-19 22:42:41 -所有的请求参数 key：value = [{"username":"一回"},{"password":"123456"}]
+2018-09-19 22:42:41 -==>  Preparing: select * from user where username = ?; 
+2018-09-19 22:42:41 -==> Parameters: 一回(String)
+2018-09-19 22:42:41 -<==      Total: 1
+2018-09-19 22:42:41 -==>  Preparing: select * from room 
+2018-09-19 22:42:41 -==> Parameters: 
+2018-09-19 22:42:41 -<==      Total: 1
+2018-09-19 22:42:41 -AOP afterReturn,返回值result = index
+2018-09-19 22:42:48 -请求url = http://localhost:8080/insertRoom
+2018-09-19 22:42:48 -所有的请求参数 key：value = [{"password":""}]
+2018-09-19 22:42:48 -==>  Preparing: insert into room ( password ) values ( ?) 
+2018-09-19 22:42:48 -==> Parameters: (String)
+2018-09-19 22:42:48 -<==    Updates: 1
+2018-09-19 22:42:48 -AOP afterReturn,返回值result = 44
+2018-09-19 22:42:49 -请求url = http://localhost:8080/chatroom
+2018-09-19 22:42:49 -所有的请求参数 key：value = [{"roomId":"44"},{"password":""},{"username":"一回"}]
+2018-09-19 22:42:49 -==>  Preparing: select roomId, password, createTime, number from room where roomId = ? 
+2018-09-19 22:42:49 -==> Parameters: 44(Integer)
+2018-09-19 22:42:49 -<==      Total: 1
+2018-09-19 22:42:49 -==>  Preparing: select roomId, password, createTime, number from room where roomId = ? 
+2018-09-19 22:42:49 -==> Parameters: 44(Integer)
+2018-09-19 22:42:49 -<==      Total: 1
+2018-09-19 22:42:49 -==>  Preparing: update room set password = ?, createTime = ?, number = ? where roomId = ? 
+2018-09-19 22:42:49 -==> Parameters: (String), 2018-09-19 22:42:48.0(Timestamp), 1(Integer), 44(Integer)
+2018-09-19 22:42:49 -<==    Updates: 1
+2018-09-19 22:42:49 -AOP afterReturn,返回值result = chat
+2018-09-19 22:42:54 -请求url = http://localhost:8080/
+2018-09-19 22:42:54 -所有的请求参数 key：value = []
+2018-09-19 22:42:54 -AOP afterReturn,返回值result = login
+2018-09-19 22:42:57 -请求url = http://localhost:8080/login
+2018-09-19 22:42:57 -所有的请求参数 key：value = [{"username":"一回"},{"password":"123456"}]
+2018-09-19 22:42:57 -==>  Preparing: select * from user where username = ?; 
+2018-09-19 22:42:57 -==> Parameters: 一回(String)
+2018-09-19 22:42:57 -<==      Total: 1
+2018-09-19 22:42:57 -==>  Preparing: select * from room 
+2018-09-19 22:42:57 -==> Parameters: 
+2018-09-19 22:42:57 -<==      Total: 2
+2018-09-19 22:42:57 -AOP afterReturn,返回值result = index
