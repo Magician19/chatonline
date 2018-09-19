@@ -13,7 +13,9 @@ import io.netty.util.AttributeKey;
 import io.netty.util.concurrent.GlobalEventExecutor;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 /**
  * 消息处理类
@@ -24,7 +26,7 @@ public class MsgProcessor {
     private List<List<DefaultChannelGroup>> groupList = new ArrayList<>();
     private IMDecoder decoder = new IMDecoder();
     private IMEncoder encoder = new IMEncoder();
-
+    public static Map<String,ChannelGroup> users = new HashMap<>();
     //channel自定义属性
     private final AttributeKey<String> USERNAME = AttributeKey.valueOf("username");
     private final AttributeKey<String> HEAD_PIC = AttributeKey.valueOf("headPic");
@@ -41,21 +43,32 @@ public class MsgProcessor {
 
         //获取消息发送者
         String username = request.getSender();
+        String roomId = request.getRoomId();
         //判断如果是登录动作，就往onlineUsers中加入一条数据
         if (IMP.LOGIN.getName().equals(request.getCmd())) {
-            String roomId = request.getRoomId();
+
             client.attr(IP_ADDR).getAndSet("");
             client.attr(USERNAME).getAndSet(request.getSender());
             client.attr(HEAD_PIC).getAndSet(request.getHeadPic());
             client.attr(ROOMID).getAndSet(roomId);
+            if(users.get(roomId) == null || users.get(roomId).size() == 0){
+                System.out.println("======cin");
+                ChannelGroup channels = new DefaultChannelGroup(GlobalEventExecutor.INSTANCE);
+                channels.add(client);
+                System.out.println("2132");
+                users.put(roomId,channels);
+            }else {
+                users.get(roomId).add(client);
+            }
+            System.out.println("roomId  "+ roomId+" "+ users.get(roomId).size());
             onlineUsers.add(client);
             //像所有用户发送系统消息
-            for (Channel channel : onlineUsers) {//向其他人发送消息
+            for (Channel channel : users.get(roomId)) {//向其他人发送消息
 
                 if (channel != client && channel.attr(ROOMID).get().equals(client.attr(ROOMID).get())) {
 
                     //自定义系统消息格式 [system][时间戳][用户数量][消息内容]
-                    request = new IMMessage(IMP.SYSTEM.getName(), sysTime(), onlineUsers.size(), username + " 加入聊天室！", roomId);
+                    request = new IMMessage(IMP.SYSTEM.getName(), sysTime(), users.get(roomId).size(), username + " 加入聊天室！", roomId);
                     //自定义IM协议解码
                     String text = encoder.encode(request);
                     //发送消息
@@ -63,7 +76,7 @@ public class MsgProcessor {
                 }
                 //向自己发送消息
                 if(channel == client){
-                    request = new IMMessage(IMP.SYSTEM.getName(), sysTime(), onlineUsers.size(), username + " 欢迎进入聊天室！", roomId);
+                    request = new IMMessage(IMP.SYSTEM.getName(), sysTime(), users.get(roomId).size(), username + " 欢迎进入聊天室！", roomId);
                       //自定义IM协议解码
                     String text = encoder.encode(request);
                     //发送消息
@@ -80,7 +93,7 @@ public class MsgProcessor {
         //如果是聊天信息
         else if (IMP.CHAT.getName().equals(request.getCmd())) {
 
-            for (Channel channel : onlineUsers) {//向其他人发送消息
+            for (Channel channel : users.get(roomId)) {//向其他人发送消息
                 if (channel != client && channel.attr(ROOMID).get().equals(client.attr(ROOMID).get())) {
 
                     request.setSender(username);

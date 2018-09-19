@@ -62,4 +62,9 @@ public class BaseController {
         return userService.isExist(userName);
     }
 
+    @RequestMapping("/index")
+    public String index(){
+        return "index";
+    }
+
 }

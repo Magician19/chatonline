@@ -281,6 +281,6 @@ window.CHAT = {
     },
     //退出登录
     logout: function () {
-        window.location.href = "/login";
+        window.location.href = "/";
     },
 };
