@@ -12,18 +12,41 @@ import java.util.List;
 public class RoomServiceImpl implements RoomService {
     @Autowired
     private RoomMapper roomMapper;
+
     @Override
     public List<Room> getAllRoom() {
         return roomMapper.getAllRoom();
     }
 
     @Override
-    public int insertRoom(String password) {
-        return roomMapper.insertRoom(password);
+    public int insertRoom(Room room) {
+        roomMapper.insert(room);
+        return room.getRoomid();
     }
 
     @Override
     public Room getRoomById(int roomId) {
         return roomMapper.selectByPrimaryKey(roomId);
+    }
+
+    @Override
+    public int addNum(int roomId) {
+        Room room = roomMapper.selectByPrimaryKey(roomId);
+        room.setNumber(room.getNumber() + 1);
+        return roomMapper.updateByPrimaryKey(room);
+    }
+
+    @Override
+    public int subNum(int roomId) {
+        Room room = roomMapper.selectByPrimaryKey(roomId);
+        if (room.getNumber() > 0) {
+            room.setNumber(room.getNumber() - 1);
+        }
+        return roomMapper.updateByPrimaryKey(room);
+    }
+
+    @Override
+    public int delete(int roomId) {
+        return roomMapper.deleteByPrimaryKey(roomId);
     }
 }

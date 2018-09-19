@@ -1,16 +1,22 @@
 package com.njust.chatonline.netty.process;
 
 import com.alibaba.fastjson.JSONObject;
+import com.njust.chatonline.dao.RoomMapper;
+import com.njust.chatonline.entity.Room;
 import com.njust.chatonline.netty.protocol.IMDecoder;
 import com.njust.chatonline.netty.protocol.IMEncoder;
 import com.njust.chatonline.netty.protocol.IMMessage;
 import com.njust.chatonline.netty.protocol.IMP;
+import com.njust.chatonline.service.RoomService;
+import com.njust.chatonline.service.impl.RoomServiceImpl;
 import io.netty.channel.Channel;
 import io.netty.channel.group.ChannelGroup;
 import io.netty.channel.group.DefaultChannelGroup;
 import io.netty.handler.codec.http.websocketx.TextWebSocketFrame;
 import io.netty.util.AttributeKey;
 import io.netty.util.concurrent.GlobalEventExecutor;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -33,6 +39,7 @@ public class MsgProcessor {
     private final AttributeKey<String> IP_ADDR = AttributeKey.valueOf("ipAddr");
     private final AttributeKey<JSONObject> ATTRS = AttributeKey.valueOf("attrs");
     private final AttributeKey<String> ROOMID = AttributeKey.valueOf("roomId");
+
 
     public void process(Channel client, String msg) {
         //将字符串解析为自定义格式

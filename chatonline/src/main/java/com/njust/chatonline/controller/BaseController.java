@@ -35,7 +35,7 @@ public class BaseController {
     public String Login(String username, String password, Model model) {
         if (userService.Login(username, password)) {
             List<Room> rooms = roomService.getAllRoom();
-            System.out.println(rooms.size());
+            model.addAttribute("username",username);
             model.addAttribute("rooms",rooms);
             return "index";
         }
@@ -49,8 +49,23 @@ public class BaseController {
         if ( room.getPassword() == null || room.getPassword() == "" || room.getPassword().equals(password) ) {
             model.addAttribute("roomId", roomId);
             model.addAttribute("username", username);
+            roomService.addNum(Integer.valueOf(roomId));
             return "chat";
         }
+        return "index";
+    }
+
+    @RequestMapping("/exitChatroom")
+    public String ExitChatroom(String roomId,Model model,String username) {
+        roomService.subNum(Integer.valueOf(roomId));
+        Room room = roomService.getRoomById(Integer.valueOf(roomId));
+        if(room.getNumber()<=0){
+            roomService.delete(Integer.valueOf(roomId));
+        }
+        List<Room> rooms = roomService.getAllRoom();
+        System.out.println(rooms.size());
+        model.addAttribute("username",username);
+        model.addAttribute("rooms",rooms);
         return "index";
     }
 
@@ -76,9 +91,10 @@ public class BaseController {
     }
 
     @RequestMapping("/index")
-    public String index(Model model) {
+    public String index(Model model,String username) {
         List<Room> rooms = roomService.getAllRoom();
         System.out.println(rooms.size());
+        model.addAttribute("username",username);
         model.addAttribute("rooms",rooms);
         return "index";
     }
@@ -93,7 +109,9 @@ public class BaseController {
     @RequestMapping("/insertRoom")
     @ResponseBody
     public int insertRoom(String password) {
-        return roomService.insertRoom(password);
+        Room room = new Room();
+        room.setPassword(password);
+        return roomService.insertRoom(room);
     }
 
 

@@ -9,6 +9,8 @@ public class Room {
 
     private Date createtime;
 
+    private Integer number;
+
     public Integer getRoomid() {
         return roomid;
     }
@@ -31,5 +33,13 @@ public class Room {
 
     public void setCreatetime(Date createtime) {
         this.createtime = createtime;
+    }
+
+    public Integer getNumber() {
+        return number;
+    }
+
+    public void setNumber(Integer number) {
+        this.number = number;
     }
 }

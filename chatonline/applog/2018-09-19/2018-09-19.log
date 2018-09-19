@@ -410,3 +410,393 @@
 2018-09-19 15:32:58 -请求url = http://localhost:8080/index
 2018-09-19 15:32:58 -所有的请求参数 key：value = []
 2018-09-19 15:32:58 -AOP afterReturn,返回值result = index
+2018-09-19 16:56:04 -Starting ChatonlineApplication on pc with PID 8400 (C:\Users\Kevin\Documents\GitHub\chatonline\chatonline\target\classes started by Kevin in C:\Users\Kevin\Documents\GitHub\chatonline\chatonline)
+2018-09-19 16:56:04 -No active profile set, falling back to default profiles: default
+2018-09-19 16:56:21 -Started ChatonlineApplication in 19.731 seconds (JVM running for 24.022)
+2018-09-19 16:56:32 -请求url = http://localhost:8080/insertRoom
+2018-09-19 16:56:32 -所有的请求参数 key：value = [{"password":"null"}]
+2018-09-19 16:56:33 -AOP afterReturn,返回值result = 1
+2018-09-19 17:24:54 -Starting ChatonlineApplication on pc with PID 16036 (C:\Users\Kevin\Documents\GitHub\chatonline\chatonline\target\classes started by Kevin in C:\Users\Kevin\Documents\GitHub\chatonline\chatonline)
+2018-09-19 17:24:54 -No active profile set, falling back to default profiles: default
+2018-09-19 17:25:10 -Started ChatonlineApplication in 18.469 seconds (JVM running for 22.871)
+2018-09-19 17:26:09 -请求url = http://localhost:8080/insertRoom
+2018-09-19 17:26:09 -所有的请求参数 key：value = [{"password":"null"}]
+2018-09-19 17:29:41 -Starting ChatonlineApplication on pc with PID 16992 (C:\Users\Kevin\Documents\GitHub\chatonline\chatonline\target\classes started by Kevin in C:\Users\Kevin\Documents\GitHub\chatonline\chatonline)
+2018-09-19 17:29:41 -No active profile set, falling back to default profiles: default
+2018-09-19 17:29:58 -Started ChatonlineApplication in 19.326 seconds (JVM running for 23.822)
+2018-09-19 17:30:06 -请求url = http://localhost:8080/insertRoom
+2018-09-19 17:30:06 -所有的请求参数 key：value = [{"password":"null"}]
+2018-09-19 17:30:39 -Starting ChatonlineApplication on pc with PID 10776 (C:\Users\Kevin\Documents\GitHub\chatonline\chatonline\target\classes started by Kevin in C:\Users\Kevin\Documents\GitHub\chatonline\chatonline)
+2018-09-19 17:30:39 -No active profile set, falling back to default profiles: default
+2018-09-19 17:30:56 -Started ChatonlineApplication in 20.003 seconds (JVM running for 24.282)
+2018-09-19 17:31:02 -请求url = http://localhost:8080/insertRoom
+2018-09-19 17:31:02 -所有的请求参数 key：value = [{"password":"null"}]
+2018-09-19 17:31:03 -AOP afterReturn,返回值result = 1
+2018-09-19 17:32:14 -Starting ChatonlineApplication on pc with PID 7496 (C:\Users\Kevin\Documents\GitHub\chatonline\chatonline\target\classes started by Kevin in C:\Users\Kevin\Documents\GitHub\chatonline\chatonline)
+2018-09-19 17:32:14 -No active profile set, falling back to default profiles: default
+2018-09-19 17:32:32 -Started ChatonlineApplication in 19.497 seconds (JVM running for 23.764)
+2018-09-19 17:32:35 -请求url = http://localhost:8080/insertRoom
+2018-09-19 17:32:35 -所有的请求参数 key：value = [{"password":"null"}]
+2018-09-19 17:32:36 -AOP afterReturn,返回值result = 1
+2018-09-19 17:33:10 -Starting ChatonlineApplication on pc with PID 7908 (C:\Users\Kevin\Documents\GitHub\chatonline\chatonline\target\classes started by Kevin in C:\Users\Kevin\Documents\GitHub\chatonline\chatonline)
+2018-09-19 17:33:10 -No active profile set, falling back to default profiles: default
+2018-09-19 17:33:26 -Started ChatonlineApplication in 16.933 seconds (JVM running for 20.517)
+2018-09-19 17:33:49 -请求url = http://localhost:8080/insertRoom
+2018-09-19 17:33:49 -所有的请求参数 key：value = [{"password":"null"}]
+2018-09-19 17:33:50 -AOP afterReturn,返回值result = 1
+2018-09-19 17:34:12 -Starting ChatonlineApplication on pc with PID 14992 (C:\Users\Kevin\Documents\GitHub\chatonline\chatonline\target\classes started by Kevin in C:\Users\Kevin\Documents\GitHub\chatonline\chatonline)
+2018-09-19 17:34:12 -No active profile set, falling back to default profiles: default
+2018-09-19 17:34:27 -Started ChatonlineApplication in 17.082 seconds (JVM running for 20.483)
+2018-09-19 17:34:39 -请求url = http://localhost:8080/insertRoom
+2018-09-19 17:34:39 -所有的请求参数 key：value = [{"password":"null"}]
+2018-09-19 17:35:47 -Starting ChatonlineApplication on pc with PID 3464 (C:\Users\Kevin\Documents\GitHub\chatonline\chatonline\target\classes started by Kevin in C:\Users\Kevin\Documents\GitHub\chatonline\chatonline)
+2018-09-19 17:35:47 -No active profile set, falling back to default profiles: default
+2018-09-19 17:36:04 -Started ChatonlineApplication in 18.892 seconds (JVM running for 23.103)
+2018-09-19 17:36:09 -请求url = http://localhost:8080/insertRoom
+2018-09-19 17:36:09 -所有的请求参数 key：value = [{"password":"null"}]
+2018-09-19 17:36:10 -AOP afterReturn,返回值result = 23
+2018-09-19 17:48:57 -Starting ChatonlineApplication on pc with PID 16340 (C:\Users\Kevin\Documents\GitHub\chatonline\chatonline\target\classes started by Kevin in C:\Users\Kevin\Documents\GitHub\chatonline\chatonline)
+2018-09-19 17:48:57 -No active profile set, falling back to default profiles: default
+2018-09-19 17:49:14 -Started ChatonlineApplication in 19.549 seconds (JVM running for 23.736)
+2018-09-19 17:49:40 -请求url = http://localhost:8080/chatroom
+2018-09-19 17:49:40 -所有的请求参数 key：value = [{"roomId":"3"},{"username":"test1"},{"password":"112"}]
+2018-09-19 17:49:42 -AOP afterReturn,返回值result = index
+2018-09-19 17:49:55 -请求url = http://localhost:8080/chatroom
+2018-09-19 17:49:55 -所有的请求参数 key：value = [{"roomId":"3"},{"username":"test1"},{"password":"112"}]
+2018-09-19 17:49:55 -AOP afterReturn,返回值result = index
+2018-09-19 17:50:01 -请求url = http://localhost:8080/chatroom
+2018-09-19 17:50:01 -所有的请求参数 key：value = [{"roomId":"3"},{"username":"test1"},{"password":"111"}]
+2018-09-19 17:50:01 -AOP afterReturn,返回值result = chat
+2018-09-19 17:50:22 -请求url = http://localhost:8080/chatroom
+2018-09-19 17:50:22 -所有的请求参数 key：value = [{"roomId":"3"},{"username":"test1"},{"password":"111"}]
+2018-09-19 17:50:22 -AOP afterReturn,返回值result = chat
+2018-09-19 17:50:32 -请求url = http://localhost:8080/chatroom
+2018-09-19 17:50:32 -所有的请求参数 key：value = [{"roomId":"1"},{"username":"test1"},{"password":""}]
+2018-09-19 17:50:32 -AOP afterReturn,返回值result = chat
+2018-09-19 17:51:59 -Starting ChatonlineApplication on pc with PID 10944 (C:\Users\Kevin\Documents\GitHub\chatonline\chatonline\target\classes started by Kevin in C:\Users\Kevin\Documents\GitHub\chatonline\chatonline)
+2018-09-19 17:51:59 -No active profile set, falling back to default profiles: default
+2018-09-19 17:52:17 -Started ChatonlineApplication in 20.778 seconds (JVM running for 25.375)
+2018-09-19 17:52:25 -请求url = http://localhost:8080/chatroom
+2018-09-19 17:52:25 -所有的请求参数 key：value = [{"roomId":"1"},{"username":"test1"},{"password":""}]
+2018-09-19 17:52:26 -AOP afterReturn,返回值result = chat
+2018-09-19 17:52:55 -Starting ChatonlineApplication on pc with PID 5028 (C:\Users\Kevin\Documents\GitHub\chatonline\chatonline\target\classes started by Kevin in C:\Users\Kevin\Documents\GitHub\chatonline\chatonline)
+2018-09-19 17:52:55 -No active profile set, falling back to default profiles: default
+2018-09-19 17:53:13 -Started ChatonlineApplication in 20.086 seconds (JVM running for 24.083)
+2018-09-19 17:53:17 -请求url = http://localhost:8080/chatroom
+2018-09-19 17:53:17 -所有的请求参数 key：value = [{"roomId":"1"},{"username":"test1"},{"password":""}]
+2018-09-19 17:53:18 -AOP afterReturn,返回值result = chat
+2018-09-19 20:20:06 -Starting ChatonlineApplication on pc with PID 16700 (C:\Users\Kevin\Documents\GitHub\chatonline\chatonline\target\classes started by Kevin in C:\Users\Kevin\Documents\GitHub\chatonline\chatonline)
+2018-09-19 20:20:06 -No active profile set, falling back to default profiles: default
+2018-09-19 20:20:22 -Started ChatonlineApplication in 17.88 seconds (JVM running for 22.108)
+2018-09-19 20:20:30 -请求url = http://localhost:8080/insertRoom
+2018-09-19 20:20:30 -所有的请求参数 key：value = [{"password":"null"}]
+2018-09-19 20:20:31 -AOP afterReturn,返回值result = 28
+2018-09-19 20:20:39 -请求url = http://localhost:8080/chatroom
+2018-09-19 20:20:39 -所有的请求参数 key：value = [{"roomId":"1"},{"username":"test1"},{"password":""}]
+2018-09-19 20:20:39 -AOP afterReturn,返回值result = index
+2018-09-19 20:20:50 -请求url = http://localhost:8080/chatroom
+2018-09-19 20:20:50 -所有的请求参数 key：value = [{"roomId":"2"},{"username":"test1"},{"password":""}]
+2018-09-19 20:20:50 -AOP afterReturn,返回值result = chat
+2018-09-19 20:22:05 -Starting ChatonlineApplication on pc with PID 9672 (C:\Users\Kevin\Documents\GitHub\chatonline\chatonline\target\classes started by Kevin in C:\Users\Kevin\Documents\GitHub\chatonline\chatonline)
+2018-09-19 20:22:05 -No active profile set, falling back to default profiles: default
+2018-09-19 20:22:22 -Started ChatonlineApplication in 18.942 seconds (JVM running for 23.314)
+2018-09-19 20:22:28 -请求url = http://localhost:8080/chatroom
+2018-09-19 20:22:28 -所有的请求参数 key：value = [{"roomId":"2"},{"username":"test1"},{"password":""}]
+2018-09-19 20:22:30 -AOP afterReturn,返回值result = chat
+2018-09-19 20:23:20 -Starting ChatonlineApplication on pc with PID 12228 (C:\Users\Kevin\Documents\GitHub\chatonline\chatonline\target\classes started by Kevin in C:\Users\Kevin\Documents\GitHub\chatonline\chatonline)
+2018-09-19 20:23:20 -No active profile set, falling back to default profiles: default
+2018-09-19 20:23:36 -Started ChatonlineApplication in 18.37 seconds (JVM running for 22.719)
+2018-09-19 20:23:43 -请求url = http://localhost:8080/chatroom
+2018-09-19 20:23:43 -所有的请求参数 key：value = [{"roomId":"2"},{"username":"test1"},{"password":""}]
+2018-09-19 20:23:44 -AOP afterReturn,返回值result = chat
+2018-09-19 20:24:55 -Starting ChatonlineApplication on pc with PID 9268 (C:\Users\Kevin\Documents\GitHub\chatonline\chatonline\target\classes started by Kevin in C:\Users\Kevin\Documents\GitHub\chatonline\chatonline)
+2018-09-19 20:24:55 -No active profile set, falling back to default profiles: default
+2018-09-19 20:25:10 -Started ChatonlineApplication in 17.814 seconds (JVM running for 21.984)
+2018-09-19 20:25:21 -请求url = http://localhost:8080/chatroom
+2018-09-19 20:25:21 -所有的请求参数 key：value = [{"roomId":"2"},{"username":"test1"},{"password":""}]
+2018-09-19 20:25:22 -AOP afterReturn,返回值result = chat
+2018-09-19 20:25:59 -Starting ChatonlineApplication on pc with PID 7636 (C:\Users\Kevin\Documents\GitHub\chatonline\chatonline\target\classes started by Kevin in C:\Users\Kevin\Documents\GitHub\chatonline\chatonline)
+2018-09-19 20:25:59 -No active profile set, falling back to default profiles: default
+2018-09-19 20:26:15 -Started ChatonlineApplication in 18.309 seconds (JVM running for 22.568)
+2018-09-19 20:26:21 -请求url = http://localhost:8080/chatroom
+2018-09-19 20:26:21 -所有的请求参数 key：value = [{"roomId":"2"},{"username":"test1"},{"password":""}]
+2018-09-19 20:26:22 -AOP afterReturn,返回值result = chat
+2018-09-19 20:27:05 -Starting ChatonlineApplication on pc with PID 3260 (C:\Users\Kevin\Documents\GitHub\chatonline\chatonline\target\classes started by Kevin in C:\Users\Kevin\Documents\GitHub\chatonline\chatonline)
+2018-09-19 20:27:05 -No active profile set, falling back to default profiles: default
+2018-09-19 20:27:33 -Started ChatonlineApplication in 29.904 seconds (JVM running for 35.867)
+2018-09-19 20:27:39 -请求url = http://localhost:8080/chatroom
+2018-09-19 20:27:39 -所有的请求参数 key：value = [{"roomId":"2"},{"username":"test1"},{"password":""}]
+2018-09-19 20:27:41 -AOP afterReturn,返回值result = chat
+2018-09-19 20:34:07 -Starting ChatonlineApplication on pc with PID 11492 (C:\Users\Kevin\Documents\GitHub\chatonline\chatonline\target\classes started by Kevin in C:\Users\Kevin\Documents\GitHub\chatonline\chatonline)
+2018-09-19 20:34:07 -Running with Spring Boot v1.5.15.RELEASE, Spring v4.3.18.RELEASE
+2018-09-19 20:34:07 -No active profile set, falling back to default profiles: default
+2018-09-19 20:34:25 -Started ChatonlineApplication in 19.885 seconds (JVM running for 23.238)
+2018-09-19 20:34:33 -请求url = http://localhost:8080/chatroom
+2018-09-19 20:34:33 -所有的请求参数 key：value = [{"roomId":"2"},{"username":"test1"},{"password":""}]
+2018-09-19 20:34:34 -==>  Preparing: select roomId, password, createTime, number from room where roomId = ? 
+2018-09-19 20:34:34 -==> Parameters: 2(Integer)
+2018-09-19 20:34:35 -<==      Total: 1
+2018-09-19 20:34:35 -AOP afterReturn,返回值result = chat
+2018-09-19 20:36:54 -Starting ChatonlineApplication on pc with PID 7860 (C:\Users\Kevin\Documents\GitHub\chatonline\chatonline\target\classes started by Kevin in C:\Users\Kevin\Documents\GitHub\chatonline\chatonline)
+2018-09-19 20:36:54 -Running with Spring Boot v1.5.15.RELEASE, Spring v4.3.18.RELEASE
+2018-09-19 20:36:54 -No active profile set, falling back to default profiles: default
+2018-09-19 20:37:08 -Started ChatonlineApplication in 16.52 seconds (JVM running for 21.066)
+2018-09-19 20:39:08 -Starting ChatonlineApplication on pc with PID 4748 (C:\Users\Kevin\Documents\GitHub\chatonline\chatonline\target\classes started by Kevin in C:\Users\Kevin\Documents\GitHub\chatonline\chatonline)
+2018-09-19 20:39:08 -Running with Spring Boot v1.5.15.RELEASE, Spring v4.3.18.RELEASE
+2018-09-19 20:39:08 -No active profile set, falling back to default profiles: default
+2018-09-19 20:39:23 -Started ChatonlineApplication in 17.831 seconds (JVM running for 22.298)
+2018-09-19 20:39:34 -请求url = http://localhost:8080/chatroom
+2018-09-19 20:39:34 -所有的请求参数 key：value = [{"roomId":"2"},{"username":"test1"},{"password":""}]
+2018-09-19 20:39:35 -==>  Preparing: select roomId, password, createTime, number from room where roomId = ? 
+2018-09-19 20:39:35 -==> Parameters: 2(Integer)
+2018-09-19 20:39:35 -<==      Total: 1
+2018-09-19 20:39:35 -AOP afterReturn,返回值result = chat
+2018-09-19 20:41:17 -Starting ChatonlineApplication on pc with PID 1816 (C:\Users\Kevin\Documents\GitHub\chatonline\chatonline\target\classes started by Kevin in C:\Users\Kevin\Documents\GitHub\chatonline\chatonline)
+2018-09-19 20:41:17 -Running with Spring Boot v1.5.15.RELEASE, Spring v4.3.18.RELEASE
+2018-09-19 20:41:17 -No active profile set, falling back to default profiles: default
+2018-09-19 20:41:33 -Started ChatonlineApplication in 18.126 seconds (JVM running for 22.462)
+2018-09-19 20:41:40 -请求url = http://localhost:8080/chatroom
+2018-09-19 20:41:40 -所有的请求参数 key：value = [{"roomId":"2"},{"username":"test1"},{"password":""}]
+2018-09-19 20:41:41 -==>  Preparing: select roomId, password, createTime, number from room where roomId = ? 
+2018-09-19 20:41:41 -==> Parameters: 2(Integer)
+2018-09-19 20:41:41 -<==      Total: 1
+2018-09-19 20:41:41 -AOP afterReturn,返回值result = chat
+2018-09-19 20:42:27 -Starting ChatonlineApplication on pc with PID 14764 (C:\Users\Kevin\Documents\GitHub\chatonline\chatonline\target\classes started by Kevin in C:\Users\Kevin\Documents\GitHub\chatonline\chatonline)
+2018-09-19 20:42:27 -Running with Spring Boot v1.5.15.RELEASE, Spring v4.3.18.RELEASE
+2018-09-19 20:42:27 -No active profile set, falling back to default profiles: default
+2018-09-19 20:42:48 -Started ChatonlineApplication in 23.226 seconds (JVM running for 27.451)
+2018-09-19 20:42:54 -请求url = http://localhost:8080/chatroom
+2018-09-19 20:42:54 -所有的请求参数 key：value = [{"roomId":"2"},{"username":"test1"},{"password":""}]
+2018-09-19 20:42:55 -==>  Preparing: select roomId, password, createTime, number from room where roomId = ? 
+2018-09-19 20:42:55 -==> Parameters: 2(Integer)
+2018-09-19 20:42:56 -<==      Total: 1
+2018-09-19 20:42:56 -AOP afterReturn,返回值result = chat
+2018-09-19 20:46:03 -Starting ChatonlineApplication on pc with PID 16096 (C:\Users\Kevin\Documents\GitHub\chatonline\chatonline\target\classes started by Kevin in C:\Users\Kevin\Documents\GitHub\chatonline\chatonline)
+2018-09-19 20:46:03 -Running with Spring Boot v1.5.15.RELEASE, Spring v4.3.18.RELEASE
+2018-09-19 20:46:03 -No active profile set, falling back to default profiles: default
+2018-09-19 20:46:20 -Started ChatonlineApplication in 19.294 seconds (JVM running for 23.807)
+2018-09-19 20:46:24 -请求url = http://localhost:8080/chatroom
+2018-09-19 20:46:24 -所有的请求参数 key：value = [{"roomId":"2"},{"username":"test1"},{"password":""}]
+2018-09-19 20:46:25 -==>  Preparing: select roomId, password, createTime, number from room where roomId = ? 
+2018-09-19 20:46:25 -==> Parameters: 2(Integer)
+2018-09-19 20:46:25 -<==      Total: 1
+2018-09-19 20:46:25 -AOP afterReturn,返回值result = chat
+2018-09-19 20:56:39 -Starting ChatonlineApplication on pc with PID 1516 (C:\Users\Kevin\Documents\GitHub\chatonline\chatonline\target\classes started by Kevin in C:\Users\Kevin\Documents\GitHub\chatonline\chatonline)
+2018-09-19 20:56:39 -Running with Spring Boot v1.5.15.RELEASE, Spring v4.3.18.RELEASE
+2018-09-19 20:56:39 -No active profile set, falling back to default profiles: default
+2018-09-19 20:57:01 -Started ChatonlineApplication in 22.772 seconds (JVM running for 25.056)
+2018-09-19 20:57:23 -请求url = http://localhost:8080/chatroom
+2018-09-19 20:57:23 -所有的请求参数 key：value = [{"roomId":"2"},{"username":"test1"},{"password":""}]
+2018-09-19 20:57:24 -==>  Preparing: select roomId, password, createTime, number from room where roomId = ? 
+2018-09-19 20:57:24 -==> Parameters: 2(Integer)
+2018-09-19 20:57:24 -<==      Total: 1
+2018-09-19 20:57:24 -AOP afterReturn,返回值result = chat
+2018-09-19 20:58:25 -Starting ChatonlineApplication on pc with PID 1220 (C:\Users\Kevin\Documents\GitHub\chatonline\chatonline\target\classes started by Kevin in C:\Users\Kevin\Documents\GitHub\chatonline\chatonline)
+2018-09-19 20:58:25 -Running with Spring Boot v1.5.15.RELEASE, Spring v4.3.18.RELEASE
+2018-09-19 20:58:25 -No active profile set, falling back to default profiles: default
+2018-09-19 20:58:46 -Started ChatonlineApplication in 22.297 seconds (JVM running for 24.415)
+2018-09-19 20:59:21 -请求url = http://localhost:8080/chatroom
+2018-09-19 20:59:21 -所有的请求参数 key：value = [{"roomId":"2"},{"username":"test1"},{"password":""}]
+2018-09-19 20:59:22 -==>  Preparing: select roomId, password, createTime, number from room where roomId = ? 
+2018-09-19 20:59:22 -==> Parameters: 2(Integer)
+2018-09-19 20:59:22 -<==      Total: 1
+2018-09-19 20:59:22 -AOP afterReturn,返回值result = chat
+2018-09-19 21:00:01 -Starting ChatonlineApplication on pc with PID 11296 (C:\Users\Kevin\Documents\GitHub\chatonline\chatonline\target\classes started by Kevin in C:\Users\Kevin\Documents\GitHub\chatonline\chatonline)
+2018-09-19 21:00:01 -Running with Spring Boot v1.5.15.RELEASE, Spring v4.3.18.RELEASE
+2018-09-19 21:00:01 -No active profile set, falling back to default profiles: default
+2018-09-19 21:00:20 -Started ChatonlineApplication in 21.975 seconds (JVM running for 24.804)
+2018-09-19 21:00:59 -请求url = http://localhost:8080/chatroom
+2018-09-19 21:00:59 -所有的请求参数 key：value = [{"roomId":"2"},{"username":"test1"},{"password":""}]
+2018-09-19 21:01:00 -==>  Preparing: select roomId, password, createTime, number from room where roomId = ? 
+2018-09-19 21:01:00 -==> Parameters: 2(Integer)
+2018-09-19 21:01:00 -<==      Total: 1
+2018-09-19 21:01:00 -AOP afterReturn,返回值result = chat
+2018-09-19 21:02:43 -Starting ChatonlineApplication on pc with PID 7740 (C:\Users\Kevin\Documents\GitHub\chatonline\chatonline\target\classes started by Kevin in C:\Users\Kevin\Documents\GitHub\chatonline\chatonline)
+2018-09-19 21:02:43 -Running with Spring Boot v1.5.15.RELEASE, Spring v4.3.18.RELEASE
+2018-09-19 21:02:43 -No active profile set, falling back to default profiles: default
+2018-09-19 21:03:04 -Started ChatonlineApplication in 23.52 seconds (JVM running for 27.205)
+2018-09-19 21:03:18 -请求url = http://localhost:8080/chatroom
+2018-09-19 21:03:18 -所有的请求参数 key：value = [{"roomId":"2"},{"username":"test1"},{"password":""}]
+2018-09-19 21:03:19 -==>  Preparing: select roomId, password, createTime, number from room where roomId = ? 
+2018-09-19 21:03:19 -==> Parameters: 2(Integer)
+2018-09-19 21:03:19 -<==      Total: 1
+2018-09-19 21:03:19 -==>  Preparing: select roomId, password, createTime, number from room where roomId = ? 
+2018-09-19 21:03:19 -==> Parameters: 2(Integer)
+2018-09-19 21:03:19 -<==      Total: 1
+2018-09-19 21:03:19 -==>  Preparing: select * from room where roomId = ?; 
+2018-09-19 21:03:19 -==> Parameters: 2(Integer)
+2018-09-19 21:03:19 -<==      Total: 1
+2018-09-19 21:04:11 -Starting ChatonlineApplication on pc with PID 11568 (C:\Users\Kevin\Documents\GitHub\chatonline\chatonline\target\classes started by Kevin in C:\Users\Kevin\Documents\GitHub\chatonline\chatonline)
+2018-09-19 21:04:11 -Running with Spring Boot v1.5.15.RELEASE, Spring v4.3.18.RELEASE
+2018-09-19 21:04:11 -No active profile set, falling back to default profiles: default
+2018-09-19 21:04:30 -Started ChatonlineApplication in 20.037 seconds (JVM running for 22.703)
+2018-09-19 21:05:06 -请求url = http://localhost:8080/chatroom
+2018-09-19 21:05:06 -所有的请求参数 key：value = [{"roomId":"2"},{"username":"test1"},{"password":""}]
+2018-09-19 21:05:07 -==>  Preparing: select roomId, password, createTime, number from room where roomId = ? 
+2018-09-19 21:05:07 -==> Parameters: 2(Integer)
+2018-09-19 21:05:07 -<==      Total: 1
+2018-09-19 21:05:07 -==>  Preparing: select roomId, password, createTime, number from room where roomId = ? 
+2018-09-19 21:05:07 -==> Parameters: 2(Integer)
+2018-09-19 21:05:07 -<==      Total: 1
+2018-09-19 21:07:37 -请求url = http://localhost:8080/chatroom
+2018-09-19 21:07:37 -所有的请求参数 key：value = [{"roomId":"2"},{"username":"test1"},{"password":""}]
+2018-09-19 21:07:37 -==>  Preparing: select roomId, password, createTime, number from room where roomId = ? 
+2018-09-19 21:07:37 -==> Parameters: 2(Integer)
+2018-09-19 21:07:37 -<==      Total: 1
+2018-09-19 21:07:37 -==>  Preparing: select roomId, password, createTime, number from room where roomId = ? 
+2018-09-19 21:07:37 -==> Parameters: 2(Integer)
+2018-09-19 21:07:37 -<==      Total: 1
+2018-09-19 21:07:37 -==>  Preparing: update room set password = ?, createTime = ?, number = ? where roomId = ? 
+2018-09-19 21:07:37 -==> Parameters: null, 2018-09-19 21:07:10.0(Timestamp), 1(Integer), 2(Integer)
+2018-09-19 21:07:38 -<==    Updates: 1
+2018-09-19 21:07:38 -AOP afterReturn,返回值result = chat
+2018-09-19 21:07:50 -请求url = http://localhost:8080/chatroom
+2018-09-19 21:07:50 -所有的请求参数 key：value = [{"roomId":"2"},{"username":"test1"},{"password":""}]
+2018-09-19 21:07:50 -==>  Preparing: select roomId, password, createTime, number from room where roomId = ? 
+2018-09-19 21:07:50 -==> Parameters: 2(Integer)
+2018-09-19 21:07:50 -<==      Total: 1
+2018-09-19 21:07:50 -==>  Preparing: select roomId, password, createTime, number from room where roomId = ? 
+2018-09-19 21:07:50 -==> Parameters: 2(Integer)
+2018-09-19 21:07:50 -<==      Total: 1
+2018-09-19 21:07:50 -==>  Preparing: update room set password = ?, createTime = ?, number = ? where roomId = ? 
+2018-09-19 21:07:50 -==> Parameters: null, 2018-09-19 21:07:10.0(Timestamp), 2(Integer), 2(Integer)
+2018-09-19 21:07:50 -<==    Updates: 1
+2018-09-19 21:07:50 -AOP afterReturn,返回值result = chat
+2018-09-19 21:09:38 -Starting ChatonlineApplication on pc with PID 11496 (C:\Users\Kevin\Documents\GitHub\chatonline\chatonline\target\classes started by Kevin in C:\Users\Kevin\Documents\GitHub\chatonline\chatonline)
+2018-09-19 21:09:38 -Running with Spring Boot v1.5.15.RELEASE, Spring v4.3.18.RELEASE
+2018-09-19 21:09:38 -No active profile set, falling back to default profiles: default
+2018-09-19 21:09:57 -Started ChatonlineApplication in 21.892 seconds (JVM running for 25.197)
+2018-09-19 21:10:06 -请求url = http://localhost:8080/chatroom
+2018-09-19 21:10:06 -所有的请求参数 key：value = [{"roomId":"2"},{"username":"test1"},{"password":""}]
+2018-09-19 21:10:08 -==>  Preparing: select roomId, password, createTime, number from room where roomId = ? 
+2018-09-19 21:10:08 -==> Parameters: 2(Integer)
+2018-09-19 21:10:08 -<==      Total: 1
+2018-09-19 21:10:08 -AOP afterReturn,返回值result = chat
+2018-09-19 21:11:56 -Starting ChatonlineApplication on pc with PID 6024 (C:\Users\Kevin\Documents\GitHub\chatonline\chatonline\target\classes started by Kevin in C:\Users\Kevin\Documents\GitHub\chatonline\chatonline)
+2018-09-19 21:11:56 -Running with Spring Boot v1.5.15.RELEASE, Spring v4.3.18.RELEASE
+2018-09-19 21:11:56 -No active profile set, falling back to default profiles: default
+2018-09-19 21:12:15 -Started ChatonlineApplication in 21.065 seconds (JVM running for 24.105)
+2018-09-19 21:13:00 -请求url = http://localhost:8080/chatroom
+2018-09-19 21:13:00 -所有的请求参数 key：value = [{"roomId":"2"},{"username":"test1"},{"password":""}]
+2018-09-19 21:13:01 -==>  Preparing: select roomId, password, createTime, number from room where roomId = ? 
+2018-09-19 21:13:01 -==> Parameters: 2(Integer)
+2018-09-19 21:13:01 -<==      Total: 1
+2018-09-19 21:13:01 -AOP afterReturn,返回值result = chat
+2018-09-19 21:18:17 -Starting ChatonlineApplication on pc with PID 5640 (C:\Users\Kevin\Documents\GitHub\chatonline\chatonline\target\classes started by Kevin in C:\Users\Kevin\Documents\GitHub\chatonline\chatonline)
+2018-09-19 21:18:17 -Running with Spring Boot v1.5.15.RELEASE, Spring v4.3.18.RELEASE
+2018-09-19 21:18:17 -No active profile set, falling back to default profiles: default
+2018-09-19 21:18:34 -Started ChatonlineApplication in 20.154 seconds (JVM running for 24.34)
+2018-09-19 21:19:02 -请求url = http://localhost:8080/exitChatroom
+2018-09-19 21:19:02 -所有的请求参数 key：value = [{"roomId":"2"}]
+2018-09-19 21:19:03 -==>  Preparing: select roomId, password, createTime, number from room where roomId = ? 
+2018-09-19 21:19:03 -==> Parameters: 2(Integer)
+2018-09-19 21:19:03 -<==      Total: 1
+2018-09-19 21:19:03 -==>  Preparing: update room set password = ?, createTime = ?, number = ? where roomId = ? 
+2018-09-19 21:19:03 -==> Parameters: null, 2018-09-19 21:07:10.0(Timestamp), 1(Integer), 2(Integer)
+2018-09-19 21:19:04 -<==    Updates: 1
+2018-09-19 21:19:04 -==>  Preparing: select roomId, password, createTime, number from room where roomId = ? 
+2018-09-19 21:19:04 -==> Parameters: 2(Integer)
+2018-09-19 21:19:04 -<==      Total: 1
+2018-09-19 21:19:04 -AOP afterReturn,返回值result = index
+2018-09-19 21:19:37 -请求url = http://localhost:8080/exitChatroom
+2018-09-19 21:19:37 -所有的请求参数 key：value = [{"roomId":"2"},{"username":"magic"}]
+2018-09-19 21:19:37 -==>  Preparing: select roomId, password, createTime, number from room where roomId = ? 
+2018-09-19 21:19:37 -==> Parameters: 2(Integer)
+2018-09-19 21:19:37 -<==      Total: 1
+2018-09-19 21:19:37 -==>  Preparing: update room set password = ?, createTime = ?, number = ? where roomId = ? 
+2018-09-19 21:19:37 -==> Parameters: null, 2018-09-19 21:07:10.0(Timestamp), 0(Integer), 2(Integer)
+2018-09-19 21:19:38 -<==    Updates: 1
+2018-09-19 21:19:38 -==>  Preparing: select roomId, password, createTime, number from room where roomId = ? 
+2018-09-19 21:19:38 -==> Parameters: 2(Integer)
+2018-09-19 21:19:38 -<==      Total: 1
+2018-09-19 21:19:38 -==>  Preparing: delete from room where roomId = ? 
+2018-09-19 21:19:38 -==> Parameters: 2(Integer)
+2018-09-19 21:19:38 -<==    Updates: 1
+2018-09-19 21:19:38 -AOP afterReturn,返回值result = index
+2018-09-19 21:19:53 -请求url = http://localhost:8080/exitChatroom
+2018-09-19 21:19:53 -所有的请求参数 key：value = [{"roomId":"3"},{"username":"magic"}]
+2018-09-19 21:19:53 -==>  Preparing: select roomId, password, createTime, number from room where roomId = ? 
+2018-09-19 21:19:53 -==> Parameters: 3(Integer)
+2018-09-19 21:19:53 -<==      Total: 1
+2018-09-19 21:19:53 -==>  Preparing: update room set password = ?, createTime = ?, number = ? where roomId = ? 
+2018-09-19 21:19:53 -==> Parameters: 111(String), 2018-09-19 21:07:11.0(Timestamp), -1(Integer), 3(Integer)
+2018-09-19 21:19:53 -<==    Updates: 1
+2018-09-19 21:19:53 -==>  Preparing: select roomId, password, createTime, number from room where roomId = ? 
+2018-09-19 21:19:53 -==> Parameters: 3(Integer)
+2018-09-19 21:19:53 -<==      Total: 1
+2018-09-19 21:19:53 -AOP afterReturn,返回值result = index
+2018-09-19 21:21:38 -Starting ChatonlineApplication on pc with PID 13300 (C:\Users\Kevin\Documents\GitHub\chatonline\chatonline\target\classes started by Kevin in C:\Users\Kevin\Documents\GitHub\chatonline\chatonline)
+2018-09-19 21:21:38 -Running with Spring Boot v1.5.15.RELEASE, Spring v4.3.18.RELEASE
+2018-09-19 21:21:38 -No active profile set, falling back to default profiles: default
+2018-09-19 21:21:55 -Started ChatonlineApplication in 19.752 seconds (JVM running for 24.48)
+2018-09-19 21:23:08 -Starting ChatonlineApplication on pc with PID 16128 (C:\Users\Kevin\Documents\GitHub\chatonline\chatonline\target\classes started by Kevin in C:\Users\Kevin\Documents\GitHub\chatonline\chatonline)
+2018-09-19 21:23:08 -Running with Spring Boot v1.5.15.RELEASE, Spring v4.3.18.RELEASE
+2018-09-19 21:23:08 -No active profile set, falling back to default profiles: default
+2018-09-19 21:23:26 -Started ChatonlineApplication in 20.439 seconds (JVM running for 25.771)
+2018-09-19 21:24:04 -请求url = http://localhost:8080/exitChatroom
+2018-09-19 21:24:04 -所有的请求参数 key：value = [{"roomId":"3"},{"username":"magic"}]
+2018-09-19 21:24:05 -==>  Preparing: select roomId, password, createTime, number from room where roomId = ? 
+2018-09-19 21:24:05 -==> Parameters: 3(Integer)
+2018-09-19 21:24:05 -<==      Total: 1
+2018-09-19 21:24:05 -==>  Preparing: update room set password = ?, createTime = ?, number = ? where roomId = ? 
+2018-09-19 21:24:05 -==> Parameters: 111(String), 2018-09-19 21:07:11.0(Timestamp), -1(Integer), 3(Integer)
+2018-09-19 21:24:05 -<==    Updates: 1
+2018-09-19 21:24:05 -==>  Preparing: select roomId, password, createTime, number from room where roomId = ? 
+2018-09-19 21:24:05 -==> Parameters: 3(Integer)
+2018-09-19 21:24:05 -<==      Total: 1
+2018-09-19 21:24:05 -==>  Preparing: delete from room where roomId = ? 
+2018-09-19 21:24:05 -==> Parameters: 3(Integer)
+2018-09-19 21:24:05 -<==    Updates: 1
+2018-09-19 21:24:05 -==>  Preparing: select * from room 
+2018-09-19 21:24:05 -==> Parameters: 
+2018-09-19 21:24:05 -<==      Total: 26
+2018-09-19 21:24:05 -AOP afterReturn,返回值result = index
+2018-09-19 21:24:06 -请求url = http://localhost:8080/exitChatroom
+2018-09-19 21:24:06 -所有的请求参数 key：value = [{"roomId":"3"},{"username":"magic"}]
+2018-09-19 21:24:06 -==>  Preparing: select roomId, password, createTime, number from room where roomId = ? 
+2018-09-19 21:24:06 -==> Parameters: 3(Integer)
+2018-09-19 21:24:06 -<==      Total: 0
+2018-09-19 21:27:33 -Starting ChatonlineApplication on pc with PID 14860 (C:\Users\Kevin\Documents\GitHub\chatonline\chatonline\target\classes started by Kevin in C:\Users\Kevin\Documents\GitHub\chatonline\chatonline)
+2018-09-19 21:27:33 -Running with Spring Boot v1.5.15.RELEASE, Spring v4.3.18.RELEASE
+2018-09-19 21:27:33 -No active profile set, falling back to default profiles: default
+2018-09-19 21:27:52 -Started ChatonlineApplication in 22.003 seconds (JVM running for 25.689)
+2018-09-19 21:28:17 -请求url = http://localhost:8080/chatroom
+2018-09-19 21:28:17 -所有的请求参数 key：value = [{"roomId":"2"},{"username":"test1"},{"password":""}]
+2018-09-19 21:28:19 -==>  Preparing: select roomId, password, createTime, number from room where roomId = ? 
+2018-09-19 21:28:19 -==> Parameters: 2(Integer)
+2018-09-19 21:28:19 -<==      Total: 0
+2018-09-19 21:28:27 -请求url = http://localhost:8080/chatroom
+2018-09-19 21:28:27 -所有的请求参数 key：value = [{"roomId":"4"},{"username":"test1"},{"password":""}]
+2018-09-19 21:28:27 -==>  Preparing: select roomId, password, createTime, number from room where roomId = ? 
+2018-09-19 21:28:27 -==> Parameters: 4(Integer)
+2018-09-19 21:28:27 -<==      Total: 1
+2018-09-19 21:28:27 -==>  Preparing: select roomId, password, createTime, number from room where roomId = ? 
+2018-09-19 21:28:27 -==> Parameters: 4(Integer)
+2018-09-19 21:28:27 -<==      Total: 1
+2018-09-19 21:28:27 -==>  Preparing: update room set password = ?, createTime = ?, number = ? where roomId = ? 
+2018-09-19 21:28:27 -==> Parameters: (String), 2018-09-19 21:07:13.0(Timestamp), 1(Integer), 4(Integer)
+2018-09-19 21:28:27 -<==    Updates: 1
+2018-09-19 21:28:27 -AOP afterReturn,返回值result = chat
+2018-09-19 21:28:30 -请求url = http://localhost:8080/exitChatroom
+2018-09-19 21:28:30 -所有的请求参数 key：value = [{"roomId":"4"},{"username":"test1"}]
+2018-09-19 21:28:30 -==>  Preparing: select roomId, password, createTime, number from room where roomId = ? 
+2018-09-19 21:28:30 -==> Parameters: 4(Integer)
+2018-09-19 21:28:30 -<==      Total: 1
+2018-09-19 21:28:30 -==>  Preparing: update room set password = ?, createTime = ?, number = ? where roomId = ? 
+2018-09-19 21:28:30 -==> Parameters: (String), 2018-09-19 21:07:13.0(Timestamp), 0(Integer), 4(Integer)
+2018-09-19 21:28:30 -<==    Updates: 1
+2018-09-19 21:28:30 -==>  Preparing: select roomId, password, createTime, number from room where roomId = ? 
+2018-09-19 21:28:30 -==> Parameters: 4(Integer)
+2018-09-19 21:28:30 -<==      Total: 1
+2018-09-19 21:28:30 -==>  Preparing: delete from room where roomId = ? 
+2018-09-19 21:28:30 -==> Parameters: 4(Integer)
+2018-09-19 21:28:30 -<==    Updates: 1
+2018-09-19 21:28:30 -==>  Preparing: select * from room 
+2018-09-19 21:28:30 -==> Parameters: 
+2018-09-19 21:28:30 -<==      Total: 25
+2018-09-19 21:28:30 -AOP afterReturn,返回值result = index
+2018-09-19 21:28:31 -请求url = http://localhost:8080/exitChatroom
+2018-09-19 21:28:31 -所有的请求参数 key：value = [{"roomId":"4"},{"username":"test1"}]
+2018-09-19 21:28:31 -==>  Preparing: select roomId, password, createTime, number from room where roomId = ? 
+2018-09-19 21:28:31 -==> Parameters: 4(Integer)
+2018-09-19 21:28:31 -<==      Total: 0

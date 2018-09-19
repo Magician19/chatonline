@@ -4,7 +4,6 @@ import com.njust.chatonline.entity.Room;
 import org.springframework.stereotype.Component;
 
 import java.util.List;
-
 @Component
 public interface RoomMapper {
     int deleteByPrimaryKey(Integer roomid);
@@ -21,5 +20,7 @@ public interface RoomMapper {
 
     List<Room> getAllRoom();
 
-    int insertRoom(String password);
+    Room selectById(int roomId);
+
+
 }

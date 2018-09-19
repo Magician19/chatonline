@@ -280,7 +280,7 @@ window.CHAT = {
 
     },
     //退出登录
-    logout: function () {
-        window.location.href = "/";
+    logout: function (roomId,username) {
+        window.location.href = "/exitChatroom?roomId="+roomId+"&username="+username;
     },
 };

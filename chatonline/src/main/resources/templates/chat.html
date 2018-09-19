@@ -17,7 +17,7 @@
 <body>
 <ul class="layui-nav layui-bg-blue">
 
-    <li class="layui-nav-item mobile-none"><a href="/index" target="_blank">大厅</a></li>
+    <li class="layui-nav-item mobile-none"><a href="/index" target="_blank">Netty聊天室</a></li>
 
 
     <li class="online-count">当前房间在线人数: <span id="onlineCount">0</span></li>
@@ -39,7 +39,7 @@
 
 
         <li class="layui-nav-item">
-            <a href="javascript:CHAT.logout();">
+            <a href="javascript:loginout();">
                 <i title="退出" class="iconfont icon-guanbi"></i> 退了</a>
         </li>
     </div>
@@ -91,6 +91,9 @@
     }
     function sendFlower() {
         CHAT.sendFlower(roomId)
+    }
+    function loginout() {
+        CHAT.logout(roomId,username)
     }
     layui.use(['element', 'layer'], function () {
         var element = layui.element;
