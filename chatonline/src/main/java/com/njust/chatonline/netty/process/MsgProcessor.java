@@ -46,21 +46,17 @@ public class MsgProcessor {
         String roomId = request.getRoomId();
         //判断如果是登录动作，就往onlineUsers中加入一条数据
         if (IMP.LOGIN.getName().equals(request.getCmd())) {
-
             client.attr(IP_ADDR).getAndSet("");
             client.attr(USERNAME).getAndSet(request.getSender());
             client.attr(HEAD_PIC).getAndSet(request.getHeadPic());
             client.attr(ROOMID).getAndSet(roomId);
             if(users.get(roomId) == null || users.get(roomId).size() == 0){
-                System.out.println("======cin");
                 ChannelGroup channels = new DefaultChannelGroup(GlobalEventExecutor.INSTANCE);
                 channels.add(client);
-                System.out.println("2132");
                 users.put(roomId,channels);
             }else {
                 users.get(roomId).add(client);
             }
-            System.out.println("roomId  "+ roomId+" "+ users.get(roomId).size());
             onlineUsers.add(client);
             //像所有用户发送系统消息
             for (Channel channel : users.get(roomId)) {//向其他人发送消息
