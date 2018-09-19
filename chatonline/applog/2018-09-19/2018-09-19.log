@@ -800,3 +800,80 @@
 2018-09-19 21:28:31 -==>  Preparing: select roomId, password, createTime, number from room where roomId = ? 
 2018-09-19 21:28:31 -==> Parameters: 4(Integer)
 2018-09-19 21:28:31 -<==      Total: 0
+2018-09-19 21:39:10 -请求url = http://localhost:8080/chatroom
+2018-09-19 21:39:10 -所有的请求参数 key：value = [{"roomId":"4"},{"username":"test1"},{"password":""}]
+2018-09-19 21:39:10 -==>  Preparing: select roomId, password, createTime, number from room where roomId = ? 
+2018-09-19 21:39:10 -==> Parameters: 4(Integer)
+2018-09-19 21:39:10 -<==      Total: 0
+2018-09-19 21:39:16 -请求url = http://localhost:8080/chatroom
+2018-09-19 21:39:16 -所有的请求参数 key：value = [{"roomId":"6"},{"username":"test1"},{"password":""}]
+2018-09-19 21:39:16 -==>  Preparing: select roomId, password, createTime, number from room where roomId = ? 
+2018-09-19 21:39:16 -==> Parameters: 6(Integer)
+2018-09-19 21:39:16 -<==      Total: 1
+2018-09-19 21:39:16 -==>  Preparing: select roomId, password, createTime, number from room where roomId = ? 
+2018-09-19 21:39:16 -==> Parameters: 6(Integer)
+2018-09-19 21:39:16 -<==      Total: 1
+2018-09-19 21:39:16 -==>  Preparing: update room set password = ?, createTime = ?, number = ? where roomId = ? 
+2018-09-19 21:39:16 -==> Parameters: null, 2018-09-19 21:07:15.0(Timestamp), 1(Integer), 6(Integer)
+2018-09-19 21:39:16 -<==    Updates: 1
+2018-09-19 21:39:16 -AOP afterReturn,返回值result = chat
+2018-09-19 22:23:17 -请求url = http://localhost:8080/chatroom
+2018-09-19 22:23:17 -所有的请求参数 key：value = [{"roomId":"33"},{"username":"test1"},{"password":""}]
+2018-09-19 22:23:18 -==>  Preparing: select roomId, password, createTime, number from room where roomId = ? 
+2018-09-19 22:23:18 -==> Parameters: 33(Integer)
+2018-09-19 22:23:18 -<==      Total: 1
+2018-09-19 22:23:18 -==>  Preparing: select roomId, password, createTime, number from room where roomId = ? 
+2018-09-19 22:23:18 -==> Parameters: 33(Integer)
+2018-09-19 22:23:18 -<==      Total: 1
+2018-09-19 22:24:05 -请求url = http://localhost:8080/chatroom
+2018-09-19 22:24:05 -所有的请求参数 key：value = [{"roomId":"33"},{"username":"test1"},{"password":""}]
+2018-09-19 22:24:05 -==>  Preparing: select roomId, password, createTime, number from room where roomId = ? 
+2018-09-19 22:24:05 -==> Parameters: 33(Integer)
+2018-09-19 22:24:05 -<==      Total: 1
+2018-09-19 22:24:05 -AOP afterReturn,返回值result = index
+2018-09-19 22:24:24 -请求url = http://localhost:8080/chatroom
+2018-09-19 22:24:24 -所有的请求参数 key：value = [{"roomId":"33"},{"username":"test1"},{"password":""}]
+2018-09-19 22:24:24 -==>  Preparing: select roomId, password, createTime, number from room where roomId = ? 
+2018-09-19 22:24:24 -==> Parameters: 33(Integer)
+2018-09-19 22:24:24 -<==      Total: 1
+2018-09-19 22:24:24 -AOP afterReturn,返回值result = index
+2018-09-19 22:24:37 -请求url = http://localhost:8080/chatroom
+2018-09-19 22:24:37 -所有的请求参数 key：value = [{"roomId":"33"},{"username":"test1"},{"password":"null"}]
+2018-09-19 22:24:37 -==>  Preparing: select roomId, password, createTime, number from room where roomId = ? 
+2018-09-19 22:24:37 -==> Parameters: 33(Integer)
+2018-09-19 22:24:37 -<==      Total: 1
+2018-09-19 22:24:37 -==>  Preparing: select roomId, password, createTime, number from room where roomId = ? 
+2018-09-19 22:24:37 -==> Parameters: 33(Integer)
+2018-09-19 22:24:37 -<==      Total: 1
+2018-09-19 22:25:00 -请求url = http://localhost:8080/chatroom
+2018-09-19 22:25:00 -所有的请求参数 key：value = [{"roomId":"5"},{"username":"test1"},{"password":"null"}]
+2018-09-19 22:25:00 -==>  Preparing: select roomId, password, createTime, number from room where roomId = ? 
+2018-09-19 22:25:00 -==> Parameters: 5(Integer)
+2018-09-19 22:25:00 -<==      Total: 1
+2018-09-19 22:25:00 -==>  Preparing: select roomId, password, createTime, number from room where roomId = ? 
+2018-09-19 22:25:00 -==> Parameters: 5(Integer)
+2018-09-19 22:25:00 -<==      Total: 1
+2018-09-19 22:25:00 -==>  Preparing: update room set password = ?, createTime = ?, number = ? where roomId = ? 
+2018-09-19 22:25:00 -==> Parameters: null(String), 2018-09-19 21:07:12.0(Timestamp), 2(Integer), 5(Integer)
+2018-09-19 22:25:00 -<==    Updates: 1
+2018-09-19 22:25:00 -AOP afterReturn,返回值result = chat
+2018-09-19 22:25:07 -请求url = http://localhost:8080/chatroom
+2018-09-19 22:25:07 -所有的请求参数 key：value = [{"roomId":"33"},{"username":"test1"},{"password":"null"}]
+2018-09-19 22:25:07 -==>  Preparing: select roomId, password, createTime, number from room where roomId = ? 
+2018-09-19 22:25:07 -==> Parameters: 33(Integer)
+2018-09-19 22:25:07 -<==      Total: 1
+2018-09-19 22:25:07 -==>  Preparing: select roomId, password, createTime, number from room where roomId = ? 
+2018-09-19 22:25:07 -==> Parameters: 33(Integer)
+2018-09-19 22:25:07 -<==      Total: 1
+2018-09-19 22:25:34 -请求url = http://localhost:8080/chatroom
+2018-09-19 22:25:34 -所有的请求参数 key：value = [{"roomId":"5"},{"username":"test1"},{"password":"null"}]
+2018-09-19 22:25:34 -==>  Preparing: select roomId, password, createTime, number from room where roomId = ? 
+2018-09-19 22:25:34 -==> Parameters: 5(Integer)
+2018-09-19 22:25:34 -<==      Total: 1
+2018-09-19 22:25:34 -==>  Preparing: select roomId, password, createTime, number from room where roomId = ? 
+2018-09-19 22:25:34 -==> Parameters: 5(Integer)
+2018-09-19 22:25:34 -<==      Total: 1
+2018-09-19 22:25:34 -==>  Preparing: update room set password = ?, createTime = ?, number = ? where roomId = ? 
+2018-09-19 22:25:34 -==> Parameters: null(String), 2018-09-19 21:07:12.0(Timestamp), 3(Integer), 5(Integer)
+2018-09-19 22:25:34 -<==    Updates: 1
+2018-09-19 22:25:34 -AOP afterReturn,返回值result = chat
