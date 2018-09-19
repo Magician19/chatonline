@@ -1,20 +1,127 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html xmlns:th="http://www.thymeleaf.org">
 <head>
-    <meta charset="UTF-8"/>
-    <title>hall</title>
+    <title>Phase Shift</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+    <script src="./js/jquery.min.js"></script>
+
+    <script src="./js/skel.min.js"></script>
+
+
+    <script src="./js/init.js"></script>
+
+    <!--<link rel="stylesheet" href="./css/hall/style.css" />-->
+    <!--<link rel="stylesheet" href="./css/hall/style-wide.css" />-->
+    <!--<link rel="stylesheet" href="./css/hall/style-normal.css" />-->
+    <!--<link rel="stylesheet" href="./css/hall/style-narrow.css" />-->
+    <!--<link rel="stylesheet" href="./css/hall/style-narrower.css" />-->
+    <!--<link rel="stylesheet" href="./css/hall/style-mobile.css" />-->
+
+    <script>
+        skel.init({
+            reset: 'full',
+            breakpoints: {
+                global:		{ range: '*', href: './css/hall/style.css', containers: 1400, grid: { gutters: 50 } },
+                wide:		{ range: '-1680', href: './css/hall/style-wide.css', containers: 1200, grid: { gutters: 40 } },
+                normal:		{ range: '-1280', href: './css/hall/style-normal.css', containers: 960, lockViewport: true },
+                narrow:		{ range: '-980', href: './css/hall/style-narrow.css', containers: '95%', grid: { gutters: 30 } },
+                narrower:	{ range: '-840', href: './css/hall/style-narrower.css', grid: { gutters: 20, collapse: 1 } },
+                mobile:		{ range: '-640', href: './css/hall/style-mobile.css', grid: { gutters: 15, collapse: 2 } }
+            }
+        }, {
+            layers: {
+                layers: {
+                    navPanel: {
+                        animation: 'pushX',
+                        breakpoints: 'narrower',
+                        clickToClose: true,
+                        height: '100%',
+                        hidden: true,
+                        html: '<div data-action="navList" data-args="nav"></div>',
+                        orientation: 'vertical',
+                        position: 'top-left',
+                        side: 'left',
+                        width: 275
+                    },
+                    titleBar: {
+                        breakpoints: 'narrower',
+                        height: 44,
+                        html: '<span class="toggle" data-action="toggleLayer" data-args="navPanel"></span><span class="title" data-action="copyHTML" data-args="logo"></span>',
+                        position: 'top-left',
+                        side: 'top',
+                        width: '100%'
+                    }
+                }
+            }
+        });
+    </script>
+
+
 </head>
 <body>
-hello world!
-<a href="/chatroom?roomId=1">进入聊天室1</a>
-<a href="/chatroom?roomId=2">进入聊天室2</a>
 
-<div>
-    <ul>
-        <li  th:each="room:${rooms}">
-            <span th:text="${room.roomid}"></span>
-        </li>
-    </ul>
+<!-- Wrapper -->
+<div class="wrapper style1">
+
+    <!-- Header -->
+    <div id="header" class="skel-panels-fixed">
+        <div id="logo">
+            <h1><a href="index.html">聊天大厅</a></h1>
+        </div>
+        <nav id="nav">
+            <ul>
+                <li class="active"><a href="index.html">个人中心</a></li>
+                <li><a href="###">退出</a></li>
+
+            </ul>
+        </nav>
+    </div>
+
+    <!-- Banner -->
+    <div id="banner" class="container">
+        <section>
+            <a href="#" class="button medium">创建房间</a>
+        </section>
+    </div>
+
+    <!-- Extra -->
+    <div id="extra">
+        <div class="container">
+            <!--<div class="row no-collapse-1">-->
+            <!--<section class="4u"> <a href="#" class="image featured"><img src="images/pic01.jpg" alt=""></a>-->
+            <!--<div class="box">-->
+            <!--<p>房间号：1</p>-->
+            <!--<a href="#" class="button">加入聊天</a>-->
+            <!--</div>-->
+            <!--</section>-->
+            <!--<section class="4u"> <a href="#" class="image featured"><img src="images/pic02.jpg" alt=""></a>-->
+            <!--<div class="box">-->
+            <!--<p>房间号：1</p>-->
+            <!--<a href="#" class="button">加入聊天</a> </div>-->
+            <!--</section>-->
+            <!--<section class="4u"> <a href="#" class="image featured"><img src="images/pic02.jpg" alt=""></a>-->
+            <!--<div class="box">-->
+            <!--<p>房间号：1</p>-->
+            <!--<a href="#" class="button">加入聊天</a> </div>-->
+            <!--</section>-->
+
+            <!--</div>-->
+            <div class="row no-collapse-1" th:each="room:${rooms}">
+                <section class="4u"> <a href="#" class="image featured"><img src="###" alt=""></a>
+                    <div class="box">
+                        <p th:text="${room.roomid}"></p>
+                        <a href="#" class="button">加入聊天</a>
+                    </div>
+                </section>
+            </div>
+
+
+        </div>
+    </div>
+
 </div>
+
+
 </body>
 </html>

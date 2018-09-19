@@ -32,8 +32,11 @@ public class BaseController {
     }
 
     @RequestMapping("/login")
-    public String Login(String username, String password) {
+    public String Login(String username, String password, Model model) {
         if (userService.Login(username, password)) {
+            List<Room> rooms = roomService.getAllRoom();
+            System.out.println(rooms.size());
+            model.addAttribute("rooms",rooms);
             return "index";
         }
         return "register";
